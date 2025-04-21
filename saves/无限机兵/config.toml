@@ -4,9 +4,8 @@ name-zh-cn = "无限机兵" # 游戏名称中文
 platform = "win10" # 运行平台：win10 linux mac android ios win7 winxp ns
 path = 'C:\Games\AI Limit' # 游戏路径
 exe_path = 'C:\Games\AI Limit\AI-LIMIT.exe' # 运行文件路径
-save_path = [
-	'C:\Users\chenxi-zqs\AppData\LocalLow\SenseGames\AILIMIT\Archive',
-] # 存档文件夹路径
+save_path = 'C:\Users\chenxi-zqs\AppData\LocalLow\SenseGames\AILIMIT\Archive' # 存档文件夹路径
+save_latest = false
 
 [base]
 download = "https://www.gamer520.com/90467.html" # steam，或下载地址/页面

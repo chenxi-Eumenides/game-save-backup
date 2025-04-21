@@ -1,0 +1,11 @@
+[game]
+name = "Death Stranding" # 游戏名称
+name-zh-cn = "死亡搁浅" # 游戏名称中文
+platform = "win10" # 运行平台：win10 linux mac android ios win7 winxp ns
+path = 'C:\Apps\Steam\steamapps\common\Death Stranding' # 游戏路径
+exe_path = 'C:\Apps\Steam\steamapps\common\Death Stranding\ds.exe' # 运行文件相对路径
+save_path = 'C:\Users\chenxi-zqs\AppData\Local\KojimaProductions\DeathStranding\916321218\' # 存档文件相对路径
+save_latest = true
+
+[base]
+download = "steam" # steam，或下载地址/页面
