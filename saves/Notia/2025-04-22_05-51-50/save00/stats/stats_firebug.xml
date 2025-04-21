@@ -1,0 +1,38 @@
+<Stats deaths="70" kills="7" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | $damage_drowning" value="1" >
+    </E>
+    <E key="NULL | $damage_explosion" value="5" >
+    </E>
+    <E key="NULL | $damage_physicshit" value="2" >
+    </E>
+    <E key="NULL | $damage_projectile" value="1" >
+    </E>
+    <E key="NULL | $damage_water" value="2" >
+    </E>
+    <E key="NULL | 来自 水 的材料伤害" value="13" >
+    </E>
+    <E key="bat | $damage_melee" value="2" >
+    </E>
+    <E key="goblin_bomb | $damage_explosion" value="2" >
+    </E>
+    <E key="player | $damage_explosion" value="1" >
+    </E>
+    <E key="player | $damage_melee" value="1" >
+    </E>
+    <E key="player | $damage_projectile" value="27" >
+    </E>
+    <E key="player | $damage_slice" value="6" >
+    </E>
+    <E key="shotgunner | $damage_melee" value="2" >
+    </E>
+    <E key="shotgunner | $damage_projectile" value="3" >
+    </E>
+    <E key="slimeshooter | $damage_projectile" value="2" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="rat" value="7" >
+    </E>
+  </kill_map>
+</Stats>

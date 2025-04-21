@@ -1,0 +1,14 @@
+<Stats deaths="1" kills="7" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | 来自 酸液 的材料伤害" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="longleg" value="4" >
+    </E>
+    <E key="slimeshooter_weak" value="2" >
+    </E>
+    <E key="zombie_weak" value="1" >
+    </E>
+  </kill_map>
+</Stats>

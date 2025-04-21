@@ -1,0 +1,8 @@
+{
+    "mod": "HealthBars",
+    "section": "General",
+    "description": "",
+    "key": "ShowPlayerMana",
+    "defaultValue": false,
+    "value": true
+}

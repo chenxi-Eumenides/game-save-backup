@@ -1,0 +1,8 @@
+{
+    "mod": "HealthBars",
+    "section": "Colors",
+    "description": "",
+    "key": "Mana",
+    "defaultValue": "",
+    "value": "#008eff"
+}

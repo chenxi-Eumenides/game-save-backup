@@ -1,0 +1,28 @@
+<Stats deaths="31" kills="18" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | $damage_explosion" value="3" >
+    </E>
+    <E key="NULL | $damage_radioactive" value="1" >
+    </E>
+    <E key="NULL | 来自 冰冻蒸汽 的材料伤害" value="3" >
+    </E>
+    <E key="iceskull | $damage_explosion" value="1" >
+    </E>
+    <E key="iceskull | $damage_ice" value="1" >
+    </E>
+    <E key="player | $damage_projectile" value="13" >
+    </E>
+    <E key="player | $damage_slice" value="6" >
+    </E>
+    <E key="sniper | $damage_projectile" value="1" >
+    </E>
+    <E key="worm | worm bite" value="2" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="iceskull" value="2" >
+    </E>
+    <E key="rat" value="16" >
+    </E>
+  </kill_map>
+</Stats>

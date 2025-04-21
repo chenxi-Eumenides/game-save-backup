@@ -1,0 +1,18 @@
+<Stats deaths="12" kills="2" player_kills="1" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | $damage_explosion" value="2" >
+    </E>
+    <E key="NULL | 来自 冰冻液体 的材料伤害" value="1" >
+    </E>
+    <E key="NULL | 来自 水 的材料伤害" value="4" >
+    </E>
+    <E key="player | $damage_projectile" value="5" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="player" value="1" >
+    </E>
+    <E key="rat" value="1" >
+    </E>
+  </kill_map>
+</Stats>

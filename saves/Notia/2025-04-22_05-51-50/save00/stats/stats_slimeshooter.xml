@@ -1,0 +1,52 @@
+<Stats deaths="43" kills="18" player_kills="1" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | $damage_explosion" value="7" >
+    </E>
+    <E key="NULL | $damage_fire" value="5" >
+    </E>
+    <E key="NULL | $damage_physicshit" value="1" >
+    </E>
+    <E key="NULL | $damage_projectile" value="1" >
+    </E>
+    <E key="NULL | 来自 冰冻蒸汽 的材料伤害" value="1" >
+    </E>
+    <E key="iceskull | $damage_melee" value="1" >
+    </E>
+    <E key="miner | $damage_explosion" value="1" >
+    </E>
+    <E key="player | $damage_explosion" value="1" >
+    </E>
+    <E key="player | $damage_projectile" value="15" >
+    </E>
+    <E key="player | $damage_slice" value="5" >
+    </E>
+    <E key="slimeshooter | $damage_explosion" value="1" >
+    </E>
+    <E key="slimeshooter | $damage_projectile" value="1" >
+    </E>
+    <E key="sniper | $damage_projectile" value="2" >
+    </E>
+    <E key="thunderskull | $damage_melee" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="bat" value="1" >
+    </E>
+    <E key="firebug" value="2" >
+    </E>
+    <E key="frog" value="1" >
+    </E>
+    <E key="miner" value="1" >
+    </E>
+    <E key="player" value="1" >
+    </E>
+    <E key="rat" value="8" >
+    </E>
+    <E key="shotgunner_weak" value="1" >
+    </E>
+    <E key="slimeshooter" value="2" >
+    </E>
+    <E key="zombie_weak" value="1" >
+    </E>
+  </kill_map>
+</Stats>

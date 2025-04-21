@@ -1,0 +1,8 @@
+<Stats deaths="2" kills="0" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="worm | worm bite" value="2" >
+    </E>
+  </death_map>
+  <kill_map>
+  </kill_map>
+</Stats>

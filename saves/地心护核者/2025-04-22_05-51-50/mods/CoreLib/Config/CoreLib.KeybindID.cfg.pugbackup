@@ -1,0 +1,26 @@
+## Settings file was created by plugin CoreLib
+
+[KeyBinds]
+
+# Setting type: Int32
+# Default value: 274
+PlacementPlus_ChangeOrientation = 274
+
+# Setting type: Int32
+# Default value: 275
+PlacementPlus_IncreaseSize = 275
+
+# Setting type: Int32
+# Default value: 276
+PlacementPlus_DecreaseSize = 276
+
+# Setting type: Int32
+# Default value: 277
+PlacementPlus_ChangeToolMode = 277
+
+# Setting type: Int32
+# Default value: 278
+PlacementPlus_ReplaceButton = 278
+
+PlacementPlus_ReverseDirection = 279
+

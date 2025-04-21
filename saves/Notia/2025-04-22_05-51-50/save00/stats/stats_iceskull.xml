@@ -1,0 +1,46 @@
+<Stats deaths="26" kills="31" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | $damage_explosion" value="1" >
+    </E>
+    <E key="NULL | $damage_physicshit" value="1" >
+    </E>
+    <E key="iceskull | $damage_explosion" value="4" >
+    </E>
+    <E key="player | $damage_projectile" value="3" >
+    </E>
+    <E key="player | $damage_slice" value="5" >
+    </E>
+    <E key="scavenger_grenade | $damage_projectile" value="2" >
+    </E>
+    <E key="scavenger_smg | $damage_explosion" value="2" >
+    </E>
+    <E key="shotgunner | $damage_projectile" value="1" >
+    </E>
+    <E key="sniper | $damage_projectile" value="1" >
+    </E>
+    <E key="tank | $damage_projectile" value="2" >
+    </E>
+    <E key="worm | worm bite" value="2" >
+    </E>
+    <E key="worm_big | worm bite" value="2" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="glue" value="9" >
+    </E>
+    <E key="iceskull" value="4" >
+    </E>
+    <E key="rat" value="11" >
+    </E>
+    <E key="scavenger_grenade" value="2" >
+    </E>
+    <E key="scavenger_smg" value="2" >
+    </E>
+    <E key="slimeshooter" value="1" >
+    </E>
+    <E key="worm" value="1" >
+    </E>
+    <E key="worm_tiny" value="1" >
+    </E>
+  </kill_map>
+</Stats>

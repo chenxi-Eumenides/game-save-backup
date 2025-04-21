@@ -1,0 +1,10 @@
+<Stats deaths="1" kills="3" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="player | $damage_projectile" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="rat" value="3" >
+    </E>
+  </kill_map>
+</Stats>

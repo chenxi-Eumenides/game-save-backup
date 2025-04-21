@@ -1,0 +1,16 @@
+<Stats deaths="1" kills="10" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="shotgunner | $damage_projectile" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="frog" value="1" >
+    </E>
+    <E key="longleg" value="3" >
+    </E>
+    <E key="miner_weak" value="1" >
+    </E>
+    <E key="zombie_weak" value="5" >
+    </E>
+  </kill_map>
+</Stats>

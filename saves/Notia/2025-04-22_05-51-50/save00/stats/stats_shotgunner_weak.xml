@@ -1,0 +1,38 @@
+<Stats deaths="47" kills="55" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | $damage_drowning" value="4" >
+    </E>
+    <E key="NULL | $damage_explosion" value="4" >
+    </E>
+    <E key="NULL | $damage_fire" value="12" >
+    </E>
+    <E key="NULL | $damage_physicshit" value="2" >
+    </E>
+    <E key="NULL | $damage_radioactive" value="2" >
+    </E>
+    <E key="NULL | 来自 岩浆 的材料伤害" value="1" >
+    </E>
+    <E key="longleg | $damage_melee" value="1" >
+    </E>
+    <E key="miner_weak | $damage_explosion" value="1" >
+    </E>
+    <E key="player | $damage_projectile" value="17" >
+    </E>
+    <E key="slimeshooter | $damage_explosion" value="1" >
+    </E>
+    <E key="worm | worm bite" value="2" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="fireskull" value="1" >
+    </E>
+    <E key="longleg" value="3" >
+    </E>
+    <E key="slimeshooter_weak" value="1" >
+    </E>
+    <E key="tnt" value="2" >
+    </E>
+    <E key="zombie_weak" value="48" >
+    </E>
+  </kill_map>
+</Stats>

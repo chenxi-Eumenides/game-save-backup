@@ -1,0 +1,8 @@
+{
+    "mod": "HealthBars",
+    "section": "General",
+    "description": "",
+    "key": "ShowMinionDuration",
+    "defaultValue": false,
+    "value": false
+}

@@ -1,0 +1,30 @@
+<Stats deaths="18" kills="9" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | $damage_explosion" value="1" >
+    </E>
+    <E key="NULL | $damage_radioactive" value="5" >
+    </E>
+    <E key="NULL | 来自 岩浆 的材料伤害" value="1" >
+    </E>
+    <E key="bat | $damage_melee" value="2" >
+    </E>
+    <E key="goblin_bomb | $damage_explosion" value="1" >
+    </E>
+    <E key="player | $damage_explosion" value="1" >
+    </E>
+    <E key="player | $damage_projectile" value="4" >
+    </E>
+    <E key="player | $damage_slice" value="1" >
+    </E>
+    <E key="worm | worm bite" value="2" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="firebug" value="2" >
+    </E>
+    <E key="goblin_bomb" value="1" >
+    </E>
+    <E key="rat" value="6" >
+    </E>
+  </kill_map>
+</Stats>

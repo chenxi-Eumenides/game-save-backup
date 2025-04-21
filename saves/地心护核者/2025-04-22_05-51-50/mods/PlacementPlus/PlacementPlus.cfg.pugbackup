@@ -1,0 +1,17 @@
+## Settings file was created by plugin PlacementPlus
+
+[General]
+
+## Max range the brush will have
+# Setting type: Int32
+# Default value: 7
+# Acceptable value range: From 3 to 9
+MaxBrushSize = 7
+
+## List of comma delimited items to automatically disable the area placement feature. You can reference 'ItemIDs.txt' file for all existing item ID's
+# Setting type: String
+# Default value: InventoryChest, InventoryLarvaHiveChest, InventoryMoldDungeonChest, InventoryAncientChest, InventorySeaBiomeChest, Torch, Campfire, DecorativeTorch1, DecorativePot, PlanterBox, Pedestal, StonePedestal, RuinsPedestal, Lamp, Sprinkler
+ExcludeItems = InventoryChest, InventoryLarvaHiveChest, InventoryMoldDungeonChest, InventoryAncientChest, InventorySeaBiomeChest, Torch, Campfire, DecorativeTorch1, DecorativePot, PlanterBox, Pedestal, StonePedestal, RuinsPedestal, Lamp, Sprinkler
+
+MinHoldTime = 0.15
+

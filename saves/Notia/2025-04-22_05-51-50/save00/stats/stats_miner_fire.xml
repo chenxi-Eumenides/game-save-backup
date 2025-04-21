@@ -1,0 +1,10 @@
+<Stats deaths="4" kills="0" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | 来自 酸液 的材料伤害" value="1" >
+    </E>
+    <E key="player | $damage_projectile" value="3" >
+    </E>
+  </death_map>
+  <kill_map>
+  </kill_map>
+</Stats>

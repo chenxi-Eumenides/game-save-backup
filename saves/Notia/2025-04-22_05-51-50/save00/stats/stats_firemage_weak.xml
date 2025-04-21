@@ -1,0 +1,16 @@
+<Stats deaths="7" kills="3" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | $damage_water" value="3" >
+    </E>
+    <E key="NULL | 来自 水 的材料伤害" value="1" >
+    </E>
+    <E key="player | $damage_projectile" value="3" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="slimeshooter_weak" value="1" >
+    </E>
+    <E key="zombie_weak" value="2" >
+    </E>
+  </kill_map>
+</Stats>

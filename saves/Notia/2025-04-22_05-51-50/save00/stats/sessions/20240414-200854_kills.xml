@@ -1,0 +1,16 @@
+<Stats deaths="1" kills="13" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | 来自 绿毒岩石 的材料伤害" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="longleg" value="6" >
+    </E>
+    <E key="sheep" value="1" >
+    </E>
+    <E key="shotgunner_weak" value="1" >
+    </E>
+    <E key="zombie_weak" value="5" >
+    </E>
+  </kill_map>
+</Stats>

@@ -1,0 +1,11 @@
+{
+    "gameId": "",
+    "world": 0,
+    "worldName": "Core Keeper",
+    "worldSeed": "",
+    "maxNumberPlayers": 100,
+    "maxNumberPacketsSentPerFrame": 1,
+    "networkSendRate": 20,
+    "worldMode": 0,
+    "seasonOverride": -1
+}

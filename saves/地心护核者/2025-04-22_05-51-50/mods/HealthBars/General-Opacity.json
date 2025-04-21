@@ -1,0 +1,8 @@
+{
+    "mod": "HealthBars",
+    "section": "General",
+    "description": "",
+    "key": "Opacity",
+    "defaultValue": 0.0,
+    "value": 0.4000000059604645
+}

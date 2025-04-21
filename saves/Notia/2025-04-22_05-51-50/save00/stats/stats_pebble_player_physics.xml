@@ -1,0 +1,10 @@
+<Stats deaths="1" kills="1" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="pebble_player_physics | $damage_explosion" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="pebble_player_physics" value="1" >
+    </E>
+  </kill_map>
+</Stats>

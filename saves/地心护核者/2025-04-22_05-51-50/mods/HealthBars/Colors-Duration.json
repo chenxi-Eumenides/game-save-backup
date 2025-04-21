@@ -1,0 +1,8 @@
+{
+    "mod": "HealthBars",
+    "section": "Colors",
+    "description": "",
+    "key": "Duration",
+    "defaultValue": "",
+    "value": "#008eff"
+}

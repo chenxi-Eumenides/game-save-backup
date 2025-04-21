@@ -1,0 +1,8 @@
+{
+    "mod": "HealthBars",
+    "section": "General",
+    "description": "",
+    "key": "ShowHealth",
+    "defaultValue": false,
+    "value": true
+}

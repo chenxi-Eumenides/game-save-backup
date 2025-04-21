@@ -1,0 +1,14 @@
+<Stats BUILD_NAME="Noita-Build-Apr  8 2024-18:11:27" >
+  <stats biomes_visited_with_wands="2" damage_taken="4.24833" dead="1" death_count="0" death_pos.x="-671.288" death_pos.y="627.459" enemies_killed="13" gold="245" gold_all="245" gold_infinite="0" healed="0" heart_containers="0" hp="100" items="0" kicks="0" killed_by=" | 来自 绿毒岩石 的材料伤害" killed_by_extra="" places_visited="2" playtime="166.467" playtime_str="0:02:46" projectiles_shot="151" streaks="0" teleports="0" wands_edited="0" world_seed="2067897668" >
+  </stats>
+  <biome_baseline biomes_visited_with_wands="0" damage_taken="0" dead="0" death_count="0" death_pos.x="0" death_pos.y="0" enemies_killed="0" gold="0" gold_all="0" gold_infinite="0" healed="0" heart_containers="0" hp="100" items="0" kicks="0" killed_by="" killed_by_extra="" places_visited="0" playtime="0" playtime_str="" projectiles_shot="0" streaks="0" teleports="0" wands_edited="0" world_seed="0" >
+  </biome_baseline>
+  <item_map>
+  </item_map>
+  <biomes_visited>
+    <E key="$biome_coalmine" value="1" >
+    </E>
+    <E key="$biome_coalmine_alt" value="1" >
+    </E>
+  </biomes_visited>
+</Stats>

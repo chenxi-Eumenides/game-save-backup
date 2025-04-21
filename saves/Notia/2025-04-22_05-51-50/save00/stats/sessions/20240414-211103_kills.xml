@@ -1,0 +1,24 @@
+<Stats deaths="1" kills="43" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="bigfirebug | $damage_fire" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="bat" value="3" >
+    </E>
+    <E key="firebug" value="2" >
+    </E>
+    <E key="longleg" value="13" >
+    </E>
+    <E key="miner_weak" value="4" >
+    </E>
+    <E key="shotgunner_weak" value="3" >
+    </E>
+    <E key="slimeshooter" value="5" >
+    </E>
+    <E key="slimeshooter_weak" value="1" >
+    </E>
+    <E key="zombie_weak" value="12" >
+    </E>
+  </kill_map>
+</Stats>

@@ -1,0 +1,8 @@
+{
+    "mod": "HealthBars",
+    "section": "Colors",
+    "description": "",
+    "key": "Health",
+    "defaultValue": "",
+    "value": "#ff3d3d"
+}

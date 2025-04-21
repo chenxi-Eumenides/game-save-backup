@@ -1,0 +1,90 @@
+<Stats deaths="213" kills="1" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="NULL | $damage_drowning" value="6" >
+    </E>
+    <E key="NULL | $damage_explosion" value="16" >
+    </E>
+    <E key="NULL | $damage_fire" value="20" >
+    </E>
+    <E key="NULL | $damage_ice" value="1" >
+    </E>
+    <E key="NULL | $damage_physicshit" value="5" >
+    </E>
+    <E key="NULL | 来自 冰冻液体 的材料伤害" value="1" >
+    </E>
+    <E key="NULL | 来自 岩浆 的材料伤害" value="3" >
+    </E>
+    <E key="bat | $damage_melee" value="4" >
+    </E>
+    <E key="bigfirebug | $damage_melee" value="1" >
+    </E>
+    <E key="firebug | $damage_fire" value="3" >
+    </E>
+    <E key="firebug | $damage_melee" value="4" >
+    </E>
+    <E key="fireskull | $damage_melee" value="4" >
+    </E>
+    <E key="goblin_bomb | $damage_explosion" value="1" >
+    </E>
+    <E key="goblin_bomb | $damage_melee" value="5" >
+    </E>
+    <E key="icemage | $damage_explosion" value="1" >
+    </E>
+    <E key="icemage | $damage_ice" value="3" >
+    </E>
+    <E key="iceskull | $damage_ice" value="10" >
+    </E>
+    <E key="iceskull | $damage_melee" value="1" >
+    </E>
+    <E key="miner | $damage_explosion" value="5" >
+    </E>
+    <E key="miner | $damage_melee" value="1" >
+    </E>
+    <E key="player | $damage_projectile" value="5" >
+    </E>
+    <E key="scavenger_glue | $damage_melee" value="2" >
+    </E>
+    <E key="scavenger_grenade | $damage_melee" value="8" >
+    </E>
+    <E key="scavenger_grenade | $damage_projectile" value="8" >
+    </E>
+    <E key="scavenger_smg | $damage_explosion" value="5" >
+    </E>
+    <E key="scavenger_smg | $damage_melee" value="4" >
+    </E>
+    <E key="scavenger_smg | $damage_projectile" value="9" >
+    </E>
+    <E key="shaman | $damage_projectile" value="1" >
+    </E>
+    <E key="shotgunner | $damage_melee" value="16" >
+    </E>
+    <E key="shotgunner | $damage_projectile" value="19" >
+    </E>
+    <E key="slimeshooter | $damage_explosion" value="2" >
+    </E>
+    <E key="slimeshooter | $damage_projectile" value="6" >
+    </E>
+    <E key="sniper | $damage_explosion" value="1" >
+    </E>
+    <E key="sniper | $damage_melee" value="2" >
+    </E>
+    <E key="sniper | $damage_projectile" value="6" >
+    </E>
+    <E key="tank | $damage_explosion" value="1" >
+    </E>
+    <E key="tank | $damage_projectile" value="5" >
+    </E>
+    <E key="wizard_neutral | $damage_projectile" value="3" >
+    </E>
+    <E key="worm | worm bite" value="1" >
+    </E>
+    <E key="worm_big | worm bite" value="13" >
+    </E>
+    <E key="worm_tiny | worm bite" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="bat" value="1" >
+    </E>
+  </kill_map>
+</Stats>

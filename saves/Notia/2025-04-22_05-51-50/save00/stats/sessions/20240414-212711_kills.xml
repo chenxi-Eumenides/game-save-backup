@@ -1,0 +1,18 @@
+<Stats deaths="1" kills="17" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="shaman | $damage_projectile" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="longleg" value="2" >
+    </E>
+    <E key="miner_weak" value="3" >
+    </E>
+    <E key="shotgunner_weak" value="1" >
+    </E>
+    <E key="slimeshooter_weak" value="2" >
+    </E>
+    <E key="zombie_weak" value="9" >
+    </E>
+  </kill_map>
+</Stats>

@@ -1,0 +1,10 @@
+<Stats deaths="2" kills="0" player_kills="0" player_projectile_count="0" >
+  <death_map>
+    <E key="miner_weak | $damage_explosion" value="1" >
+    </E>
+    <E key="worm | worm bite" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+  </kill_map>
+</Stats>

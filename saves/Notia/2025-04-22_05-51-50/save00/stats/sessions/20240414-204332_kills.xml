@@ -1,0 +1,40 @@
+<Stats deaths="1" kills="64" player_kills="1" player_projectile_count="0" >
+  <death_map>
+    <E key="player | $damage_slice" value="1" >
+    </E>
+  </death_map>
+  <kill_map>
+    <E key="bat" value="10" >
+    </E>
+    <E key="firebug" value="7" >
+    </E>
+    <E key="giant" value="3" >
+    </E>
+    <E key="glue" value="1" >
+    </E>
+    <E key="goblin_bomb" value="1" >
+    </E>
+    <E key="iceskull" value="5" >
+    </E>
+    <E key="pebble_physics" value="3" >
+    </E>
+    <E key="player" value="1" >
+    </E>
+    <E key="scavenger_glue" value="6" >
+    </E>
+    <E key="scavenger_grenade" value="6" >
+    </E>
+    <E key="scavenger_smg" value="5" >
+    </E>
+    <E key="shotgunner" value="5" >
+    </E>
+    <E key="slimeshooter" value="3" >
+    </E>
+    <E key="sniper" value="2" >
+    </E>
+    <E key="tank" value="5" >
+    </E>
+    <E key="worm_big" value="1" >
+    </E>
+  </kill_map>
+</Stats>

@@ -1,0 +1,10 @@
+<Stats deaths="0" kills="2" player_kills="1" player_projectile_count="0" >
+  <death_map>
+  </death_map>
+  <kill_map>
+    <E key="player" value="1" >
+    </E>
+    <E key="slimeshooter" value="1" >
+    </E>
+  </kill_map>
+</Stats>

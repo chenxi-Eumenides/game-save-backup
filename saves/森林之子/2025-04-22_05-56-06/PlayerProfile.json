@@ -1,0 +1,17 @@
+{
+  "_settings": [
+    {
+      "Name": "Stats.CoreGameCompleted",
+      "BoolValue": true
+    },
+    {
+      "Name": "Stats.CreativeModeUnlocked",
+      "BoolValue": true
+    },
+    {
+      "Name": "Stats.StayedOnIsland",
+      "BoolValue": true
+    }
+  ],
+  "name": "PlayerProfile"
+}
