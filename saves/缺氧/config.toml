@@ -4,7 +4,9 @@ name-zh-cn = "缺氧" # 游戏名称中文
 platform = "win10" # 运行平台：win10 linux mac android ios win7 winxp ns
 path = 'C:\Apps\Steam\steamapps\common\OxygenNotIncluded' # 游戏路径
 exe_path = 'C:\Apps\Steam\steamapps\common\OxygenNotIncluded\OxygenNotIncluded.exe' # 运行文件相对路径
-save_path = 'D:\Files\Documents\Klei\OxygenNotIncluded\cloud_save_files\76561198876586946' # 存档文件相对路径
+save_path = [
+	'D:\Files\Documents\Klei\OxygenNotIncluded\cloud_save_files\76561198876586946',
+] # 存档文件相对路径
 
 [base]
 download = "steam" # steam，或下载地址/页面
