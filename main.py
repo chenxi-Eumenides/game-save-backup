@@ -11,6 +11,7 @@ from toml import load as load_toml
 
 # define
 backup_folder = "saves"
+max_file = 1024*1024*10
 DEBUG = False
 
 
@@ -76,21 +77,16 @@ class GameConfig():
         if not self.game.platform:
             print("not game platform")
             return False
-        if not self.game.path or not isdir(self.game.path):
-            print("not game path")
-            return False
-        if not self.game.exe_path or not isfile(self.game.exe_path):
-            print("not game exe path")
-            return False
         if not self.game.save_path or not isdir(self.game.save_path):
             print("not game save path")
             return False
         if not self.base.path or not isdir(self.base.path):
             print("not base path")
             return False
-        if not self.base.config or not isfile(join(self.base.path, self.base.config)):
-            print("not base path")
-            return False
+        if not self.game.path or not isdir(self.game.path):
+            print("not game path")
+        if not self.game.exe_path or not isfile(self.game.exe_path):
+            print("not game exe path")
         return True
 
 
