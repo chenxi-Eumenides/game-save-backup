@@ -1,0 +1,12 @@
+[game]
+name = "Winter Memories" # 游戏名称
+name-zh-cn = "冬日狂想曲" # 游戏名称中文
+platform = "win10" # 运行平台：win10 linux mac android ios win7 winxp ns
+path = 'C:\Apps\Steam\steamapps\common\Winter Memories' # 游戏路径
+exe_path = 'C:\Apps\Steam\steamapps\common\Winter Memories\Game.exe' # 运行文件相对路径
+save_path = [
+	'C:\Apps\Steam\steamapps\common\Winter Memories\www\save',
+] # 存档文件相对路径
+
+[base]
+download = "steam" # steam，或下载地址/页面
