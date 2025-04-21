@@ -1,6 +1,6 @@
 #!/bin/python
 
-from os.path import exists, isdir, isfile, join, getmtime
+from os.path import exists, isdir, isfile, join, getmtime, splitext, basename
 from os import listdir, makedirs
 from shutil import copytree
 from time import strftime
@@ -18,7 +18,7 @@ class GameConfig():
     """游戏配置"""
     class __config_base():
         path = ""
-        config = "config.toml"
+        config = ""
         download = ""
 
     class __config_game():
@@ -94,15 +94,16 @@ class GameConfig():
         return True
 
 
-def load_config(folder_name: str = "none"):
+def load_config(folder_name: str = "none", config_file: str = "config.toml"):
     """
     加载并解析 TOML 配置文件\n
     folder_name: 文件夹名
     """
     config = GameConfig()
     config.base.path = join(backup_folder, folder_name)
-    if not exists(join(config.base.path, config.base.config)):
+    if not exists(join(config.base.path, config_file)):
         return config
+    config.base.config = config_file
     with open(join(config.base.path, config.base.config), 'r', encoding='utf-8') as file:
         config.set_from(load_toml(file))
     return config
@@ -145,18 +146,22 @@ def get_last_dir(dir: str, num: int = 0):
         return ""
 
 
-def backup_save_files(config: GameConfig, test: bool = False):
+def backup_save_files(config: GameConfig, backup_time: str = '', to_folder: bool = False, test: bool = False):
     """根据配置备份存档文件"""
     if platform[:3] != config.game.platform[:3]:
         print(f"Not same platform, skip {config.game.name}!")
         return -1
-    backup_time = strftime('%Y-%m-%d_%H-%M-%S')
     backup_dir = join(config.base.path, backup_time)
     last_backup_dir = get_last_dir(config.base.path)
+    if backup_time == "":
+        backup_time == strftime('%Y-%m-%d_%H-%M-%S')
     if config.game.save_latest:
         save_path = get_last_dir(config.game.save_path)
     else:
         save_path = config.game.save_path
+    if to_folder:
+        backup_dir = join(backup_dir, basename(save_path))
+        last_backup_dir = join(last_backup_dir, basename(save_path))
     if last_backup_dir != "" and is_same(save_path, last_backup_dir):
         print(f"Same saves, skip {config.game.name}!\n")
     else:
@@ -167,7 +172,6 @@ def backup_save_files(config: GameConfig, test: bool = False):
                 f" -> {backup_dir}\n"
             )
             return 0
-
         copytree(save_path, backup_dir)
         print(
             f"Backup {config.game.name} successful:\n" +
@@ -184,12 +188,24 @@ def init():
 
 def main():
     for folder in listdir(backup_folder):
-        if isfile(join(backup_folder, folder, "config.toml")):
-            config = load_config(folder)
-            if config.check():
-                backup_save_files(config=config, test=DEBUG)
-            else:
-                print(folder, config)
+        if isfile(join(backup_folder, folder)):
+            continue
+        files = [f for f in listdir(join(backup_folder, folder)) if splitext(
+            join(backup_folder, folder, f))[1] == ".toml"]
+        if len(files) > 1:
+            to_folder = True
+            time = strftime('%Y-%m-%d_%H-%M-%S')
+        else:
+            to_folder = False
+            time = ''
+        for file in files:
+            if isfile(join(backup_folder, folder, file)):
+                config = load_config(folder, file)
+                if config.check():
+                    backup_save_files(
+                        config=config, backup_time=time, to_folder=to_folder, test=DEBUG)
+                else:
+                    print(folder, config)
 
 
 if __name__ == "__main__":
