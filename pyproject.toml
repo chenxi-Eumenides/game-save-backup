@@ -1,9 +1,9 @@
 [project]
 name = "save-backup"
 version = "0.1.0"
-description = "Add your description here"
+description = "backup my game saves"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.9"
 dependencies = [
     "toml>=0.10.2",
 ]
