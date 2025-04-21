@@ -69,24 +69,26 @@ class GameConfig():
 
     def check(self) -> bool:
         if not self.game.name:
-            print("not game name")
+            print(
+                f"[ERROR] not game name in {join(self.base.path, self.base.config)}")
             return False
         if not self.game.name_zh_cn:
-            print("not game name zh-cn")
+            print(
+                f"[ERROR] not game name zh-cn in {join(self.base.path, self.base.config)}")
             return False
         if not self.game.platform:
-            print("not game platform")
+            print(f"[ERROR] not game platform in {self.game.name}")
             return False
         if not self.game.save_path or not isdir(self.game.save_path):
-            print("not game save path")
+            print(f"[ERROR] not game save path in {self.game.name}")
             return False
         if not self.base.path or not isdir(self.base.path):
-            print("not base path")
+            print(f"[ERROR] not base path in {self.game.name}")
             return False
         if not self.game.path or not isdir(self.game.path):
-            print("not game path")
+            print(f"[WRONG] not game path in {self.game.name}")
         if not self.game.exe_path or not isfile(self.game.exe_path):
-            print("not game exe path")
+            print(f"[WRONG] not game exe path in {self.game.name}")
         return True
 
 
@@ -147,10 +149,10 @@ def backup_save_files(config: GameConfig, backup_time: str = '', to_folder: bool
     if platform[:3] != config.game.platform[:3]:
         print(f"Not same platform, skip {config.game.name}!")
         return -1
+    if backup_time == "":
+        backup_time = strftime('%Y-%m-%d_%H-%M-%S')
     backup_dir = join(config.base.path, backup_time)
     last_backup_dir = get_last_dir(config.base.path)
-    if backup_time == "":
-        backup_time == strftime('%Y-%m-%d_%H-%M-%S')
     if config.game.save_latest:
         save_path = get_last_dir(config.game.save_path)
     else:
@@ -159,21 +161,23 @@ def backup_save_files(config: GameConfig, backup_time: str = '', to_folder: bool
         backup_dir = join(backup_dir, basename(save_path))
         last_backup_dir = join(last_backup_dir, basename(save_path))
     if last_backup_dir != "" and is_same(save_path, last_backup_dir):
-        print(f"Same saves, skip {config.game.name}!\n")
+        print(
+            f"[INFO] Same saves, skip {config.game.name} ({join(config.base.path, config.base.config)})!")
     else:
         if test:
             print(
-                f"!!! Backup {config.game.name} test !!!\n" +
+                f"[DEBUG] !!! Backup {config.game.name} test !!!\n" +
                 f"    {save_path}\n" +
                 f" -> {backup_dir}\n"
             )
             return 0
-        copytree(save_path, backup_dir)
         print(
-            f"Backup {config.game.name} successful:\n" +
+            f"[INFO] Backup {config.game.name}:\n" +
             f"    {save_path}\n" +
-            f" -> {backup_dir}\n"
+            f" -> {backup_dir}"
         )
+        copytree(save_path, backup_dir)
+        print(f"[INFO] Success!\n")
 
 
 def init():
