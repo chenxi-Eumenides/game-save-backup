@@ -11,7 +11,7 @@ from toml import load as load_toml
 
 # define
 backup_folder = "saves"
-DEBUG = True
+DEBUG = False
 
 
 class GameConfig():
