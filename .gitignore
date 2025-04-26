@@ -8,3 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+
+# User defined
+*.ps1
+test.py
