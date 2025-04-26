@@ -1,12 +1,14 @@
 #!/bin/python
 
-from os.path import exists, isdir, isfile, join, getmtime, splitext, basename
+# system lib
+from os.path import exists, isdir, isfile, join, getctime, splitext, basename
 from os import listdir, makedirs
 from shutil import copytree
 from time import strftime
 from hashlib import md5
 from sys import platform
 
+# third part lib
 from toml import load as load_toml
 
 # define
@@ -119,23 +121,25 @@ def get_all_file(orgin: str, file_list: list[str], dir: str = "") -> list[str]:
 def is_same(dir1: str, dir2: str) -> bool:
     list1 = get_all_file(dir1, [])
     list2 = get_all_file(dir2, [])
+    if len(list1) != len(list2):
+        return False
     if ''.join(list1) != ''.join(list2):
         return False
 
-    md5_1, md5_2 = "", ""
+    md5_1, md5_2 = [], []
     for file in list1:
         with open(join(dir1, file), 'br') as f:
-            md5_1 += str(md5(f.read()).hexdigest())
+            md5_1.append(str(md5(f.read()).hexdigest()))
     for file in list2:
         with open(join(dir2, file), 'br') as f:
-            md5_2 += str(md5(f.read()).hexdigest())
+            md5_2.append(str(md5(f.read()).hexdigest()))
     return md5_1 == md5_2
 
 
 def get_last_dir(dir: str, num: int = 0):
     if isdir(dir):
         dirs = [d for d in listdir(dir) if isdir(join(dir, d))]
-        dirs.sort(key=lambda fn: getmtime(dir + "\\" + fn), reverse=True)
+        dirs.sort(key=lambda fn: getctime(dir + "\\" + fn), reverse=True)
         if len(dirs) > num:
             return join(dir, dirs[num])
         else:
@@ -144,8 +148,9 @@ def get_last_dir(dir: str, num: int = 0):
         return ""
 
 
-def backup_save_files(config: GameConfig, backup_time: str = '', to_folder: bool = False, test: bool = False):
+def backup_save_files(config: GameConfig, backup_time: str = '', to_folder: bool = False):
     """根据配置备份存档文件"""
+    global DEBUG
     if platform[:3] != config.game.platform[:3]:
         print(f"Not same platform, skip {config.game.name}!")
         return -1
@@ -164,20 +169,14 @@ def backup_save_files(config: GameConfig, backup_time: str = '', to_folder: bool
         print(
             f"[INFO] Same saves, skip {config.game.name} ({join(config.base.path, config.base.config)})!")
     else:
-        if test:
-            print(
-                f"[DEBUG] !!! Backup {config.game.name} test !!!\n" +
-                f"    {save_path}\n" +
-                f" -> {backup_dir}\n"
-            )
-            return 0
         print(
             f"[INFO] Backup {config.game.name}:\n" +
             f"    {save_path}\n" +
             f" -> {backup_dir}"
         )
-        copytree(save_path, backup_dir)
-        print(f"[INFO] Success!\n")
+        if not DEBUG:
+            copytree(save_path, backup_dir)
+            print(f"[INFO] Success!\n")
 
 
 def init():
@@ -203,7 +202,7 @@ def main():
                 config = load_config(folder, file)
                 if config.check():
                     backup_save_files(
-                        config=config, backup_time=time, to_folder=to_folder, test=DEBUG)
+                        config=config, backup_time=time, to_folder=to_folder)
                 else:
                     print(folder, config)
 
