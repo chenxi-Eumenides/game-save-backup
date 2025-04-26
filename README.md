@@ -21,6 +21,8 @@ this is my game saves backup
 
 ## config
 
+{any name}.toml
+
 ```toml
 [game]
 name = "template" # 游戏名称
@@ -34,3 +36,5 @@ save_latest = false # 是否只保存save_path下最新创建的文件夹，用�
 [base]
 download = "steam" # steam，或下载地址/页面
 ```
+
+you can create multiple config files if you need backup diffent saves for one game.
