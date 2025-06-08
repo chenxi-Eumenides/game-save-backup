@@ -7,3 +7,14 @@ requires-python = ">=3.9"
 dependencies = [
     "toml>=0.10.2",
 ]
+
+
+[tool.ruff]
+line-length = 120
+select = [
+    "F", # 基础检查
+    "E", # PEP8 error检查
+    "W", # PEP8 warning检查
+    "UP", # 提示新版本python语法
+]
+ignore = ["F541"]
