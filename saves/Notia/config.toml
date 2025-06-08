@@ -2,8 +2,8 @@
 name = "Notia" # 游戏名称
 name-zh-cn = "Notia" # 游戏名称中文
 platform = "win10" # 运行平台：win10 linux mac android ios win7 winxp ns
-path = '' # 游戏路径
-exe_path = '' # 运行文件相对路径
+path = 'unknown' # 游戏路径
+exe_path = 'unknown' # 运行文件相对路径
 save_path = 'C:\Users\chenxi-zqs\AppData\LocalLow\Nolla_Games_Noita' # 存档文件相对路径
 save_latest = false
 
