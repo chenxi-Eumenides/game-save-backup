@@ -1,12 +1,12 @@
 #!/bin/python
 
 # system lib
-from os.path import exists, isdir, isfile, join, getctime, splitext, basename
-from os import listdir, makedirs
-from shutil import copytree
-from time import strftime
 from hashlib import md5
+from os import listdir, makedirs
+from os.path import basename, exists, getctime, isdir, isfile, join, splitext
+from shutil import copytree
 from sys import platform
+from time import strftime
 
 # third part lib
 from toml import load as load_toml
@@ -17,14 +17,14 @@ max_file = 1024*1024*10
 DEBUG = False
 
 
-class GameConfig():
+class GameConfig:
     """游戏配置"""
-    class __config_base():
+    class __config_base:
         path = ""
         config = ""
         download = ""
 
-    class __config_game():
+    class __config_game:
         name = ""
         name_zh_cn = ""
         platform = ""
@@ -66,7 +66,7 @@ class GameConfig():
             self.game.save_path = data['game']['save_path']
             self.game.save_latest = data['game']['save_latest']
             self.base.download = data['base']['download']
-        except:
+        except Exception:
             raise "data is wrong"
 
     def check(self) -> bool:
@@ -104,7 +104,7 @@ def load_config(folder_name: str = "none", config_file: str = "config.toml"):
     if not exists(join(config.base.path, config_file)):
         return config
     config.base.config = config_file
-    with open(join(config.base.path, config.base.config), 'r', encoding='utf-8') as file:
+    with open(join(config.base.path, config.base.config), encoding='utf-8') as file:
         config.set_from(load_toml(file))
     return config
 
