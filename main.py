@@ -4,7 +4,7 @@
 from hashlib import md5
 from os import listdir, makedirs
 from os.path import basename, exists, getctime, isdir, isfile, join, splitext
-from shutil import copytree
+from shutil import copy2, copytree
 from sys import argv, platform
 from time import strftime
 
@@ -14,6 +14,7 @@ from toml import load as load_toml
 # define
 backup_folder = "saves"
 max_file = 1024 * 1024 * 10
+output_level = 0
 DEBUG = False
 
 
@@ -37,9 +38,11 @@ class GameConfig:
         need_zip: bool = False
 
     def __init__(self, folder_name: str = "none", config_file: str = "config.toml"):
+        self.output_level = output_level
         self.base = self.__config_base()
         self.game = self.__config_game()
         self.load_config(folder_name, config_file)
+        self.status = self.check()
         pass
 
     def __str__(self) -> str:
@@ -83,23 +86,29 @@ class GameConfig:
     def check(self) -> bool:
         # must have
         if not self.game.name:
-            print(f"[ERROR] not game name in {join(self.base.path, self.base.config)}")
+            if 1 <= self.output_level <= 5:
+                print(f"[ERROR] not game name in {join(self.base.path, self.base.config)}")
             return False
-        if not self.game.save_path or not isdir(self.game.save_path):
-            print(f"[ERROR] not game save path in {self.game.name}")
+        if not self.game.save_path:
+            if 1 <= self.output_level <= 5:
+                print(f"[ERROR] not game save path in {self.game.name}")
             return False
         if not self.base.path or not isdir(self.base.path):
-            print(f"[ERROR] not base path in {self.game.name}")
+            if 1 <= self.output_level <= 5:
+                print(f"[ERROR] not base path in {self.game.name}")
             return False
         # not must have
-        if False:
-            if not self.game.name_zh_cn:
-                print(f"[ERROR] not game name zh-cn in {join(self.base.path, self.base.config)}")
-            if not self.game.platform:
-                print(f"[ERROR] not game platform in {self.game.name}")
-            if not self.game.path or not isdir(self.game.path):
+        if not self.game.name_zh_cn:
+            if 2 <= self.output_level <= 5:
+                print(f"[WRONG] not game name zh-cn in {join(self.base.path, self.base.config)}")
+        if not self.game.platform:
+            if 2 <= self.output_level <= 5:
+                print(f"[WRONG] not game platform in {self.game.name}")
+        if not self.game.path or not isdir(self.game.path):
+            if 2 <= self.output_level <= 5:
                 print(f"[WRONG] not game path in {self.game.name}")
-            if not self.game.exe_path or not isfile(self.game.exe_path):
+        if not self.game.exe_path or not isfile(self.game.exe_path):
+            if 2 <= self.output_level <= 5:
                 print(f"[WRONG] not game exe path in {self.game.name}")
         return True
 
@@ -117,7 +126,9 @@ class GameConfig:
             self.set_from(load_toml(file))
 
 
-def get_all_file(orgin: str, file_list: list[str], dir: str = "") -> list[str]:
+def get_all_file(orgin: str, file_list: list[str] = None, dir: str = "") -> list[str]:
+    if file_list is None:
+        file_list = []
     if isfile(join(orgin, dir)):
         file_list.append(dir)
     elif isdir(join(orgin, dir)):
@@ -126,9 +137,11 @@ def get_all_file(orgin: str, file_list: list[str], dir: str = "") -> list[str]:
     return file_list
 
 
-def is_same(dir1: str, dir2: str) -> bool:
-    list1 = get_all_file(dir1, [])
-    list2 = get_all_file(dir2, [])
+def is_same(dir1: str, dir2: str, is_folder: bool = True) -> bool:
+    if not is_folder:
+        dir2 = join(dir2, basename(dir1))
+    list1 = get_all_file(dir1)
+    list2 = get_all_file(dir2)
     if len(list1) != len(list2):
         return False
     if "".join(list1) != "".join(list2):
@@ -144,16 +157,18 @@ def is_same(dir1: str, dir2: str) -> bool:
     return md5_1 == md5_2
 
 
-def get_last_dir(dir: str, num: int = 0):
-    if isdir(dir):
-        dirs = [d for d in listdir(dir) if isdir(join(dir, d))]
-        dirs.sort(key=lambda fn: getctime(dir + "\\" + fn), reverse=True)
-        if len(dirs) > num:
-            return join(dir, dirs[num])
-        else:
-            return ""
+def copy(src: str, tgt: str, is_folder: bool = True):
+    if is_folder:
+        copytree(src, tgt)
     else:
-        return ""
+        makedirs(tgt)
+        copy2(src, tgt)
+
+
+def is_toml(src: str):
+    if len(src) <= 5:
+        return False
+    return src[-5:] == ".toml"
 
 
 def get_last(dir: str, is_folder: bool = True, num: int = 0):
@@ -162,6 +177,7 @@ def get_last(dir: str, is_folder: bool = True, num: int = 0):
             items = [i for i in listdir(dir) if isdir(join(dir, i))]
         else:
             items = [i for i in listdir(dir) if isfile(join(dir, i))]
+            print(items)
         items.sort(key=lambda fn: getctime(dir + "\\" + fn), reverse=True)
         if len(items) > num:
             return join(dir, items[num])
@@ -180,7 +196,7 @@ def is_support_platform(game_platform: str):
     return False
 
 
-def backup_save_files(config: GameConfig, backup_time: str = "", to_folder: bool = False):
+def backup_save_files(config: GameConfig, need_folder: bool = False):
     """
     根据配置备份存档文件
     """
@@ -188,27 +204,32 @@ def backup_save_files(config: GameConfig, backup_time: str = "", to_folder: bool
     if not is_support_platform(config.game.platform):
         print(f"Not support platform, skip {config.game.name}!")
         return -1
-    if backup_time == "":
-        backup_time = strftime("%Y-%m-%d_%H-%M-%S")
-    # 目标路径
-    backup_dir = join(config.base.path, backup_time)
-    # is_folder = true # 目标是否是文件夹，不然是单文件
-    # need_zip = false # 是否需要压缩
-    # save_latest = false # 是否只保存save_path下最新创建的文件夹，用于游戏存档只增不减的情况
-    last_backup_dir = get_last(config.base.path)
+    backup_time = strftime("%Y-%m-%d_%H-%M-%S")
+
     if config.game.save_latest:
-        save_path = get_last(config.game.save_path)
+        # 最新的
+        save_path = get_last(config.game.save_path, config.game.is_folder)
     else:
+        # 全部
         save_path = config.game.save_path
-    if to_folder:
-        backup_dir = join(backup_dir, basename(save_path))
-        last_backup_dir = join(last_backup_dir, basename(save_path))
-    if last_backup_dir != "" and is_same(save_path, last_backup_dir):
+    if need_folder:
+        # 需多层
+        backup_dir = join(config.base.path, backup_time, basename(save_path))
+        latest_backup = join(get_last(config.base.path, True), basename(save_path))
+    else:
+        # 无需多层
+        backup_dir = join(config.base.path, backup_time)
+        latest_backup = get_last(config.base.path, True)
+    print(f"s:{save_path}\nb:{backup_dir}\nl:{latest_backup}")
+
+    if latest_backup != "" and is_same(save_path, latest_backup, config.game.is_folder):
+        # 有过备份，且最新备份相同
         print(f"[INFO] Same saves, skip {config.game.name} ({join(config.base.path, config.base.config)})!")
     else:
+        # 开始备份
         print(f"[INFO] Backup {config.game.name}:\n" + f"    {save_path}\n" + f" -> {backup_dir}")
         if not DEBUG:
-            copytree(save_path, backup_dir)
+            copy(save_path, backup_dir, config.game.is_folder)
             print(f"[INFO] Success!\n")
 
 
@@ -226,19 +247,16 @@ def main(args):
     for folder in listdir(backup_folder):
         if isfile(join(backup_folder, folder)):
             continue
-        if len(target_games)>0 and folder not in target_games:
+        if len(target_games) > 0 and folder not in target_games:
             continue
         files = [
             f for f in listdir(join(backup_folder, folder)) if splitext(join(backup_folder, folder, f))[1] == ".toml"
         ]
-        time = strftime("%Y-%m-%d_%H-%M-%S")
         for file in files:
             if isfile(join(backup_folder, folder, file)):
                 config = GameConfig(folder, file)
-                if config.check():
-                    backup_save_files(config=config, backup_time=time, to_folder=len(files) > 1)
-                else:
-                    print(folder, config)
+                if config.status:
+                    backup_save_files(config=config, need_folder=len(files) > 1)
 
 
 if __name__ == "__main__":
