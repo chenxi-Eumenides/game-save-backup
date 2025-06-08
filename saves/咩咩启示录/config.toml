@@ -1,0 +1,13 @@
+[game]
+name = "Cult of the Lamb" # 游戏名称
+name-zh-cn = "咩咩启示录" # 游戏名称中文
+platform = "ns" # 运行平台：win10 linux mac android ios win7 winxp ns
+path = 'unknown' # 游戏路径
+exe_path = 'unknown' # 运行文件相对路径
+save_path = 'C:\Games\Switch\Files\Saves\Cult of the Lamb' # 存档文件相对路径
+save_latest = true # 是否只保存save_path下最新创建的文件夹，用于游戏存档只增不减的情况
+is_folder = false # 目标是否是文件夹，不然是单文件，只在save_latest为true时生效
+need_zip = false # 是否需要压缩
+
+[base]
+download = "https://www.gamer520.com/39858.html" # steam，或下载地址/页面
