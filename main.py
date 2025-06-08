@@ -5,7 +5,7 @@ from hashlib import md5
 from os import listdir, makedirs
 from os.path import basename, exists, getctime, isdir, isfile, join, splitext
 from shutil import copytree
-from sys import platform
+from sys import argv, platform
 from time import strftime
 
 # third part lib
@@ -33,7 +33,8 @@ class GameConfig:
         exe_path = ""
         save_path = ""
         save_latest: bool = False
-        is_folder: bool = False
+        is_folder: bool = True
+        need_zip: bool = False
 
     def __init__(self, folder_name: str = "none", config_file: str = "config.toml"):
         self.base = self.__config_base()
@@ -53,6 +54,7 @@ class GameConfig:
             + f"        save_path: {self.game.save_path}\n"
             + f"        latest:    {self.game.save_latest}\n"
             + f"        is_folder: {self.game.is_folder}\n"
+            + f"        need_zip:  {self.game.need_zip}\n"
             + "    }\n"
             + "    base: {\n"
             + f"        path:      {self.base.path}\n"
@@ -63,27 +65,25 @@ class GameConfig:
         )
 
     def set_from(self, data: dict):
-        try:
-            self.game.name = data["game"]["name"]
-            self.game.name_zh_cn = data["game"]["name-zh-cn"]
-            self.game.platform = data["game"]["platform"]
-            self.game.path = data["game"]["path"]
-            self.game.exe_path = data["game"]["exe_path"]
-            self.game.save_path = data["game"]["save_path"]
-            self.game.save_latest = data["game"]["save_latest"]
-            self.base.download = data["base"]["download"]
-        except Exception:
+        game: dict = data.get("game")
+        base: dict = data.get("base")
+        if game is None or base is None:
             raise "data is wrong"
+        self.game.name = d if (d := game.get("name")) is not None else self.__config_game.name
+        self.game.name_zh_cn = d if (d := game.get("name-zh-cn")) is not None else self.__config_game.name_zh_cn
+        self.game.platform = d if (d := game.get("platform")) is not None else self.__config_game.platform
+        self.game.path = d if (d := game.get("path")) is not None else self.__config_game.path
+        self.game.exe_path = d if (d := game.get("exe_path")) is not None else self.__config_game.exe_path
+        self.game.save_path = d if (d := game.get("save_path")) is not None else self.__config_game.save_path
+        self.game.save_latest = d if (d := game.get("save_latest")) is not None else self.__config_game.save_latest
+        self.game.is_folder = d if (d := game.get("is_folder")) is not None else self.__config_game.is_folder
+        self.game.need_zip = d if (d := game.get("need_zip")) is not None else self.__config_game.need_zip
+        self.base.download = d if (d := base.get("download")) is not None else self.__config_base.download
 
     def check(self) -> bool:
+        # must have
         if not self.game.name:
             print(f"[ERROR] not game name in {join(self.base.path, self.base.config)}")
-            return False
-        if not self.game.name_zh_cn:
-            print(f"[ERROR] not game name zh-cn in {join(self.base.path, self.base.config)}")
-            return False
-        if not self.game.platform:
-            print(f"[ERROR] not game platform in {self.game.name}")
             return False
         if not self.game.save_path or not isdir(self.game.save_path):
             print(f"[ERROR] not game save path in {self.game.name}")
@@ -91,10 +91,16 @@ class GameConfig:
         if not self.base.path or not isdir(self.base.path):
             print(f"[ERROR] not base path in {self.game.name}")
             return False
-        if not self.game.path or not isdir(self.game.path):
-            print(f"[WRONG] not game path in {self.game.name}")
-        if not self.game.exe_path or not isfile(self.game.exe_path):
-            print(f"[WRONG] not game exe path in {self.game.name}")
+        # not must have
+        if False:
+            if not self.game.name_zh_cn:
+                print(f"[ERROR] not game name zh-cn in {join(self.base.path, self.base.config)}")
+            if not self.game.platform:
+                print(f"[ERROR] not game platform in {self.game.name}")
+            if not self.game.path or not isdir(self.game.path):
+                print(f"[WRONG] not game path in {self.game.name}")
+            if not self.game.exe_path or not isfile(self.game.exe_path):
+                print(f"[WRONG] not game exe path in {self.game.name}")
         return True
 
     def load_config(self, folder_name: str = "none", config_file: str = "config.toml"):
@@ -150,18 +156,48 @@ def get_last_dir(dir: str, num: int = 0):
         return ""
 
 
+def get_last(dir: str, is_folder: bool = True, num: int = 0):
+    if isdir(dir):
+        if is_folder:
+            items = [i for i in listdir(dir) if isdir(join(dir, i))]
+        else:
+            items = [i for i in listdir(dir) if isfile(join(dir, i))]
+        items.sort(key=lambda fn: getctime(dir + "\\" + fn), reverse=True)
+        if len(items) > num:
+            return join(dir, items[num])
+        else:
+            return ""
+    else:
+        return ""
+
+
+def is_support_platform(game_platform: str):
+    # game_platform: win10 linux mac android ios win7 winxp ns
+    if platform[:3] == game_platform[:3]:
+        return True
+    if platform[:3] == "win" and game_platform in ["win10", "ns"]:
+        return True
+    return False
+
+
 def backup_save_files(config: GameConfig, backup_time: str = "", to_folder: bool = False):
-    """根据配置备份存档文件"""
+    """
+    根据配置备份存档文件
+    """
     global DEBUG
-    if platform[:3] != config.game.platform[:3]:
-        print(f"Not same platform, skip {config.game.name}!")
+    if not is_support_platform(config.game.platform):
+        print(f"Not support platform, skip {config.game.name}!")
         return -1
     if backup_time == "":
         backup_time = strftime("%Y-%m-%d_%H-%M-%S")
+    # 目标路径
     backup_dir = join(config.base.path, backup_time)
-    last_backup_dir = get_last_dir(config.base.path)
+    # is_folder = true # 目标是否是文件夹，不然是单文件
+    # need_zip = false # 是否需要压缩
+    # save_latest = false # 是否只保存save_path下最新创建的文件夹，用于游戏存档只增不减的情况
+    last_backup_dir = get_last(config.base.path)
     if config.game.save_latest:
-        save_path = get_last_dir(config.game.save_path)
+        save_path = get_last(config.game.save_path)
     else:
         save_path = config.game.save_path
     if to_folder:
@@ -182,28 +218,29 @@ def init():
     pass
 
 
-def main():
+def main(args):
+    target_games = []
+    for arg in args:
+        if arg in listdir(backup_folder):
+            target_games.append(arg)
     for folder in listdir(backup_folder):
         if isfile(join(backup_folder, folder)):
+            continue
+        if len(target_games)>0 and folder not in target_games:
             continue
         files = [
             f for f in listdir(join(backup_folder, folder)) if splitext(join(backup_folder, folder, f))[1] == ".toml"
         ]
-        if len(files) > 1:
-            to_folder = True
-            time = strftime("%Y-%m-%d_%H-%M-%S")
-        else:
-            to_folder = False
-            time = ""
+        time = strftime("%Y-%m-%d_%H-%M-%S")
         for file in files:
             if isfile(join(backup_folder, folder, file)):
                 config = GameConfig(folder, file)
                 if config.check():
-                    backup_save_files(config=config, backup_time=time, to_folder=to_folder)
+                    backup_save_files(config=config, backup_time=time, to_folder=len(files) > 1)
                 else:
                     print(folder, config)
 
 
 if __name__ == "__main__":
     init()
-    main()
+    main(argv)
