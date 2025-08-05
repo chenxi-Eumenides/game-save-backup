@@ -281,7 +281,7 @@ def backup_save_files(config: GameConfig, need_folder: bool = False):
             print(f"[INFO] Success!\n")
 
 
-def init():
+def check_saves_folder():
     """
     检查saves文件夹是否创建
     """
@@ -293,6 +293,8 @@ def main(args):
     """
     挨个备份
     """
+    # 检查saves文件夹是否创建
+    check_saves_folder()
     # 检查指定的游戏是否存在
     target_games = []
     for arg in args:
@@ -316,5 +318,4 @@ def main(args):
 
 
 if __name__ == "__main__":
-    init()
     main(argv)
