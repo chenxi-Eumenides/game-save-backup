@@ -1,0 +1,465 @@
+/*
+fight
+var fight = import Chenxi_fight
+*/
+
+// [common info, test info]
+var info = ["",""]
+
+// 自定义武器栏位
+var weapon_list = [
+  [0,"0砍树","","星石 斧头"],
+  [1,"1以太","","秒杀大锤 回血盾"],
+  [2,"2毒","","减攻大剑 回血盾"],
+  [3,"3冰","","减速魔杖 回血盾"],
+  [4,"4火","","燃烧重弩"],
+  [5,"5生命","","回血魔杖 回血盾"],
+  [6,"6法","","减速魔杖 回血魔杖"],
+  [7,"7物","","秒杀大锤 减攻大剑"],
+  [8,"8","",""],
+  [9,"9","",""],
+  [10,"大剑","bardiche","巴迪什"],
+  [11,"破甲","heavy_hammer","重锤"],
+  [12,"偷","skeleton_arm","骷髅手"],
+  [13,"挖石","shovel","铲子"],
+  [14,"堕神","blade_of_god","堕神之剑"],
+  [15,"","",""],
+  [16,"","",""],
+  [17,"","",""]
+]
+
+// 根据名字装备
+func set_by_name(str)
+  ?is_weapon_act() ! 0
+    return 0
+  for i = 0..this.weapon_list.Count()-1
+    ?string.Equals(this.weapon_list[i][1],"")
+      continue
+    :?this.weapon_list[i][1] = str
+      ?i <= 9
+        loadout @i@
+      :?i >= 10
+        equip @this.weapon_list[i][2]@
+      return true
+  return false
+
+// 根据index装备
+func set_by_id(index)
+  ?is_weapon_act() ! 0
+    return false
+  ?index<0 | index>=this.weapon_list.Count()
+    return false
+  ?index <= 9
+    loadout @index@
+  :?index >= 10
+    equip @this.weapon_list[index][2]@
+  return true
+
+// 根据名字获取装备说明
+func get_by_name(str)
+  for i = 0..this.weapon_list.Count()-1
+    ?this.weapon_list[i][1] = str
+      return this.weapon_list[i][3]
+  return "no name"
+
+// 根据index获取装备说明
+func get_by_id(id)
+  ?id<0 | id>=this.weapon_list.Count()
+    return "no name"
+  return this.weapon_list[id][3]
+
+// 是否在使用武器技能
+func is_weapon_act()
+  ?item.right = bardiche
+  ^&(item.right.state=2
+  ^|item.right.state=3)
+  ^|item.GetCooldown("bardiche")>870
+    return 1
+  :?item.right = heavy_hammer
+  ^&(item.right.state=2
+  ^|item.right.state=3)
+  ^|item.GetCooldown("heavy_hammer")>630
+    return 2
+  :?item.right = skeleton_arm
+  ^&(item.right.state=2
+  ^|item.right.state=3)
+  ^|item.GetCooldown("skeleton_arm")>1320
+    return 3
+  :?item.right = blade_of_god
+  ^&(item.right.state=2
+  ^|item.right.state=3)
+  ^|item.GetCooldown("blade_of_god")>2370
+    return 4
+  :
+    return 0
+
+// 自动使用巴迪什
+func auto_bardiche()
+  ?is_weapon_act() ! 0
+  ^&is_weapon_act() ! 1
+    return 0
+  var cd
+  var sec = 30
+  cd = item.GetCooldown("bardiche")
+  ?(cd <= 0 | cd > sec*30-30)
+  ^ & foe.distance <= 10
+    equip bardiche
+    activate R
+
+// 自动使用重锤
+func auto_heavy_hammer()
+  ?is_weapon_act() ! 0
+  ^&is_weapon_act() ! 2
+    return 0
+  var cd
+  var sec = 22
+  cd = item.GetCooldown("heavy_hammer")
+  ?(cd <= 0 | cd > sec*30-30)
+  ^ & foe.distance <= 10
+    equip heavy_hammer
+    activate R
+
+// 自动使用骷髅手
+func auto_skeleton_arm()
+  ?is_weapon_act() ! 0
+  ^&is_weapon_act() ! 3
+    return 0
+  var cd
+  var sec = 45
+  var max_buff = 2
+  cd = item.GetCooldown("skeleton_arm")
+  ?(cd <= 0 | cd > sec*30-30)
+  ^&foe.distance <= 6
+  ^&buffs.GetCount("pick_pocket") >= max_buff
+    equip skeleton_arm
+    activate R
+
+// 自动使用堕神之剑
+func auto_blade_of_god()
+  ?is_weapon_act() ! 0
+  ^&is_weapon_act() ! 4
+    return 0
+  var cd
+  var sec = 80
+  cd = item.GetCooldown("blade_of_god")
+  ?(cd <= 0 | cd > sec*30-30)
+  ^&foe.distance <= 10
+  ^&(foe.count > 3 | foe = boss)
+    equip blade_of_god
+    activate R
+
+// 自动上燃烧buff
+func auto_fire()
+  ?is_weapon_act() ! 0
+    return 0
+  ?foe.debuffs
+  ^.GetTime("debuff_dot") <= 30
+  ^& foe.distance <= 30
+    set_by_name("火")
+
+// 自动拾取
+func auto_pickup()
+  ?loc = rocky
+    //岩石高地
+    ?pickup.distance <= 10
+      set_by_name("砍树")
+    ?harvest.distance <= 7
+      set_by_name("挖石")
+    info[0] = "stone:"+res.stone
+  :?loc = deadwood_valley
+    //枯木峡谷
+    ?harvest.distance <= 7
+      set_by_name("砍树")
+    ?pickup.distance <= 10
+      set_by_name("砍树")
+    info[0] = "wood:"+res.wood
+  :?loc = caves
+    //恐怖洞窟
+    ?pickup.distance <= 10
+      set_by_name("砍树")
+    info[0] = "tar:"+res.tar
+  :?loc = mine
+    //灼热矿井
+    ?pickup.distance <= 10
+      set_by_name("砍树")
+    info[0] = "bronze:"+res.bronze
+
+// 自动使用药水
+func auto_potion()
+  // 自动血药
+  ?item.potion = empty
+    return false
+  ?item.potion ! auto
+    return false
+  ?item.potion = healing
+  ^ & hp <= 10
+    // 恢复药水 100%血
+    // 焦油
+    activate potion
+  :?item.potion = cleansing
+  ^ & false
+    // 净化药水 50%血 移除负面
+    // 焦油 + 木头
+    activate potion
+  :?item.potion = vampiric
+  ^ & false
+    // 吸血药水 20%吸血 20秒
+    // 焦油 + 青铜
+    activate potion
+  :?item.potion = defensive
+  ^ & false
+    // 防御药水 50%血 获得血上限的护盾
+    // 焦油 + 石头
+    activate potion
+  :?item.potion = strength
+  ^ & foe = boss
+  ^ & foe.state = 33
+    // 怪力药水 攻击眩晕 三倍破甲 10秒
+    // 石头
+    activate potion
+  :?item.potion = invisibility
+  ^ & foe.count > 3
+  ^ & foe.distance < 10
+  ^ & foe.armor > 1000
+    // 隐身药水 100%闪避 15秒
+    // 石头 + 木头
+    activate potion
+  :?item.potion = lucky
+  ^ & false
+    // 幸运药水 100%暴击 6秒
+    // 石头 + 青铜 
+    activate potion
+  :?item.potion = berserk
+  ^ & false
+    // 狂暴药水 攻速+15 10秒
+    // 木头 + 青铜
+    activate potion
+  :
+    return false
+  return true
+
+// 战斗逻辑
+func fight()
+  ?foe = boss
+    ?foe.armor >= 0
+      auto_heavy_hammer()
+    auto_bardiche()
+  auto_blade_of_god()
+  auto_skeleton_arm()
+  fight_by_loc()
+  //?buffs.GetCount("pick_pocket") < 1
+  //^&foe.distance <= 6
+  //  equip skeleton_arm
+  auto_potion()
+
+// 岩石高地
+func fight_rocky()
+  ?foe = boss
+    // boss
+    ?hp < maxhp * 0.4
+      set_by_name("生命")
+    :?foe = dysangelos
+      // dysangelos
+      ?foe.state = 32
+        set_by_name("以太")
+      //:?foe.armor >= 30
+      //  set_by_name("破甲")
+      :?foe = bearer
+        set_by_name("以太")
+      :?foe = elementalist
+        ?foe = Poison
+          //set_by_name("冰")
+          set_by_name("法")
+        :?foe = Vigor
+          //set_by_name("毒")
+          set_by_name("物")
+        :?foe = AEther
+          //set_by_name("生命")
+          set_by_name("法")
+        :?foe = Fire
+          //set_by_name("以太")
+          set_by_name("物")
+        :?foe = Ice
+          //set_by_name("火")
+          set_by_name("物")
+      :?foe = perfected
+        set_by_name("物")
+    :
+      // 默认
+      set_by_name("以太")
+  :
+    // 小怪
+    ?hp < maxhp * 0.4
+      set_by_name("生命")
+    :
+      set_by_name("以太")
+
+// 枯木峡谷
+func fight_deadwood_valley()
+  ?foe = boss
+    // boss
+    ?hp < maxhp * 0.3
+      set_by_name("生命")
+    ?foe.state = 32
+      set_by_name("生命")
+    :
+      set_by_name("物")
+  :
+    // 小怪
+    ?hp < maxhp * 0.6
+      set_by_name("生命")
+    :?foe = flesh_scarab
+      set_by_name("以太")
+    :
+      set_by_name("以太")
+
+// 恐怖洞窟
+func fight_caves()
+  ?foe = boss
+    // boss
+    ?hp < maxhp * 0.4
+      set_by_name("生命")
+    :?foe.state = 32
+    ^|foe.state = 132
+    ^|foe.state = 133
+    ^|foe.state = 142
+    ^|foe.state = 143
+      set_by_name("生命")
+    :
+      set_by_name("物")
+  :
+    // 小怪
+    ?hp < maxhp * 0.6
+      set_by_name("生命")
+    :?foe = tiny_spider
+      set_by_name("毒")
+    :
+      set_by_name("以太")
+
+// 蘑菇森林
+func fight_forest()
+  ?foe = boss
+    // boss
+    ?hp < maxhp * 0.4
+      set_by_name("生命")
+    :?foe.armor >= 5
+      set_by_name("秒杀")
+    :
+      set_by_name("毒")
+  :
+    // 小怪
+    ?hp < maxhp * 0.2
+      set_by_name("生命")
+    :?foe.armor >= 5
+      set_by_name("秒杀")
+    :
+      set_by_name("毒")
+
+// 亡者之殿
+func fight_undead_crypt()
+  ?loc = boss
+    // boss
+    ?hp < maxhp * 0.4
+      set_by_name("生命")
+    :?foe = boss & foe.state = 32
+      set_by_name("以太")
+    :?foe ! boss
+      set_by_name("以太")
+    :
+      set_by_name("物")
+  :
+    // 小怪
+    ?hp < maxhp * 0.6
+      set_by_name("生命")
+    :?foe = ghost
+      set_by_name("法")
+    :
+      set_by_name("以太")
+
+// 灼热矿井
+func fight_mine()
+  ?foe = boss
+    // boss
+    ?hp < maxhp * 0.4
+      set_by_name("生命")
+    :?foe.state = 32
+      set_by_name("生命")
+    :?foe.state = 33
+      set_by_name("物")
+    :
+      set_by_name("法")
+  :
+    // 小怪
+    ?hp < maxhp * 0.4
+      set_by_name("生命")
+    :?foe = ghost
+      set_by_name("生命")
+    :
+      set_by_name("以太")
+
+// 不融山
+func fight_ridge()
+  ?foe = boss
+    // boss
+    ?hp < maxhp * 0.4
+      set_by_name("生命")
+    :
+      set_by_name("以太")
+  :
+    // 小怪
+    ?hp < maxhp * 0.8
+      set_by_name("生命")
+    :?foe = ice pillar
+      set_by_name("以太")
+    :
+      set_by_name("以太")
+
+// 神庙
+func fight_temple()
+  ?foe = boss
+    ?foe.debuffs.GetTime("debuff_dot") <= 30
+      set_by_name("火")
+    :?hp < maxhp * 0.4
+      set_by_name("生命")
+    :
+      set_by_name("法")
+  :
+    // 小怪
+    ?hp < maxhp * 0.4
+      set_by_name("生命")
+    :
+      set_by_name("以太")
+
+// 根据副本选择战斗方式
+func fight_by_loc()
+  ?loc = rocky
+    fight_rocky()
+  :?loc = deadwood_valley
+    fight_deadwood_valley()
+  :?loc = caustic_caves
+    fight_caves()
+  :?loc = forest
+    fight_forest()
+  :?loc = undead_crypt
+    fight_undead_crypt()
+  :?loc = mine
+    fight_mine()
+  :?loc = icy_ridge
+    fight_ridge()
+  :?loc = temple
+    fight_temple()
+
+// 判断是否需要战斗
+func need_fight()
+  ?foe.distance<=30
+  ^&foe.distance>=0
+  ^&foe.count>0
+    return true
+  :
+    return false
+
+func main()
+  ?need_fight()
+    fight()
+  :
+    auto_pickup()

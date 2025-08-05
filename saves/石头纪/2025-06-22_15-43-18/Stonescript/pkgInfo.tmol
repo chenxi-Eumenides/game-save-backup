@@ -1,0 +1,212 @@
+desc = "show all ui package infomation"
+
+[pkg]
+
+[pkg.example]
+info = "example info"
+method = "import"
+funcs = [
+  "example func1",
+  "exanoke func2"
+]
+
+[pkg.A2S]
+info = "数据格式化"
+method = "new"
+funcs = [
+  "Stringify(arr)",
+  "Arrayify(str)",
+  "Printify(arr)"
+]
+
+[pkg.BetterInfo2]
+info = "右下角敌人数据框"
+method = "import"
+funcs = []
+
+[pkg.BetterText]
+info = "创建对话框"
+method = ""
+funcs = []
+
+[pkg.BorderClock]
+info = "边框时钟"
+method = "new"
+funcs = [
+  "Show()"
+]
+
+[pkg.BossBar]
+info = "boss血条"
+method = "import"
+funcs = []
+
+[pkg.BossHealthBar]
+info = "boss血条"
+method = "import"
+funcs = [
+  "Draw()"
+]
+
+[pkg.BragMeter]
+info = "瀑布关显示总览信息"
+method = "import"
+funcs = []
+
+[pkg.Calculator]
+info = "计算器"
+method = ""
+funcs = []
+
+[pkg.CDTime]
+info = "显示药水信息以及武器冷却、武器技能buff信息"
+method = "new"
+funcs = [
+  "CDTimeShowCHS(posX,posY,ifBF,ifSKA,ifMask,ifSum)"
+]
+
+[pkg.ClickAbilities]
+info = "脚本使用武器能力"
+method = ""
+funcs = [
+  "Hamm("Heavy Hammer -shiny")",
+  "Bard("Bardiche")"
+]
+
+[pkg.damageFlash]
+info = "受伤闪屏"
+method = "import"
+funcs = [
+  "main()"
+]
+
+[pkg.DragController]
+info = "注册UI"
+method = "import"
+funcs = [
+  "Add(component)",
+  "Update()",
+  "Remove(component)"
+]
+
+[pkg.FaceHUD]
+info = "显示面部表情"
+method = "import"
+funcs = []
+
+[pkg.FoeStateTracker]
+info = "敌人伤害追踪"
+method = "import"
+funcs = []
+
+[pkg.FreeChestTracker]
+info = "鬼门箱追踪"
+method = "import"
+funcs = [
+  "Main()"
+]
+
+[pkg.InfoFloat]
+info = "可移动信息框"
+method = "import"
+funcs = [
+
+[pkg.LiveSplit]
+info = "分段计时器"
+method = "import"
+funcs = [
+
+[pkg.MindstoneButton]
+info = "添加编辑器按键"
+method = "import"
+funcs = [
+  "SetXY(x,y)"
+]
+
+[pkg.MiniMap]
+info = "最下方中间添加小地图"
+method = "import"
+funcs = [
+  "Show(0,0,true)"
+]
+
+[pkg.MusicBox]
+info = "音乐播放器"
+method = "import"]],
+
+[pkg.OkamiroyUtils]
+info = "信息条"
+method = "new"
+funcs = [
+  "ShowTimer(posX, posY)",
+  "ShowTimeStats(posX, posY)",
+  "ShowFoesBar(posX, posY, barLen, isBossOnly)",
+  "ShowPlayersBar(posX, [pkg.posY, barLen)"
+]
+
+[pkg.PefWindow]
+info = "注册下拉窗口"
+method = ""
+funcs = []
+
+[pkg.PlayerStateTracker]
+info = "玩家伤害追踪器"
+method = "import"
+funcs = []
+
+[pkg.RecordPlayer]
+info = ""
+method = "import"
+funcs = []
+
+[pkg.ScrollText]
+info = "滚动窗口栏"
+method = "import"
+funcs = [
+  "ScrollText(input,len,step,wait)"
+]
+
+[pkg.StealMeter]
+info = ""
+method = "new"
+funcs = [
+  "EXE(x,y,color)"
+]
+
+[pkg.ToolBelt]
+info = "更大的工具带"
+method = "import"
+funcs = [
+  "Run()",
+  "ToolList = [[weapon1,weapon2],[weapon3]]
+]
+
+[pkg.VisualStatusEffects]
+info = "效果可视化"
+method = "import"
+funcs = []
+
+[pkg.ChiselFiles/Additional Documentation]
+info = ""
+method = ""
+funcs = []
+
+[pkg.ChiselFiles/SetLayer]
+info = ""
+method = ""
+funcs = []
+
+[pkg.Fancy/colour]
+info = ""
+method = ""
+funcs = []
+
+[pkg.Fancy/fancyui]
+info = ""
+method = ""
+funcs = []
+
+[pkg.Fancyprint]
+info = ""
+method = ""
+funcs = []

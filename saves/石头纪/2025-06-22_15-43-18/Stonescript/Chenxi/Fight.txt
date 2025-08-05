@@ -1,0 +1,126 @@
+/*
+fight
+var fight = import Chenxi_fight
+*/
+
+var weapon_list = [
+  ["0挖石","铲子"],
+  ["1常用","减攻大剑 回血盾"],
+  ["2秒杀","秒杀大锤 回血盾"],
+  ["3魔杖","减速魔杖 回血盾"],
+  ["4重弩","燃烧重弩"],
+  ["5纯伤","巴迪什"],
+  ["6",""],
+  ["7",""],
+  ["8回血","回血魔杖 回血盾"],
+  ["9砍树","星石 斧头"]
+]
+
+func auto_potion()
+  // 自动血药
+  ?hp < 5
+    activate potion
+
+func set_load(str)
+  for i = 0..9
+    ?this.weapon_list[i][0] = str
+      loadout i
+      return i
+  loadout 1
+  return 1
+
+func get_load(str)
+  for i = 0..9
+    ?this.weapon_list[i][1] = str
+      return this.weapon_list[i][1]
+  return this.weapon_list[1][1]
+
+func fight_rocky()
+  //岩石高地
+  ?foe = boss
+    // boss -> 常用
+    set_load("常用")
+  :
+    // 小怪
+    ?hp < maxhp/2
+      // 半血以下 -> 回血套
+      set_load("回血")
+    :?foe.distance < 8
+      // 距离近 -> 常用套
+      set_load("常用")
+    :
+      // 距离远
+      set_load("魔杖")
+
+func fight_by_loc()
+  ?loc = rocky
+    fight_rocky()
+  :?loc = deadwood
+    //枯木峡谷
+    >`0,1,枯木峡谷@loc@
+  :?loc = caves
+    //恐怖洞窟
+    >恐怖洞窟
+  :?loc = forest
+    //蘑菇森林
+    >蘑菇森林
+  :?loc = undead
+    //亡者之殿
+    >亡者之殿
+  :?loc = mine
+    //灼热矿井
+    >灼热矿井
+  :?loc = ridge
+    //不融山
+    >不融山
+  :?loc = temple
+    //神庙
+    >神庙
+
+func pickup_auto()
+  ?loc = rocky
+    //岩石高地
+    ?harvest.distance <= 7
+      loadout 0
+    ?pickup.distance <= 5
+      loadout 9
+  :?loc = deadwood
+    //枯木峡谷
+    ?harvest.distance <= 7
+      loadout 9
+    ?pickup.distance <= 5
+      loadout 9
+  :?loc = caves
+    //恐怖洞窟
+    ?pickup.distance <= 5
+      loadout 9
+  :?loc = mine
+    //灼热矿井
+    ?pickup.distance <= 5
+      loadout 9
+
+func example()
+  ?loc = rocky
+    //岩石高地
+    >岩石高地
+  :?loc = deadwood
+    //枯木峡谷
+    >枯木峡谷
+  :?loc = caves
+    //恐怖洞窟
+    >恐怖洞窟
+  :?loc = forest
+    //蘑菇森林
+    >蘑菇森林
+  :?loc = undead
+    //亡者之殿
+    >亡者之殿
+  :?loc = mine
+    //灼热矿井
+    >灼热矿井
+  :?loc = ridge
+    //不融山
+    >不融山
+  :?loc = temple
+    //神庙
+    >神庙

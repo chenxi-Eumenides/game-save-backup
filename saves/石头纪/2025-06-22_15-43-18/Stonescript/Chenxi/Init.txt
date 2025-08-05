@@ -1,0 +1,47 @@
+/*
+init
+import Chenxi_init
+*/
+
+// 配置
+disable hud
+disable loadout print
+disable banner
+
+// 添加UI
+
+// 角色信息
+var player_info
+player_info = player.name
+>o@1-string.Size(player_info)/2@,4,@player_info@
+player_info = hp + "/" + maxhp
+^+ "[" + armor + "." + armor.f + "]"
+>o@1-string.Size(player_info)/2@,5,@player_info@
+
+// 编辑器按键
+var ui_mindstonebutton
+?totaltime = 1
+  ui_mindstonebutton = import UI/MindstoneButton
+ui_mindstonebutton.SetXY(screen.w-10,1)
+
+// 小地图
+var ui_MiniMap = import UI/MiniMap
+ui_MiniMap.Show(0,0,true)
+
+// 右下角敌人数据框
+import UI/BetterInfo2
+
+// 左下角冷却信息
+var CDTimeUI = new UI/CDTime
+CDTimeUI.CDTimeShowCHS(0,screen.h-34,
+  ^false,false,false,false)
+
+// 计时器、血条
+var myUtils = new UI/OkamiroyUtils
+//myUtils.ShowTimeStats(screen.w-15, 10)
+myUtils.ShowFoesBar(19, 1, 40, true)
+
+// 鬼门箱显示
+var freeChest = import UI/freeChestTracker
+freeChest.Main()
+

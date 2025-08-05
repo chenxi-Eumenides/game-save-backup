@@ -1,0 +1,2 @@
+func Print()
+  >`0,1,import success
