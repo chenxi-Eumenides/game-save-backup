@@ -7,6 +7,7 @@ from os.path import basename, exists, getctime, isdir, isfile, join
 from shutil import copy2, copytree
 from sys import argv, platform
 from time import strftime
+from pathlib import Path
 
 # third part lib
 from toml import load as load_toml
@@ -139,6 +140,8 @@ def get_all_file(orgin: str, file_list: list[str] = None, dir: str = "") -> list
     """
     if file_list is None:
         file_list = []
+    if isfile(orgin):
+        file_list.append(orgin)
     if isfile(join(orgin, dir)):
         file_list.append(dir)
     elif isdir(join(orgin, dir)):
@@ -162,16 +165,14 @@ def is_same(dir1: str, dir2: str, is_folder: bool = True) -> bool:
     list2 = get_all_file(dir2)
     if len(list1) != len(list2):
         return False
-    if "".join(list1) != "".join(list2):
-        return False
 
     # 计算所有文件的md5，相加判断是否一致。
     md5_1, md5_2 = [], []
     for file in list1:
-        with open(join(dir1, file), "br") as f:
+        with open(join(dir1, file) if is_folder else file, "br") as f:
             md5_1.append(str(md5(f.read()).hexdigest()))
     for file in list2:
-        with open(join(dir2, file), "br") as f:
+        with open(join(dir2, file) if is_folder else file, "br") as f:
             md5_2.append(str(md5(f.read()).hexdigest()))
     return md5_1 == md5_2
 
