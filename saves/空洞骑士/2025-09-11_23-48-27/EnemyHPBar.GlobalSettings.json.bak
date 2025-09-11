@@ -1,0 +1,13 @@
+{
+  "fgScale": 1.0,
+  "bgScale": 1.0,
+  "mgScale": 1.0,
+  "olScale": 1.0,
+  "bossfgScale": 1.0,
+  "bossbgScale": 1.0,
+  "bossolScale": 1.0,
+  "NameLength": 10,
+  "Intergration": false,
+  "DefaultSkin": "Default",
+  "CurrentSkin": "Default"
+}

@@ -1,0 +1,101 @@
+{
+  "loadedMods": {},
+  "modData": {
+    "Benchwarp": {
+      "benchDeployed": false,
+      "atDeployedBench": false,
+      "benchX": 0.0,
+      "benchY": 0.0,
+      "benchScene": null,
+      "visitedBenchScenes": [
+        {
+          "SceneName": "Fungus1_16_alt",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Town",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Crossroads_ShamanTemple",
+          "RespawnMarkerName": "BoneBench"
+        },
+        {
+          "SceneName": "Crossroads_30",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Fungus1_31",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Room_Slug_Shrine",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Crossroads_47",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Crossroads_04",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Fungus1_01b",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Fungus1_37",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Fungus2_02",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Fungus2_26",
+          "RespawnMarkerName": "RestBench"
+        }
+      ],
+      "lockedBenches": []
+    },
+    "ItemChangerMod": {
+      "value": null
+    },
+    "MapChangerMod": {
+      "Enabled": true,
+      "CurrentMod": "VanillaMapMod",
+      "CurrentModeName": "Normal"
+    },
+    "VanillaMapMod": {
+      "PoolSettings": {
+        "Dreamers": true,
+        "Skills": true,
+        "Charms": true,
+        "Keys": true,
+        "MaskShards": true,
+        "VesselFragments": true,
+        "CharmNotches": true,
+        "PaleOre": true,
+        "GeoChests": true,
+        "RancidEggs": true,
+        "Relics": true,
+        "WhisperingRoots": true,
+        "BossEssence": true,
+        "Grubs": true,
+        "Mimics": true,
+        "Maps": true,
+        "Stags": true,
+        "LifebloodCocoons": true,
+        "GrimmkinFlames": true,
+        "JournalEntries": true,
+        "GeoRocks": false,
+        "BossGeo": true,
+        "SoulTotems": true,
+        "LoreTablets": true,
+        "Shops": true
+      },
+      "VanillaPinsOn": true
+    }
+  }
+}

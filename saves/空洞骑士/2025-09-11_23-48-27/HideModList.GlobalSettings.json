@@ -1,0 +1,14 @@
+{
+  "modListHidden": true,
+  "placeHolder": " ",
+  "placeHolderOptions": [
+    "?",
+    ".",
+    " ",
+    "Unknown"
+  ],
+  "HideOrShowWithPlayModeMenu": false,
+  "keybinds": {
+    "keyRandomTeleport": "None"
+  }
+}

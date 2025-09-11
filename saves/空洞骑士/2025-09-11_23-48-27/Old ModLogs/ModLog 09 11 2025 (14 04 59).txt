@@ -1,0 +1,108 @@
+﻿[INFO]:[API] - Starting mod loading
+[INFO]:[API] - Loading Global Settings
+[INFO]:[API] - Deleting modlogs older than 7 days ago
+[INFO]:[Benchwarp] - Initializing
+[INFO]:[Benchwarp] - Loading Global Settings
+[INFO]:[ConnectionMetadataInjector] - Initializing
+[INFO]:[EnemyHPBar] - Initializing
+[INFO]:[EnemyHPBar] - Loading Global Settings
+[INFO]:[HideModList] - Initializing
+[INFO]:[HideModList] - Loading Global Settings
+[INFO]:[API] - Preloaded reflection in 1358ms
+[INFO]:[HKMirrorMod] - Initializing
+[INFO]:[HkmpMod] - Initializing
+[INFO]:[HkmpMod] - Loading Global Settings
+[INFO]:[HKMP_HealthDisplay] - Initializing
+[INFO]:[HKMP_HealthDisplay] - Loading Global Settings
+[INFO]:[HkMod] - Initializing
+[INFO]:[API] - Assembly Newtonsoft.Json (13.0.0.0) loaded with 0 mods
+[INFO]:[HkmpPouch] - Initializing
+[INFO]:[HkmpTransitionAlerts] - Initializing
+[INFO]:[HkmpTransitionAlerts] - Loading Global Settings
+[INFO]:[InfiniteMapMarkers] - Initializing
+[INFO]:[ItemChangerMod] - Initializing
+[INFO]:[ItemChangerMod] - Loading Global Settings
+[INFO]:[KeepMeGeo] - Initializing
+[INFO]:[KeepMeGeo] - Loading Global Settings
+[INFO]:[KeybindOverhaul] - Initializing
+[INFO]:[KeybindOverhaul] - Loading Global Settings
+[INFO]:[MagicUIMod] - Initializing
+[INFO]:[MagicUIMod] - Loading Global Settings
+[INFO]:[MapChangerMod] - Initializing
+[INFO]:[MapChangerMod] - Loading Global Settings
+[INFO]:[MoreSaves] - Initializing
+[INFO]:[MoreSaves] - Loading Global Settings
+[INFO]:[QoL] - Initializing
+[INFO]:[QoL] - Loading Global Settings
+[INFO]:[Satchel] - Initializing
+[INFO]:[VanillaMapMod] - Initializing
+[INFO]:[VanillaMapMod] - Loading Global Settings
+[INFO]:[API] - Assembly Vasi (2.0.0.0) loaded with 0 mods
+[INFO]:[API] - Creating mod preloads
+[INFO]:[EnemyHPBar] - Loaded Skins list
+[INFO]:[HKMirrorMod] - Loading HKMirror Mod
+[INFO]:[Hkmp.HkmpMod] Initializing HKMP v2.4.2
+[WARN]:[Hkmp.Game.Client.Skin.SkinLoader] No skins can be loaded since there are no directories in: C:\Apps\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\Mods\HKMP\Skins
+[INFO]:[MoreSaves] - Initializing MoreSaves
+[INFO]:[MoreSaves] - MoreSaves.Properties.Resources.resources
+[INFO]:[MoreSaves] - MoreSaves.Resources.Input_BG.png
+[INFO]:[MoreSaves] - Loaded image: Input_BG
+[INFO]:[MoreSaves] - Initialized MoreSaves
+[INFO]:[API] - Finished loading mods:
+[INFO]:[API] - Modding API: 1.5.78.11833-74
+[INFO]:[API] - Benchwarp : 3.2.6.0
+[INFO]:[API] - CMICore : 2.2.8484.33350
+[INFO]:[API] - EnemyHPBar : 3.1.5
+[INFO]:[API] - HideModList : 2.3.0
+[INFO]:[API] - HKMirrorMod : v2.1.0.0
+[INFO]:[API] - HKMP : 2.4.2
+[INFO]:[API] - HKMP_HealthDisplay : 0.0.6.0-5fb4e6
+[INFO]:[API] - HKMP.ModDiff : 1.0.2.0
+[INFO]:[API] - HkmpPouch : 2.0.0
+[INFO]:[API] - HkmpTransitionAlerts : 1.0.0.1
+[INFO]:[API] - InfiniteMapMarkers : 1.0.0.0
+[INFO]:[API] - ItemChangerMod : 2.1.5+512
+[INFO]:[API] - KeepMeGeo : 1.1.0.2
+[INFO]:[API] - KeybindOverhaul : 1.0.0.1
+[INFO]:[API] - MagicUI : 1.10.9277.8364
+[INFO]:[API] - MapChangerMod : 1.3.10
+[INFO]:[API] - MoreSaves : 0.7.10
+[INFO]:[API] - QoL : 4.8.0.0-4ca9d1
+[INFO]:[API] - Satchel : 0.9.4-b6ec98
+[INFO]:[API] - VanillaMapMod : 2.1.6
+[INFO]:[API] - 
+[INFO]:[Hkmp.Api.Addon.AddonLoader] Trying to load assembly at: C:\Apps\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\Mods\HKMP\HKMP.dll
+[INFO]:[Hkmp.Api.Server.ServerAddonManager] Assigned addon HkmpPouch v2.0.0 ID: 0
+[INFO]:[Hkmp.Api.Server.ServerAddonManager] Initializing server addon: HkmpPouch 2.0.0
+[INFO]:[Hkmp.Api.Server.ServerAddonManager] Assigned addon HKMP.ModDiff v1.0.2.0 ID: 1
+[INFO]:[Hkmp.Api.Server.ServerAddonManager] Initializing server addon: HKMP.ModDiff 1.0.2.0
+[INFO]:[Hkmp.ModDiff.Server] Server initialized
+[INFO]:[Hkmp.ModDiff.Services.ServerNetService] Configuration Updated
+[INFO]:[Hkmp.ModDiff.Services.ServerNetService] ModList Updated
+[INFO]:[Hkmp.Api.Server.ServerAddonManager] Assigned addon HkmpTransitionAlerts v1.0.0.1 ID: 2
+[INFO]:[Hkmp.Api.Server.ServerAddonManager] Initializing server addon: HkmpTransitionAlerts 1.0.0.1
+[INFO]:[Hkmp.Api.Addon.AddonLoader] Trying to load assembly at: C:\Apps\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\Mods\HKMP\HKMP.dll
+[INFO]:[Hkmp.Api.Client.ClientAddonManager] Initializing client addon: HkmpPouch 2.0.0
+[INFO]:[HkmpPouch.Networking.Client] [HealthDisplaySendPipe]:[Client Ready]
+[INFO]:[HkmpPouch.Networking.Client] [HealthDisplayRequestPipe]:[Client Ready]
+[INFO]:[Hkmp.Api.Client.ClientAddonManager] Initializing client addon: HKMP.ModDiff 1.0.2.0
+[INFO]:[Hkmp.ModDiff.Client] Client initialized
+[INFO]:[Hkmp.ModDiff.Client] modlist.json created
+[INFO]:[Hkmp.Api.Client.ClientAddonManager] Initializing client addon: HkmpTransitionAlerts 1.0.0.1
+[INFO]:[Hkmp.ModDiff.Services.ServerNetService] ModList Updated
+[INFO]:[Benchwarp] - Saving Global Settings
+[INFO]:[EnemyHPBar] - Saving Global Settings
+[INFO]:[HideModList] - Saving Global Settings
+[INFO]:[HkmpMod] - Saving Global Settings
+[INFO]:[HKMP_HealthDisplay] - Saving Global Settings
+[INFO]:[HkmpTransitionAlerts] - Saving Global Settings
+[INFO]:[ItemChangerMod] - Saving Global Settings
+[INFO]:[KeepMeGeo] - Saving Global Settings
+[INFO]:[KeybindOverhaul] - Saving Global Settings
+[INFO]:[MagicUIMod] - Saving Global Settings
+[INFO]:[MapChangerMod] - Saving Global Settings
+[INFO]:[MoreSaves] - Saving Global Settings
+[INFO]:[QoL] - Saving Global Settings
+[INFO]:[VanillaMapMod] - Saving Global Settings
+[INFO]:[Hkmp.Game.Server.ServerManager] Could not stop server, it was not started
+[INFO]:[API] - Saving Global Settings

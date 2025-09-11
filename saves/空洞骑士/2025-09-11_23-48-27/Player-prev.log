@@ -1,0 +1,1100 @@
+Mono path[0] = 'C:/Apps/Steam/steamapps/common/Hollow Knight/hollow_knight_Data/Managed'
+Mono config path = 'C:/Apps/Steam/steamapps/common/Hollow Knight/MonoBleedingEdge/etc'
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Apps/Steam/steamapps/common/Hollow Knight/hollow_knight_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6750 GRE 12GB (ID=0x73df)
+    Vendor:   
+    VRAM:     12216 MB
+    Driver:   32.0.13031.3015
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.103 seconds
+OnLevelWasLoaded was found on GameMap
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+OnLevelWasLoaded was found on PlayMakerUnity2d
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+The class named 'ConfigManager' is abstract. The script class can't be abstract!
+
+UnloadTime: 5.678500 ms
+Graphics tier changed to High
+
+Steam initializing
+
+Steam logged in as chenxi_Euemnides
+
+Selected online subsystem SteamOnlineSubsystem
+
+Discovered supported languages: DE, EN, ES, FR, IT, JA, KO, PT, RU, ZH
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Loaded saved language code 'ZH'
+
+Restored language code 'ZH'
+
+GameVersionData must be instantiated using the ScriptableObject.CreateInstance method instead of new GameVersionData.
+
+
+Unloading 362 unused Assets to reduce memory usage. Loaded Objects now: 3825.
+Total: 3.287500 ms (FindLiveObjects: 0.146900 ms CreateObjectMapping: 0.080100 ms MarkObjects: 2.984500 ms  DeleteObjects: 0.075800 ms)
+
+Steam stats received.
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.949400 ms
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+Creating Mod Logger
+
+Fallback handler could not load library C:/Apps/Steam/steamapps/common/Hollow Knight/hollow_knight_Data/Mono/data-000002A3F3077EB0.dll
+Fallback handler could not load library C:/Apps/Steam/steamapps/common/Hollow Knight/hollow_knight_Data/Mono/data-000002A413E80F30.dll
+Fallback handler could not load library C:/Apps/Steam/steamapps/common/Hollow Knight/hollow_knight_Data/Mono/data-000002A3F31E80B0.dll
+Performing automatic level start.
+
+Game controller set to None.
+
+Error while loading save file for slot 1 Exception: System.Runtime.Serialization.SerializationException: The input stream is not a valid binary format. The starting contents (in bytes) are: 7B-22-70-6C-61-79-65-72-44-61-74-61-22-3A-7B-22-76 ...
+  at System.Runtime.Serialization.Formatters.Binary.SerializationHeaderRecord.Read (System.Runtime.Serialization.Formatters.Binary.__BinaryParser input) [0x0004a] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.Serialization.Formatters.Binary.__BinaryParser.ReadSerializationHeaderRecord () [0x00006] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.Serialization.Formatters.Binary.__BinaryParser.Run () [0x00008] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize (System.Runtime.Remoting.Messaging.HeaderHandler handler, System.Runtime.Serialization.Formatters.Binary.__BinaryParser serParser, System.Boolean fCheck, System.Boolean isCrossAppDomain, System.Runtime.Remoting.Messaging.IMethodCallMessage methodCallMessage) [0x00069] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize (System.IO.Stream serializationStream, System.Runtime.Remoting.Messaging.HeaderHandler handler, System.Boolean fCheck, System.Boolean isCrossAppDomain, System.Runtime.Remoting.Messaging.IMethodCallMessage methodCallMessage) [0x000a2] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize (System.IO.Stream serializationStream, System.Runtime.Remoting.Messaging.HeaderHandler handler, System.Boolean fCheck, System.Runtime.Remoting.Messaging.IMethodCallMessage methodCallMessage) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize (System.IO.Stream serializationStream, System.Runtime.Remoting.Messaging.HeaderHandler handler, System.Boolean fCheck) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize (System.IO.Stream serializationStream, System.Runtime.Remoting.Messaging.HeaderHandler handler) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize (System.IO.Stream serializationStream) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at GameManager+<>c__DisplayClass28_0.<GetSaveStatsForSlot>b__1 (System.Byte[] fileBytes) [0x0005a] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 46278.
+Total: 99.170900 ms (FindLiveObjects: 1.758100 ms CreateObjectMapping: 1.136000 ms MarkObjects: 96.197200 ms  DeleteObjects: 0.079200 ms)
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerLateUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerLateUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerLateUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerLateUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerLateUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerCollisionEnter2D
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Cannot load existing boss sequence if there is none!
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+AddEventHandlerComponent: PlayMakerFixedUpdate
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Unloading 124 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.839800 ms
+Performing automatic level start.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.SetupHeroRefs () [0x00016] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+  at GameManager.orig_SetupSceneRefs (System.Boolean refreshTilemapInfo) [0x0006c] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+  at GameManager.SetupSceneRefs (System.Boolean refreshTilemapInfo) [0x00000] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+  at GameManager.LevelActivated (UnityEngine.SceneManagement.Scene sceneFrom, UnityEngine.SceneManagement.Scene sceneTo) [0x0003c] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2[UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene].invoke_void_T0_T1(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene)
+  at UnityEngine.SceneManagement.SceneManager.Internal_ActiveSceneChanged (UnityEngine.SceneManagement.Scene previousActiveScene, UnityEngine.SceneManagement.Scene newActiveScene) [0x0000e] in <047294ce45cf4b9a9441e48d2b8435e4>:0 
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+
+Unloading 7409 unused Assets to reduce memory usage. Loaded Objects now: 48117.
+Total: 121.681200 ms (FindLiveObjects: 1.975600 ms CreateObjectMapping: 1.149400 ms MarkObjects: 109.769900 ms  DeleteObjects: 8.786100 ms)
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.187700 ms
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+Performing automatic level start.
+
+Game controller set to None.
+
+Error while loading save file for slot 1 Exception: System.Runtime.Serialization.SerializationException: The input stream is not a valid binary format. The starting contents (in bytes) are: 7B-22-70-6C-61-79-65-72-44-61-74-61-22-3A-7B-22-76 ...
+  at System.Runtime.Serialization.Formatters.Binary.SerializationHeaderRecord.Read (System.Runtime.Serialization.Formatters.Binary.__BinaryParser input) [0x0004a] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.Serialization.Formatters.Binary.__BinaryParser.ReadSerializationHeaderRecord () [0x00006] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.Serialization.Formatters.Binary.__BinaryParser.Run () [0x00008] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize (System.Runtime.Remoting.Messaging.HeaderHandler handler, System.Runtime.Serialization.Formatters.Binary.__BinaryParser serParser, System.Boolean fCheck, System.Boolean isCrossAppDomain, System.Runtime.Remoting.Messaging.IMethodCallMessage methodCallMessage) [0x00069] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize (System.IO.Stream serializationStream, System.Runtime.Remoting.Messaging.HeaderHandler handler, System.Boolean fCheck, System.Boolean isCrossAppDomain, System.Runtime.Remoting.Messaging.IMethodCallMessage methodCallMessage) [0x000a2] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize (System.IO.Stream serializationStream, System.Runtime.Remoting.Messaging.HeaderHandler handler, System.Boolean fCheck, System.Runtime.Remoting.Messaging.IMethodCallMessage methodCallMessage) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize (System.IO.Stream serializationStream, System.Runtime.Remoting.Messaging.HeaderHandler handler, System.Boolean fCheck) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize (System.IO.Stream serializationStream, System.Runtime.Remoting.Messaging.HeaderHandler handler) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize (System.IO.Stream serializationStream) [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at GameManager+<>c__DisplayClass28_0.<GetSaveStatsForSlot>b__1 (System.Byte[] fileBytes) [0x0005a] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+Fallback handler could not load library C:/Apps/Steam/steamapps/common/Hollow Knight/hollow_knight_Data/Mono/data-000002A43E12B170.dll
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+
+Coroutine couldn't be started because the the game object 'OptionsMenuScreen' is inactive!
+
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 56882.
+Total: 129.084200 ms (FindLiveObjects: 2.140800 ms CreateObjectMapping: 0.962300 ms MarkObjects: 125.932500 ms  DeleteObjects: 0.048200 ms)
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Couldn't find a Hero, make sure one exists in the scene.
+
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 2a1c -> priority: 1 
+  Thread -> id: 35c4 -> priority: 1 
+  Thread -> id: 21f4 -> priority: 1 
+  Thread -> id: 1ee0 -> priority: 1 
+  Thread -> id: 2850 -> priority: 1 
+  Thread -> id: 5988 -> priority: 1 
+Shutting down Steam API.
+
