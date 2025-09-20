@@ -1,0 +1,408 @@
+{
+  "loadedMods": {},
+  "modData": {
+    "Benchwarp": {
+      "benchDeployed": false,
+      "atDeployedBench": false,
+      "benchX": 0.0,
+      "benchY": 0.0,
+      "benchScene": null,
+      "visitedBenchScenes": [
+        {
+          "SceneName": "Fungus1_16_alt",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Town",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Crossroads_ShamanTemple",
+          "RespawnMarkerName": "BoneBench"
+        },
+        {
+          "SceneName": "Crossroads_30",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Fungus1_31",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Room_Slug_Shrine",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Crossroads_47",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Crossroads_04",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Fungus1_01b",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Fungus1_37",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Fungus2_02",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Fungus2_26",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Fungus2_13",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Ruins1_02",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Ruins1_31",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Ruins1_29",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Fungus2_31",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Mines_18",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Mines_29",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "RestingGrounds_09",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Fungus1_15",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Deepnest_30",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Deepnest_14",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Room_Tram",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Abyss_18",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Ruins2_08",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Room_nailmaster",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Waterways_02",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Abyss_22",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Fungus3_archive",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Fungus1_24",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Fungus3_40",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Room_Tram_RG",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Deepnest_East_06",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Deepnest_East_13",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Deepnest_Spider_Town",
+          "RespawnMarkerName": "RestBench Return"
+        },
+        {
+          "SceneName": "Room_Colosseum_02",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Hive_01",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Fungus3_50",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Ruins1_18",
+          "RespawnMarkerName": "RestBench"
+        },
+        {
+          "SceneName": "Ruins_Bathhouse",
+          "RespawnMarkerName": "RestBench"
+        }
+      ],
+      "lockedBenches": []
+    },
+    "ItemChangerMod": {
+      "value": null
+    },
+    "MapChangerMod": {
+      "Enabled": true,
+      "CurrentMod": "VanillaMapMod",
+      "CurrentModeName": "Normal"
+    },
+    "VanillaMapMod": {
+      "PoolSettings": {
+        "Dreamers": true,
+        "Skills": true,
+        "Charms": true,
+        "Keys": true,
+        "MaskShards": true,
+        "VesselFragments": true,
+        "CharmNotches": true,
+        "PaleOre": true,
+        "GeoChests": true,
+        "RancidEggs": true,
+        "Relics": true,
+        "WhisperingRoots": true,
+        "BossEssence": true,
+        "Grubs": true,
+        "Mimics": true,
+        "Maps": true,
+        "Stags": true,
+        "LifebloodCocoons": true,
+        "GrimmkinFlames": true,
+        "JournalEntries": true,
+        "GeoRocks": false,
+        "BossGeo": true,
+        "SoulTotems": true,
+        "LoreTablets": true,
+        "Shops": true
+      },
+      "VanillaPinsOn": true
+    },
+    "SFCore": {},
+    "CharmChanger": {
+      "charm1NotchCost": 1,
+      "charm2NotchCost": 1,
+      "charm3NotchCost": 1,
+      "charm4NotchCost": 2,
+      "charm5NotchCost": 2,
+      "charm6NotchCost": 2,
+      "charm7NotchCost": 3,
+      "charm8NotchCost": 2,
+      "charm9NotchCost": 3,
+      "charm10NotchCost": 1,
+      "charm11NotchCost": 3,
+      "charm12NotchCost": 1,
+      "charm13NotchCost": 3,
+      "charm14NotchCost": 1,
+      "charm15NotchCost": 2,
+      "charm16NotchCost": 2,
+      "charm17NotchCost": 1,
+      "charm18NotchCost": 2,
+      "charm19NotchCost": 3,
+      "charm20NotchCost": 2,
+      "charm21NotchCost": 4,
+      "charm22NotchCost": 2,
+      "charm23NotchCost": 2,
+      "charm24NotchCost": 2,
+      "charm25NotchCost": 3,
+      "charm26NotchCost": 1,
+      "charm27NotchCost": 4,
+      "charm28NotchCost": 2,
+      "charm29NotchCost": 4,
+      "charm30NotchCost": 1,
+      "charm31NotchCost": 2,
+      "charm32NotchCost": 3,
+      "charm33NotchCost": 2,
+      "charm34NotchCost": 4,
+      "charm35NotchCost": 3,
+      "charm36NotchCost": 5,
+      "charm37NotchCost": 1,
+      "charm38NotchCost": 3,
+      "charm39NotchCost": 2,
+      "charm40NotchCost": 2,
+      "grubsongDamageSoul": 15,
+      "grubsongDamageSoulCombo": 25,
+      "regularInvulnerability": 1.3,
+      "regularRecoil": 0.2,
+      "stalwartShellInvulnerability": 1.75,
+      "stalwartShellRecoil": 0.08,
+      "baldurShellKnockbackMult": 1.0,
+      "baldurShellBlocks": 4,
+      "furyOfTheFallenJonis": false,
+      "furyOfTheFallenHealth": 1,
+      "furyOfTheFallenScaling": 75,
+      "regularFocusTime": 0.891,
+      "quickFocusFocusTime": 0.594,
+      "deepFocusHealingTimeScale": 65,
+      "regularFocusHealing": 1,
+      "deepFocusHealing": 2,
+      "lifebloodHeartLifeblood": 2,
+      "lifebloodCoreLifeblood": 4,
+      "defendersCrestDiscount": 20,
+      "defendersCrestCloudFrequency": 0.75,
+      "defendersCrestDamageRate": 0.3,
+      "flukenestDamage": 4,
+      "flukenestShamanStoneDamage": 5,
+      "flukenestVSFlukes": 9,
+      "flukenestSSFlukes": 16,
+      "flukenestFlukeSizeMin": 0.7,
+      "flukenestFlukeSizeMax": 0.9,
+      "flukenestShamanStoneFlukeSizeMin": 0.9,
+      "flukenestShamanStoneFlukeSizeMax": 1.2,
+      "flukenestDefendersCrestDamageRate": 0.1,
+      "flukenestDefendersCrestShamanStoneDamageRate": 0.075,
+      "thornsOfAgonyDamageMultiplier": 1.0,
+      "longnailMarkOfPrideWallSlash": false,
+      "longnailMarkOfPrideScale": 40,
+      "markOfPrideScale": 25,
+      "longnailScale": 15,
+      "heavyBlowWallSlash": false,
+      "heavyBlowCycloneSlash": false,
+      "regularSlashRecoil": 1.0,
+      "regularGreatSlashRecoil": 1.5,
+      "regularCycloneSlashRecoil": 1.0,
+      "heavyBlowSlashRecoil": 1.75,
+      "heavyBlowGreatSlashRecoil": 2.0,
+      "heavyBlowCycloneSlashRecoil": 1.0,
+      "heavyBlowStagger": 1,
+      "heavyBlowStaggerCombo": 1,
+      "SharpShadowDamageMultiplier": 1.0,
+      "SharpShadowDashmasterDamageIncrease": 50,
+      "SharpShadowDashSpeed": 28.0,
+      "sporeShroomDamageResetsCooldown": true,
+      "sporeShroomCooldown": 4.25,
+      "sporeShroomCloudDuration": 4.1,
+      "sporeShroomDamageRate": 0.15,
+      "sporeShroomDefendersCrestDamageRate": 0.2,
+      "regularVSSizeScaleX": 1.0,
+      "regularVSSizeScaleY": 1.0,
+      "regularSSSizeScaleX": 1.0,
+      "regularSSSizeScaleY": 1.0,
+      "shamanStoneVSSizeScaleX": 1.3,
+      "shamanStoneVSSizeScaleY": 1.6,
+      "shamanStoneSSSizeScaleX": 1.3,
+      "shamanStoneSSSizeScaleY": 1.6,
+      "regularVSDamage": 15,
+      "regularSSDamage": 30,
+      "regularHWDamage": 13,
+      "regularASDamage": 20,
+      "regularDiveDamage": 15,
+      "regularDDiveDamage": 20,
+      "regularDDarkDamageL": 35,
+      "regularDDarkDamageR": 30,
+      "regularDDarkDamageMega": 15,
+      "shamanStoneVSDamage": 20,
+      "shamanStoneSSDamage": 40,
+      "shamanStoneHWDamage": 20,
+      "shamanStoneASDamage": 30,
+      "shamanStoneDiveDamage": 23,
+      "shamanStoneDDiveDamage": 30,
+      "shamanStoneDDarkDamageL": 50,
+      "shamanStoneDDarkDamageR": 50,
+      "shamanStoneDDarkDamageMega": 15,
+      "regularSoul": 11,
+      "regularReservesSoul": 6,
+      "soulCatcherSoul": 3,
+      "soulCatcherReservesSoul": 2,
+      "soulEaterSoul": 8,
+      "soulEaterReservesSoul": 6,
+      "glowingWombSpawnRate": 4.0,
+      "glowingWombSpawnCost": 8,
+      "glowingWombSpawnTotal": 4,
+      "glowingWombDamage": 9,
+      "glowingWombFuryOfTheFallenDamage": 5,
+      "glowingWombDefendersCrestDamage": 4,
+      "glowingWombDefendersCrestDamageRate": 0.2,
+      "fragileCharmsBreak": true,
+      "greedGeoIncrease": 20,
+      "strengthDamageIncrease": 50,
+      "regularChargeTime": 1.35,
+      "nailmastersGloryChargeTime": 0.75,
+      "jonisBlessingScaling": 50,
+      "shapeOfUnnSpeed": 6.0,
+      "shapeOfUnnQuickFocusSpeed": 12.0,
+      "hivebloodTimer": 10.0,
+      "hivebloodJonisTimer": 20.0,
+      "regularDreamSoul": 33,
+      "dreamWielderSoulGain": 66,
+      "dreamWielderEssenceChanceLow": 200,
+      "dreamWielderEssenceChanceHigh": 40,
+      "dashmasterDownwardDash": true,
+      "regularDashCooldown": 0.6,
+      "dashmasterDashCooldown": 0.4,
+      "regularAttackCooldown": 0.41,
+      "quickSlashAttackCooldown": 0.25,
+      "regularSpellCost": 33,
+      "spellTwisterSpellCost": 24,
+      "grubberflysElegyJoniBeamDamageBool": true,
+      "grubberflysElegyDamageScale": 1.0,
+      "grubberflysElegyFuryOfTheFallenScaling": 50,
+      "grubberflysElegyMarkOfPrideScale": 35,
+      "kingsoulSoulGain": 4,
+      "kingsoulSoulTime": 2.0,
+      "regularWalkSpeed": 6.0,
+      "regularSpeed": 8.3,
+      "sprintmasterSpeed": 10.0,
+      "sprintmasterSpeedCombo": 11.5,
+      "dreamshieldNoise": true,
+      "dreamshieldDamageScale": 1.0,
+      "dreamshieldReformationTime": 2.0,
+      "dreamshieldSizeScale": 1.0,
+      "dreamshieldDreamWielderSizeScale": 1.15,
+      "dreamshieldSpeed": 110,
+      "dreamshieldFocusSpeed": 300,
+      "weaversongCount": 3,
+      "weaversongDamage": 3,
+      "weaversongSpeedMin": 6.0,
+      "weaversongSpeedMax": 10.0,
+      "weaversongSpeedSprintmaster": 50,
+      "weaversongGrubsongSoul": 3,
+      "grimmchildDamage2": 5,
+      "grimmchildDamage3": 8,
+      "grimmchildDamage4": 11,
+      "grimmchildAttackTimer": 2.0,
+      "carefreeMelodyChance1": 10,
+      "carefreeMelodyChance2": 20,
+      "carefreeMelodyChance3": 30,
+      "carefreeMelodyChance4": 50,
+      "carefreeMelodyChance5": 70,
+      "carefreeMelodyChance6": 80,
+      "carefreeMelodyChance7": 90
+    }
+  }
+}

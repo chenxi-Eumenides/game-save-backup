@@ -1,0 +1,16 @@
+{
+  "PreloadSettings": {
+    "PreloadLevels": {
+      "PreloadGeoRocks": 0,
+      "PreloadSoulTotems": 0,
+      "PreloadGrub": 0,
+      "PreloadMimic": 0
+    }
+  },
+  "ItemSettings": {
+    "extraSheets": []
+  },
+  "LocationSettings": {
+    "extraSheets": []
+  }
+}
