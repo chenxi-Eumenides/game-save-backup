@@ -1,0 +1,489 @@
+﻿[INFO]:[API] - Starting mod loading
+[INFO]:[API] - Loading Global Settings
+[INFO]:[API] - Deleting modlogs older than 7 days ago
+[INFO]:[Benchwarp] - Initializing
+[INFO]:[Benchwarp] - Loading Global Settings
+[INFO]:[CharmChangerMod] - Initializing
+[INFO]:[CompassAlwaysOn] - Initializing
+[INFO]:[ConnectionMetadataInjector] - Initializing
+[INFO]:[EnemyHPBar] - Initializing
+[INFO]:[EnemyHPBar] - Loading Global Settings
+[INFO]:[GatheringSwarmAlwaysOn] - Initializing
+[INFO]:[HideModList] - Initializing
+[INFO]:[HideModList] - Loading Global Settings
+[INFO]:[API] - Preloaded reflection in 1238ms
+[INFO]:[HKMirrorMod] - Initializing
+[INFO]:[HkmpMod] - Initializing
+[INFO]:[HkmpMod] - Loading Global Settings
+[INFO]:[HKMP_HealthDisplay] - Initializing
+[INFO]:[HKMP_HealthDisplay] - Loading Global Settings
+[INFO]:[HkMod] - Initializing
+[INFO]:[API] - Assembly Newtonsoft.Json (13.0.0.0) loaded with 0 mods
+[INFO]:[HkmpPouch] - Initializing
+[INFO]:[HkmpTransitionAlerts] - Initializing
+[INFO]:[HkmpTransitionAlerts] - Loading Global Settings
+[INFO]:[InfiniteMapMarkers] - Initializing
+[INFO]:[ItemChangerMod] - Initializing
+[INFO]:[ItemChangerMod] - Loading Global Settings
+[INFO]:[KeepMeGeo] - Initializing
+[INFO]:[KeepMeGeo] - Loading Global Settings
+[INFO]:[KeybindOverhaul] - Initializing
+[INFO]:[KeybindOverhaul] - Loading Global Settings
+[INFO]:[MagicUIMod] - Initializing
+[INFO]:[MagicUIMod] - Loading Global Settings
+[INFO]:[MapChangerMod] - Initializing
+[INFO]:[MapChangerMod] - Loading Global Settings
+[INFO]:[MashDash] - Initializing
+[INFO]:[MashDash] - Loading Global Settings
+[INFO]:[HK_More_Charm_NotchesMod] - Initializing
+[INFO]:[MoreSaves] - Initializing
+[INFO]:[MoreSaves] - Loading Global Settings
+[INFO]:[ShadowDashMod] - Initializing
+[INFO]:[ShadowDashMod] - Loading Global Settings
+[INFO]:[QoL] - Initializing
+[INFO]:[QoL] - Loading Global Settings
+[INFO]:[Satchel] - Initializing
+[INFO]:[SFCoreMod] - Initializing
+[INFO]:[SFCoreMod] - Loading Global Settings
+[INFO]:[API] - Assembly WavLib (1.0.12.0) loaded with 0 mods
+[INFO]:[SkillUpgrades] - Initializing
+[INFO]:[SkillUpgrades] - Loading Global Settings
+[INFO]:[VanillaMapMod] - Initializing
+[INFO]:[VanillaMapMod] - Loading Global Settings
+[INFO]:[API] - Assembly Vasi (2.0.0.0) loaded with 0 mods
+[INFO]:[API] - Creating mod preloads
+[INFO]:[CharmChangerMod] - Initializing
+[INFO]:[CharmChangerMod] - Initialized
+[INFO]:[EnemyHPBar] - Loaded Skins list
+[INFO]:[HKMirrorMod] - Loading HKMirror Mod
+[INFO]:[Hkmp.HkmpMod] Initializing HKMP v2.4.2
+[WARN]:[Hkmp.Game.Client.Skin.SkinLoader] No skins can be loaded since there are no directories in: C:\Apps\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\Mods\HKMP\Skins
+[INFO]:[MashDash] - Initializing
+[INFO]:[MashDash] - Initialized
+[INFO]:[HK_More_Charm_NotchesMod] - Initializing
+[INFO]:[HK_More_Charm_NotchesMod] - Initialized
+[INFO]:[MoreSaves] - Initializing MoreSaves
+[INFO]:[MoreSaves] - MoreSaves.Properties.Resources.resources
+[INFO]:[MoreSaves] - MoreSaves.Resources.Input_BG.png
+[INFO]:[MoreSaves] - Loaded image: Input_BG
+[INFO]:[MoreSaves] - Initialized MoreSaves
+[INFO]:[SkillUpgrades] - Initializing
+[INFO]:[SkillUpgrades]:[DirectionalDash] - Initializing skill
+[INFO]:[SkillUpgrades]:[DownwardFireball] - Initializing skill
+[INFO]:[SkillUpgrades]:[ExtraAirDash] - Initializing skill
+[INFO]:[SkillUpgrades]:[GreatSlashShockwave] - Initializing skill
+[INFO]:[SkillUpgrades]:[HorizontalDive] - Initializing skill
+[INFO]:[SkillUpgrades]:[SpiralScream] - Initializing skill
+[INFO]:[SkillUpgrades]:[TripleJump] - Initializing skill
+[INFO]:[SkillUpgrades]:[VerticalSuperdash] - Initializing skill
+[INFO]:[SkillUpgrades]:[WallClimb] - Initializing skill
+[INFO]:[SkillUpgrades]:[WingsGlide] - Initializing skill
+[INFO]:[SkillUpgrades] - Hooking ItemChanger
+[INFO]:[SkillUpgrades] - Initialization done!
+[INFO]:[CompassAlwaysOn] - Hooking Hkmp.Game.Client.MapManager, Hkmp:HeroControllerOnUpdate
+[INFO]:[CompassAlwaysOn] - Hooking CustomMapManager:NewWorldMap
+[INFO]:[CompassAlwaysOn] - Hooking CustomMapManager:NewPositionCompass
+[INFO]:[CompassAlwaysOn] - Generated Hook List in 0.0447403 seconds.
+[INFO]:[GatheringSwarmAlwaysOn] - Initializing Mod...
+[INFO]:[API] - Finished loading mods:
+[INFO]:[API] - Modding API: 1.5.78.11833-74
+[INFO]:[API] - Benchwarp : 3.2.6.0
+[INFO]:[API] - CharmChanger : 1.0.3.246
+[INFO]:[API] - CompassAlwaysOn : 1.2.1.0
+[INFO]:[API] - CMICore : 2.2.8484.33350
+[INFO]:[API] - EnemyHPBar : 3.1.5
+[INFO]:[API] - GatheringSwarmAlwaysOn : 1.0.0.0
+[INFO]:[API] - HideModList : 2.3.0
+[INFO]:[API] - HKMirrorMod : v2.1.0.0
+[INFO]:[API] - HKMP : 2.4.2
+[INFO]:[API] - HKMP_HealthDisplay : 0.0.6.0-5fb4e6
+[INFO]:[API] - HKMP.ModDiff : 1.0.2.0
+[INFO]:[API] - HkmpPouch : 2.0.0
+[INFO]:[API] - HkmpTransitionAlerts : 1.0.0.1
+[INFO]:[API] - InfiniteMapMarkers : 1.0.0.0
+[INFO]:[API] - ItemChangerMod : 2.1.5+512
+[INFO]:[API] - KeepMeGeo : 1.1.0.2
+[INFO]:[API] - KeybindOverhaul : 1.0.0.1
+[INFO]:[API] - MagicUI : 1.10.9277.8364
+[INFO]:[API] - MapChangerMod : 1.3.10
+[INFO]:[API] - MashDash : 1.0.0
+[INFO]:[API] - More Charm Notches : 1.0.9377.28227
+[INFO]:[API] - MoreSaves : 0.7.10
+[INFO]:[API] - Powerful Shadow Dash : 1.0.0
+[INFO]:[API] - QoL : 4.8.0.0-4ca9d1
+[INFO]:[API] - Satchel : 0.9.4-b6ec98
+[INFO]:[API] - SFCore : 1.5.14.16-343328
+[INFO]:[API] - SkillUpgrades : 0.12.1.0-968a12
+[INFO]:[API] - VanillaMapMod : 2.1.6
+[INFO]:[API] - 
+[INFO]:[Hkmp.Api.Addon.AddonLoader] Trying to load assembly at: C:\Apps\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\Mods\HKMP\HKMP.dll
+[INFO]:[Hkmp.Api.Server.ServerAddonManager] Assigned addon HkmpPouch v2.0.0 ID: 0
+[INFO]:[Hkmp.Api.Server.ServerAddonManager] Initializing server addon: HkmpPouch 2.0.0
+[INFO]:[Hkmp.Api.Server.ServerAddonManager] Assigned addon HKMP.ModDiff v1.0.2.0 ID: 1
+[INFO]:[Hkmp.Api.Server.ServerAddonManager] Initializing server addon: HKMP.ModDiff 1.0.2.0
+[INFO]:[Hkmp.ModDiff.Server] Server initialized
+[INFO]:[Hkmp.ModDiff.Services.ServerNetService] Configuration Updated
+[INFO]:[Hkmp.ModDiff.Services.ServerNetService] ModList Updated
+[INFO]:[Hkmp.Api.Server.ServerAddonManager] Assigned addon HkmpTransitionAlerts v1.0.0.1 ID: 2
+[INFO]:[Hkmp.Api.Server.ServerAddonManager] Initializing server addon: HkmpTransitionAlerts 1.0.0.1
+[INFO]:[Hkmp.Api.Addon.AddonLoader] Trying to load assembly at: C:\Apps\Steam\steamapps\common\Hollow Knight\hollow_knight_Data\Managed\Mods\HKMP\HKMP.dll
+[INFO]:[Hkmp.Api.Client.ClientAddonManager] Initializing client addon: HkmpPouch 2.0.0
+[INFO]:[HkmpPouch.Networking.Client] [HealthDisplaySendPipe]:[Client Ready]
+[INFO]:[HkmpPouch.Networking.Client] [HealthDisplayRequestPipe]:[Client Ready]
+[INFO]:[Hkmp.Api.Client.ClientAddonManager] Initializing client addon: HKMP.ModDiff 1.0.2.0
+[INFO]:[Hkmp.ModDiff.Client] Client initialized
+[INFO]:[Hkmp.ModDiff.Client] modlist.json created
+[INFO]:[Hkmp.Api.Client.ClientAddonManager] Initializing client addon: HkmpTransitionAlerts 1.0.0.1
+[INFO]:[Hkmp.ModDiff.Services.ServerNetService] ModList Updated
+[ERROR]:[UNITY] - NullReferenceException
+[ERROR]:[UNITY] - UnityEngine.MonoBehaviour.StartCoroutine (System.Collections.IEnumerator routine) (at <047294ce45cf4b9a9441e48d2b8435e4>:0)
+[ERROR]:[UNITY] - (wrapper dynamic-method) UnityEngine.UI.SaveSlotButton+<AnimateToSlotState>d__68.DMD<UnityEngine.UI.SaveSlotButton+<AnimateToSlotState>d__68::MoveNext>(UnityEngine.UI.SaveSlotButton/<AnimateToSlotState>d__68)
+[ERROR]:[UNITY] - UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <047294ce45cf4b9a9441e48d2b8435e4>:0)
+[ERROR]:[UNITY] - 
+[ERROR]:[UNITY] - NullReferenceException
+[ERROR]:[UNITY] - UnityEngine.Animator.ResetTrigger (System.String name) (at <d9588575c4ff4e818531b9dd12300bcd>:0)
+[ERROR]:[UNITY] - (wrapper dynamic-method) UnityEngine.UI.SaveSlotButton+<AnimateToSlotState>d__68.DMD<UnityEngine.UI.SaveSlotButton+<AnimateToSlotState>d__68::MoveNext>(UnityEngine.UI.SaveSlotButton/<AnimateToSlotState>d__68)
+[ERROR]:[UNITY] - UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <047294ce45cf4b9a9441e48d2b8435e4>:0)
+[ERROR]:[UNITY] - UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+[ERROR]:[UNITY] - CoroutineQueue:Enqueue(IEnumerator)
+[ERROR]:[UNITY] - UnityEngine.UI.SaveSlotButton:HideSaveSlot()
+[ERROR]:[UNITY] - <HideSaveProfileMenu>d__216:DMD<UIManager+<HideSaveProfileMenu>d__216::MoveNext>(<HideSaveProfileMenu>d__216)
+[ERROR]:[UNITY] - UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+[ERROR]:[UNITY] - 
+[ERROR]:[UNITY] - NullReferenceException
+[ERROR]:[UNITY] - UnityEngine.Animator.ResetTrigger (System.String name) (at <d9588575c4ff4e818531b9dd12300bcd>:0)
+[ERROR]:[UNITY] - (wrapper dynamic-method) UnityEngine.UI.SaveSlotButton+<AnimateToSlotState>d__68.DMD<UnityEngine.UI.SaveSlotButton+<AnimateToSlotState>d__68::MoveNext>(UnityEngine.UI.SaveSlotButton/<AnimateToSlotState>d__68)
+[ERROR]:[UNITY] - UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <047294ce45cf4b9a9441e48d2b8435e4>:0)
+[ERROR]:[UNITY] - UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+[ERROR]:[UNITY] - CoroutineQueue:Enqueue(IEnumerator)
+[ERROR]:[UNITY] - UnityEngine.UI.SaveSlotButton:HideSaveSlot()
+[ERROR]:[UNITY] - <HideSaveProfileMenu>d__216:DMD<UIManager+<HideSaveProfileMenu>d__216::MoveNext>(<HideSaveProfileMenu>d__216)
+[ERROR]:[UNITY] - UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+[ERROR]:[UNITY] - 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[INFO]:[Hkmp.Game.Client.Entity.EntityManager] Clearing all registered entities
+[INFO]:[Hkmp.Game.Client.ClientManager] Scene changed from Menu_Title to Town
+[ERROR]:[API] - System.NullReferenceException: Object reference not set to an instance of an object
+[ERROR]:[API] -   at KeepMeGeo.KeepMeGeo.SpawnShade () [0x00049] in X:\CORRUPT\Hollow Knight Mods\Keep Me Geo\Keep Me Geo\Keep Me Geo.cs:94 
+[ERROR]:[API] -   at Modding.ModHooks.OnHeroUpdate () [0x00020] in <2b54cdaf7a934f0eb297d50c4090ea9f>:0 
+[INFO]:[Hkmp.Game.Client.Entity.EntityManager] Clearing all registered entities
+[INFO]:[Hkmp.Game.Client.ClientManager] Scene changed from Town to Ruins_Bathhouse
+[INFO]:[Hkmp.Game.Client.Entity.EntityManager] Clearing all registered entities
+[INFO]:[Hkmp.Game.Client.ClientManager] Scene changed from Ruins_Bathhouse to Ruins2_10b
+[INFO]:[Hkmp.Game.Client.Entity.EntityManager] Clearing all registered entities
+[INFO]:[Hkmp.Game.Client.ClientManager] Scene changed from Ruins2_10b to Deepnest_East_09
+[INFO]:[Hkmp.Game.Client.Entity.EntityManager] Clearing all registered entities
+[INFO]:[Hkmp.Game.Client.ClientManager] Scene changed from Deepnest_East_09 to Room_Colosseum_01
+[INFO]:[Hkmp.Game.Client.Entity.EntityManager] Clearing all registered entities
+[INFO]:[Hkmp.Game.Client.ClientManager] Scene changed from Room_Colosseum_01 to Room_Colosseum_Gold

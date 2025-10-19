@@ -1,0 +1,36 @@
+{
+  "GlobalToggle": false,
+  "EnabledSkills": {
+    "DirectionalDash": false,
+    "DownwardFireball": true,
+    "ExtraAirDash": false,
+    "GreatSlashShockwave": true,
+    "HorizontalDive": true,
+    "SpiralScream": true,
+    "TripleJump": true,
+    "VerticalSuperdash": true,
+    "WallClimb": true,
+    "WingsGlide": true
+  },
+  "Booleans": {
+    "DirectionalDash:UnmodifiedDownDashes": false,
+    "DirectionalDash:MaintainVerticalMomentum": true,
+    "HorizontalDive:PersistDiveThroughHorizontalTransitions": true,
+    "VerticalSuperdash:DiagonalSuperdash": true,
+    "VerticalSuperdash:BreakDiveFloorsFromBelow": false,
+    "VerticalSuperdash:ChangeDirectionInMidair": false
+  },
+  "Floats": {
+    "DirectionalDash:UpdashPenalty": 0.7937005,
+    "WallClimb:ClimbSpeed": 7.2,
+    "WingsGlide:GlideFallSpeedMultiplier": 0.1
+  },
+  "Integers": {
+    "ExtraAirDash:AirDashMax": 2,
+    "TripleJump:DoubleJumpMax": 2
+  },
+  "DefaultSkillSetting": true,
+  "RandoSettings": {
+    "SkillUpgradeRandomization": "None"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "jumpBind": {
+    "keyCombos": [
+      [
+        107
+      ]
+    ],
+    "triggerIfEmpty": false,
+    "name": "jump"
+  },
+  "nailBind": {
+    "keyCombos": [
+      [
+        106
+      ]
+    ],
+    "triggerIfEmpty": false,
+    "name": "nail"
+  },
+  "nailArtBind": {
+    "keyCombos": [
+      [
+        106
+      ]
+    ],
+    "triggerIfEmpty": false,
+    "name": "nail art"
+  },
+  "greatSlashBind": {
+    "keyCombos": [],
+    "triggerIfEmpty": true,
+    "name": "great slash"
+  },
+  "cycloneBind": {
+    "keyCombos": [
+      [
+        119
+      ]
+    ],
+    "triggerIfEmpty": true,
+    "name": "cyclone"
+  },
+  "dashBind": {
+    "keyCombos": [
+      [
+        108
+      ]
+    ],
+    "triggerIfEmpty": false,
+    "name": "dash"
+  },
+  "focusBind": {
+    "keyCombos": [
+      [
+        32
+      ]
+    ],
+    "triggerIfEmpty": false,
+    "name": "focus"
+  },
+  "castBind": {
+    "keyCombos": [
+      [
+        104
+      ]
+    ],
+    "triggerIfEmpty": false,
+    "name": "cast"
+  },
+  "qCastBind": {
+    "keyCombos": [],
+    "triggerIfEmpty": false,
+    "name": "quick cast"
+  },
+  "wraithsBind": {
+    "keyCombos": [
+      [
+        119,
+        104
+      ]
+    ],
+    "triggerIfEmpty": false,
+    "name": "wraiths"
+  },
+  "qWraithsBind": {
+    "keyCombos": [],
+    "triggerIfEmpty": false,
+    "name": "quick wraiths"
+  },
+  "diveBind": {
+    "keyCombos": [
+      [
+        115,
+        104
+      ]
+    ],
+    "triggerIfEmpty": false,
+    "name": "dive"
+  },
+  "qDiveBind": {
+    "keyCombos": [],
+    "triggerIfEmpty": false,
+    "name": "quick dive"
+  },
+  "cdashBind": {
+    "keyCombos": [
+      [
+        117
+      ]
+    ],
+    "triggerIfEmpty": false,
+    "name": "cdash"
+  },
+  "dnailBind": {
+    "keyCombos": [
+      [
+        105
+      ]
+    ],
+    "triggerIfEmpty": false,
+    "name": "dnail"
+  },
+  "dgateSetBind": {
+    "keyCombos": [
+      [
+        115,
+        105
+      ]
+    ],
+    "triggerIfEmpty": false,
+    "name": "dgate set"
+  },
+  "dgateTravelBind": {
+    "keyCombos": [
+      [
+        119,
+        105
+      ]
+    ],
+    "triggerIfEmpty": false,
+    "name": "dgate travel"
+  }
+}

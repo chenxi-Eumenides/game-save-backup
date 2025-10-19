@@ -1,0 +1,48 @@
+{
+	"AllowLoadingMod" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_FancyItems" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Achievements" : {
+		"__type" : "System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],mscorlib",
+		"value" : [
+		"FirstBlood","Arrive_Base","Arrive_Level_GroundZero_Main","Evacuate_Level_GroundZero_Main","Building_Merchant_Equipment","Kill_Cname_UltraMan_1","Money_10K","Building_Gem","Building_Merchant_Weapon","Building_Merchant_Ming","Kill_Cname_ShortEagle_1","Building_Kitchen","Arrive_Level_HiddenWarehouse_Main","Kill_Cname_Boss_Sniper_1"
+	]
+	},
+	"ModActive_DisplayItemValue" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_HarmonyLoadMod" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ModActive_EFD.Controller" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ModActive_DisplayCashWithMoney" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_NoDurabilityLoss" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_SuperPet" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ModActive_ItemLevelAndSearchSoundMod" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_大仓库Mod" : {
+		"__type" : "bool",
+		"value" : false
+	}
+}

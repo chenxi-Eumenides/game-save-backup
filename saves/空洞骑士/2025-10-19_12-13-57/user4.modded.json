@@ -1,0 +1,57 @@
+{
+  "loadedMods": {},
+  "modData": {
+    "Benchwarp": {
+      "benchDeployed": false,
+      "atDeployedBench": false,
+      "benchX": 0.0,
+      "benchY": 0.0,
+      "benchScene": null,
+      "visitedBenchScenes": [
+        {
+          "SceneName": "Town",
+          "RespawnMarkerName": "RestBench"
+        }
+      ],
+      "lockedBenches": []
+    },
+    "ItemChangerMod": {
+      "value": null
+    },
+    "MapChangerMod": {
+      "Enabled": true,
+      "CurrentMod": "VanillaMapMod",
+      "CurrentModeName": "Normal"
+    },
+    "VanillaMapMod": {
+      "PoolSettings": {
+        "Dreamers": true,
+        "Skills": true,
+        "Charms": true,
+        "Keys": true,
+        "MaskShards": true,
+        "VesselFragments": true,
+        "CharmNotches": true,
+        "PaleOre": true,
+        "GeoChests": true,
+        "RancidEggs": true,
+        "Relics": true,
+        "WhisperingRoots": true,
+        "BossEssence": true,
+        "Grubs": true,
+        "Mimics": true,
+        "Maps": true,
+        "Stags": true,
+        "LifebloodCocoons": true,
+        "GrimmkinFlames": true,
+        "JournalEntries": true,
+        "GeoRocks": false,
+        "BossGeo": true,
+        "SoulTotems": true,
+        "LoreTablets": true,
+        "Shops": true
+      },
+      "VanillaPinsOn": false
+    }
+  }
+}

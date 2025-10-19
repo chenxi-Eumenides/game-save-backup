@@ -1,0 +1,81 @@
+{
+	"Audio\/Master\/Music" : {
+		"__type" : "float",
+		"value" : 0.403093964
+	},
+	"Audio\/Master\/SFX" : {
+		"__type" : "float",
+		"value" : 0.801953554
+	},
+	"Audio\/Master" : {
+		"__type" : "float",
+		"value" : 0.602523744
+	},
+	"FsrSetting" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"GrassSettings" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EdgeLightSetting" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"MoveDirModeSettings" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"DisableCameraOffset" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"ShadowSettings" : {
+		"__type" : "int",
+		"value" : 3
+	},
+	"HBAOSettings" : {
+		"__type" : "int",
+		"value" : 3
+	},
+	"RunInputModeSettings" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"SunFogSetting" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"GSyncSetting" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"FrameRateSetting" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"ScreenMode" : {
+		"__type" : "ResolutionSetter+screenModes,TeamSoda.Duckov.Core",
+		"value" : 0
+	},
+	"Resolution" : {
+		"__type" : "DuckovResolution,TeamSoda.Duckov.Core",
+		"value" : {
+			"width" : 2560,
+			"height" : 1440
+		}
+	},
+	"ScrollWheelBehaviour" : {
+		"__type" : "ScrollWheelBehaviour+Behaviour,TeamSoda.Duckov.Core",
+		"value" : 0
+	},
+	"UIShadow" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"MouseSensitivity" : {
+		"__type" : "float",
+		"value" : 10
+	}
+}

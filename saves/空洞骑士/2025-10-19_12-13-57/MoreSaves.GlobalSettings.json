@@ -1,0 +1,8 @@
+{
+  "keybinds": {
+    "NextPage_Keyboard": "RightBracket",
+    "PreviousPage_Keyboard": "LeftBracket",
+    "NextPage_Controller": "RightTrigger",
+    "PreviousPage_Controller": "LeftTrigger"
+  }
+}
