@@ -1,0 +1,4277 @@
+{
+	"Created" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"CreatedWithVersion" : {
+		"__type" : "Duckov.VersionData,TeamSoda.Duckov.Core",
+		"value" : {
+		"mainVersion" : 1,
+		"subVersion" : 0,
+		"buildVersion" : 26,
+		"suffix" : ""
+	}
+	},
+	"GameRulesManager_RuleIndex" : {
+		"__type" : "Duckov.Rules.RuleIndex,TeamSoda.Duckov.Core",
+		"value" : 13
+	},
+	"MultiSceneCore_Visited_Prologue_Main" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"NewGameReported" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"MultiSceneCore_Visited_Prologue_1" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"CutScene_DreamCustomFace" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"CustomFace_MainCharacter" : {
+		"__type" : "CustomFaceSettingData,TeamSoda.Duckov.Core",
+		"value" : {
+		"savedSetting" : true,
+		"headSetting" : {
+			"mainColor" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"headScaleOffset" : 0,
+			"foreheadHeight" : 0.07,
+			"foreheadRound" : 1
+		},
+		"hairID" : 0,
+		"hairInfo" : {
+			"radius" : 0,
+			"color" : {
+				"r" : 1,
+				"g" : 0.3146315,
+				"b" : 0.176470578,
+				"a" : 1
+			},
+			"height" : 0,
+			"heightOffset" : 0,
+			"scale" : 1,
+			"twist" : 0,
+			"distanceAngle" : 0,
+			"leftRightAngle" : 0
+		},
+		"eyeID" : 0,
+		"eyeInfo" : {
+			"radius" : 0.23,
+			"color" : {
+				"r" : 0,
+				"g" : 0,
+				"b" : 0,
+				"a" : 1
+			},
+			"height" : 0.08915874,
+			"heightOffset" : 0,
+			"scale" : 1.1,
+			"twist" : 0,
+			"distanceAngle" : 49.57454,
+			"leftRightAngle" : 0
+		},
+		"eyebrowID" : 0,
+		"eyebrowInfo" : {
+			"radius" : 0.23,
+			"color" : {
+				"r" : 0,
+				"g" : 0,
+				"b" : 0,
+				"a" : 1
+			},
+			"height" : 0.07458287,
+			"heightOffset" : 0.08915874,
+			"scale" : 1,
+			"twist" : 0,
+			"distanceAngle" : 41.18442,
+			"leftRightAngle" : 0
+		},
+		"mouthID" : 0,
+		"mouthInfo" : {
+			"radius" : 0.23,
+			"color" : {
+				"r" : 1,
+				"g" : 0.533768535,
+				"b" : 0.4009434,
+				"a" : 1
+			},
+			"height" : 0.0373969339,
+			"heightOffset" : 0,
+			"scale" : 0.737201452,
+			"twist" : 0,
+			"distanceAngle" : 0,
+			"leftRightAngle" : 0
+		},
+		"tailID" : 0,
+		"tailInfo" : {
+			"radius" : 0,
+			"color" : {
+				"r" : 1,
+				"g" : 0.734873056,
+				"b" : 0.23113209,
+				"a" : 1
+			},
+			"height" : 0,
+			"heightOffset" : 0,
+			"scale" : 1,
+			"twist" : 0,
+			"distanceAngle" : 0,
+			"leftRightAngle" : 0
+		},
+		"footID" : 0,
+		"footInfo" : {
+			"radius" : 0,
+			"color" : {
+				"r" : 1,
+				"g" : 0.403173953,
+				"b" : 0.2028302,
+				"a" : 1
+			},
+			"height" : 0,
+			"heightOffset" : 0,
+			"scale" : 1,
+			"twist" : 0,
+			"distanceAngle" : 0,
+			"leftRightAngle" : 0
+		},
+		"wingID" : 0,
+		"wingInfo" : {
+			"radius" : 0,
+			"color" : {
+				"r" : 1,
+				"g" : 1,
+				"b" : 1,
+				"a" : 1
+			},
+			"height" : 0,
+			"heightOffset" : 0,
+			"scale" : 1,
+			"twist" : 0,
+			"distanceAngle" : 0,
+			"leftRightAngle" : 0
+		}
+	}
+	},
+	"CutScene_DreamGoOut" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Item\/MainCharacterItemData" : {
+		"__type" : "ItemStatsSystem.Data.ItemTreeData,ItemStatsSystem",
+		"value" : {
+		"rootInstanceID" : -153002,
+		"entries" : [
+			{
+				"instanceID" : -152934,
+				"typeID" : 783,
+				"variables" : [
+					{
+						"key" : "BulletCount",
+						"dataType" : 2,
+						"data" : "CAAAAA==",
+						"display" : false
+					},{
+						"key" : "Durability",
+						"dataType" : 1,
+						"data" : "opm\/Qg==",
+						"display" : false
+					},{
+						"key" : "IsGun",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					},{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					{
+						"position" : 0,
+						"instanceID" : -152994
+					}
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -152950,
+				"typeID" : 783,
+				"variables" : [
+					{
+						"key" : "BulletCount",
+						"dataType" : 2,
+						"data" : "CAAAAA==",
+						"display" : false
+					},{
+						"key" : "Durability",
+						"dataType" : 1,
+						"data" : "AADIQg==",
+						"display" : false
+					},{
+						"key" : "IsGun",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					},{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					{
+						"position" : 0,
+						"instanceID" : -152986
+					}
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -152966,
+				"typeID" : 96,
+				"variables" : [
+					{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -152978,
+				"typeID" : 594,
+				"variables" : [
+					{
+						"key" : "Count",
+						"dataType" : 2,
+						"data" : "IgAAAA==",
+						"display" : false
+					},{
+						"key" : "IsBullet",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					},{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -152986,
+				"typeID" : 594,
+				"variables" : [
+					{
+						"key" : "Count",
+						"dataType" : 2,
+						"data" : "CAAAAA==",
+						"display" : false
+					},{
+						"key" : "IsBullet",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					},{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -152994,
+				"typeID" : 594,
+				"variables" : [
+					{
+						"key" : "Count",
+						"dataType" : 2,
+						"data" : "CAAAAA==",
+						"display" : false
+					},{
+						"key" : "IsBullet",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					},{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -153002,
+				"typeID" : 0,
+				"variables" : [
+					{
+						"key" : "CurrentEnergy",
+						"dataType" : 1,
+						"data" : "AADIQg==",
+						"display" : false
+					},{
+						"key" : "CurrentWater",
+						"dataType" : 1,
+						"data" : "AADIQg==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					{
+						"slot" : "PrimaryWeapon",
+						"instanceID" : -152934
+					},{
+						"slot" : "SecondaryWeapon",
+						"instanceID" : -152950
+					},{
+						"slot" : "MeleeWeapon",
+						"instanceID" : -152966
+					}
+				],
+				"inventory" : [
+					{
+						"position" : 0,
+						"instanceID" : -152978
+					}
+				],
+				"inventorySortLocks" : [
+					0
+				]
+			}
+		]
+	}
+	},
+	"MainCharacterHealth" : {
+		"__type" : "float",
+		"value" : 45
+	},
+	"NoteIndexData" : {
+		"__type" : "Duckov.NoteIndexs.NoteIndex+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"unlockedNotes" : [
+			"Base_ShootingRange","GroundZero_Back","Fishing-1","GroundZero_Loot"
+		],
+		"readNotes" : [
+			"Base_ShootingRange","GroundZero_Back","Fishing-1","GroundZero_Loot"
+		]
+	}
+	},
+	"CommonVariablesData" : {
+		"__type" : "Duckov.Utilities.CustomDataCollection,TeamSoda.Duckov.Utilities",
+		"value" : {
+		"entries" : [
+			
+		]
+	}
+	},
+	"EconomyData" : {
+		"__type" : "Duckov.Economy.EconomyManager+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"money" : 7461,
+		"unlockedItems" : [
+			
+		],
+		"unlockesWaitingForConfirm" : [
+			
+		]
+	}
+	},
+	"QuestData" : {
+		"__type" : "Duckov.Quests.QuestManager+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"activeQuestsData" : [
+			{
+				"__type" : "Duckov.Quests.Quest+SaveData,TeamSoda.Duckov.Core",
+				"id" : 36,
+				"complete" : false,
+				"needInspection" : false,
+				"questGiverID" : 0,
+				"taskStatus" : [
+					{
+						"Item1" : 3,
+						"Item2" : {
+							"__type" : "int"0
+						}
+					}
+				],
+				"rewardStatus" : [
+					{
+						"Item1" : 4,
+						"Item2" : {
+							"__type" : "bool"false
+						}
+					},{
+						"Item1" : 5,
+						"Item2" : {
+							"__type" : "bool"false
+						}
+					}
+				]
+			},{
+				"__type" : "Duckov.Quests.Quest+SaveData,TeamSoda.Duckov.Core",
+				"id" : 103,
+				"complete" : false,
+				"needInspection" : false,
+				"questGiverID" : 0,
+				"taskStatus" : [
+					{
+						"Item1" : 0,
+						"Item2" : {
+							"__type" : "int"0
+						}
+					}
+				],
+				"rewardStatus" : [
+					{
+						"Item1" : 1,
+						"Item2" : {
+							"__type" : "bool"false
+						}
+					},{
+						"Item1" : 2,
+						"Item2" : {
+							"__type" : "bool"false
+						}
+					},{
+						"Item1" : 10,
+						"Item2" : {
+							"__type" : "bool"false
+						}
+					},{
+						"Item1" : 11,
+						"Item2" : {
+							"__type" : "bool"false
+						}
+					}
+				]
+			},{
+				"__type" : "Duckov.Quests.Quest+SaveData,TeamSoda.Duckov.Core",
+				"id" : 7,
+				"complete" : false,
+				"needInspection" : false,
+				"questGiverID" : 0,
+				"taskStatus" : [
+					{
+						"Item1" : 0,
+						"Item2" : {
+							"__type" : "int"0
+						}
+					}
+				],
+				"rewardStatus" : [
+					{
+						"Item1" : 0,
+						"Item2" : {
+							"__type" : "bool"false
+						}
+					},{
+						"Item1" : 1,
+						"Item2" : {
+							"__type" : "bool"false
+						}
+					},{
+						"Item1" : 2,
+						"Item2" : {
+							"__type" : "bool"false
+						}
+					},{
+						"Item1" : 3,
+						"Item2" : {
+							"__type" : "bool"false
+						}
+					}
+				]
+			},{
+				"__type" : "Duckov.Quests.Quest+SaveData,TeamSoda.Duckov.Core",
+				"id" : 26,
+				"complete" : false,
+				"needInspection" : false,
+				"questGiverID" : 0,
+				"taskStatus" : [
+					{
+						"Item1" : 0,
+						"Item2" : {
+							"__type" : "bool"false
+						}
+					}
+				],
+				"rewardStatus" : [
+					{
+						"Item1" : 0,
+						"Item2" : {
+							"__type" : "bool"false
+						}
+					},{
+						"Item1" : 1,
+						"Item2" : {
+							"__type" : "bool"false
+						}
+					}
+				]
+			},{
+				"__type" : "Duckov.Quests.Quest+SaveData,TeamSoda.Duckov.Core",
+				"id" : 27,
+				"complete" : false,
+				"needInspection" : false,
+				"questGiverID" : 0,
+				"taskStatus" : [
+					{
+						"Item1" : 0,
+						"Item2" : {
+							"__type" : "int"0
+						}
+					}
+				],
+				"rewardStatus" : [
+					{
+						"Item1" : 0,
+						"Item2" : {
+							"__type" : "bool"false
+						}
+					},{
+						"Item1" : 1,
+						"Item2" : {
+							"__type" : "bool"false
+						}
+					}
+				]
+			},{
+				"__type" : "Duckov.Quests.Quest+SaveData,TeamSoda.Duckov.Core",
+				"id" : 909,
+				"complete" : false,
+				"needInspection" : false,
+				"questGiverID" : 0,
+				"taskStatus" : [
+					{
+						"Item1" : 10,
+						"Item2" : {
+							"__type" : "bool"false
+						}
+					}
+				],
+				"rewardStatus" : [
+					{
+						"Item1" : 0,
+						"Item2" : {
+							"__type" : "bool"false
+						}
+					}
+				]
+			}
+		],
+		"historyQuestsData" : [
+			{
+				"__type" : "Duckov.Quests.Quest+SaveData,TeamSoda.Duckov.Core",
+				"id" : 111,
+				"complete" : true,
+				"needInspection" : false,
+				"questGiverID" : 0,
+				"taskStatus" : [
+					{
+						"Item1" : 0,
+						"Item2" : {
+							"__type" : "int"1
+						}
+					},{
+						"Item1" : 2,
+						"Item2" : {
+							"__type" : "bool"true
+						}
+					}
+				],
+				"rewardStatus" : [
+					{
+						"Item1" : 1,
+						"Item2" : {
+							"__type" : "bool"true
+						}
+					},{
+						"Item1" : 2,
+						"Item2" : {
+							"__type" : "bool"true
+						}
+					}
+				]
+			},{
+				"__type" : "Duckov.Quests.Quest+SaveData,TeamSoda.Duckov.Core",
+				"id" : 4,
+				"complete" : true,
+				"needInspection" : false,
+				"questGiverID" : 0,
+				"taskStatus" : [
+					{
+						"Item1" : 0,
+						"Item2" : {
+							"__type" : "int"2
+						}
+					},{
+						"Item1" : 1,
+						"Item2" : {
+							"__type" : "int"2
+						}
+					}
+				],
+				"rewardStatus" : [
+					{
+						"Item1" : 1,
+						"Item2" : {
+							"__type" : "bool"true
+						}
+					},{
+						"Item1" : 2,
+						"Item2" : {
+							"__type" : "bool"true
+						}
+					},{
+						"Item1" : 7,
+						"Item2" : {
+							"__type" : "bool"true
+						}
+					},{
+						"Item1" : 8,
+						"Item2" : {
+							"__type" : "bool"true
+						}
+					},{
+						"Item1" : 9,
+						"Item2" : {
+							"__type" : "bool"true
+						}
+					}
+				]
+			},{
+				"__type" : "Duckov.Quests.Quest+SaveData,TeamSoda.Duckov.Core",
+				"id" : 21,
+				"complete" : true,
+				"needInspection" : false,
+				"questGiverID" : 0,
+				"taskStatus" : [
+					{
+						"Item1" : 2,
+						"Item2" : null
+					}
+				],
+				"rewardStatus" : [
+					{
+						"Item1" : 0,
+						"Item2" : {
+							"__type" : "bool"true
+						}
+					},{
+						"Item1" : 1,
+						"Item2" : {
+							"__type" : "bool"true
+						}
+					},{
+						"Item1" : 2,
+						"Item2" : {
+							"__type" : "bool"true
+						}
+					}
+				]
+			},{
+				"__type" : "Duckov.Quests.Quest+SaveData,TeamSoda.Duckov.Core",
+				"id" : 65,
+				"complete" : true,
+				"needInspection" : false,
+				"questGiverID" : 0,
+				"taskStatus" : [
+					{
+						"Item1" : 1,
+						"Item2" : {
+							"__type" : "bool"true
+						}
+					}
+				],
+				"rewardStatus" : [
+					{
+						"Item1" : 0,
+						"Item2" : {
+							"__type" : "bool"true
+						}
+					},{
+						"Item1" : 1,
+						"Item2" : {
+							"__type" : "bool"true
+						}
+					}
+				]
+			}
+		],
+		"everInspectedQuest" : [
+			21,111,36,4,65,103,7,26,27,909
+		]
+	}
+	},
+	"EXP_Value" : {
+		"__type" : "long",
+		"value" : 3715
+	},
+	"PerkTree_Skills" : {
+		"__type" : "Duckov.PerkTrees.PerkTree+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"entries" : [
+			{
+				"perkName" : "perk (26)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 5250654060753182279,
+				"unlocked" : true
+			},{
+				"perkName" : "perk (28)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (29)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (27)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_33",
+				"unlocking" : false,
+				"unlockingBeginTime" : 5250654060898189377,
+				"unlocked" : true
+			},{
+				"perkName" : "perk_34",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_35",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_36",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_37",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_38",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_39",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_40",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_41",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (2)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (3)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (5)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (9)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (10)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (11)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 5250654060872247789,
+				"unlocked" : true
+			},{
+				"perkName" : "perk (12)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (13)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (14)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (15)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (17)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (18)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (19)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (20)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (21)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (22)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (23)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (24)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk (25)",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_30",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_31",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_32",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_42",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_43",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_44",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_45",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_46",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_47",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_48",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_49",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			}
+		]
+	}
+	},
+	"PerkTree_PhysicalTraining" : {
+		"__type" : "Duckov.PerkTrees.PerkTree+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"entries" : [
+			{
+				"perkName" : "perk_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_2",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_3",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_4",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_5",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_6",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_7",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_8",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_9",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_10",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_11",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_12",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_13",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_14",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_15",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_16",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_17",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_18",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_19",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_20",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_21",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_22",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_23",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_24",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_25",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_26",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_27",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_28",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_29",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_30",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_31",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_32",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_33",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_34",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_35",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			}
+		]
+	}
+	},
+	"PerkTree_Blueprint" : {
+		"__type" : "Duckov.PerkTrees.PerkTree+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"entries" : [
+			{
+				"perkName" : "perk_3",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_6",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_9",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_12",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_15",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_18",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_21",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_24",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_27",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_30",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_33",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_36",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_39",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			}
+		]
+	}
+	},
+	"PerkTree_StorageExpand" : {
+		"__type" : "Duckov.PerkTrees.PerkTree+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"entries" : [
+			{
+				"perkName" : "perk_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 5250654060535382557,
+				"unlocked" : true
+			},{
+				"perkName" : "perk_2",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_3",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_4",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_5",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_6",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_Dog_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_t_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_t_2",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_t_3",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_t_4",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_y_4",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_y_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_y_2",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_y_3",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_y_5",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			}
+		]
+	}
+	},
+	"PerkTree_FoodTable" : {
+		"__type" : "Duckov.PerkTrees.PerkTree+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"entries" : [
+			{
+				"perkName" : "perk_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_2",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_3",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_4",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_5",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_6",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_FishingTime_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_FishingTime_2",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_FishingTime_3",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_FishingQuality_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_Injector_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_FishingMaster",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			}
+		]
+	}
+	},
+	"PerkTree_PerkTree_WorkBench" : {
+		"__type" : "Duckov.PerkTrees.PerkTree+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"entries" : [
+			{
+				"perkName" : "perk_Formula_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_Formula_2",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_Repair_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_Decompose_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_Formula_3",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_Formula_5",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_Formula_4",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			}
+		]
+	}
+	},
+	"PerkTree_PerkTree_Farming" : {
+		"__type" : "Duckov.PerkTrees.PerkTree+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"entries" : [
+			{
+				"perkName" : "perk_AutoWater",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_AddSize",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_AddSize_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_AddSize_2",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			}
+		]
+	}
+	},
+	"PerkTree_PerkTree_Blue" : {
+		"__type" : "Duckov.PerkTrees.PerkTree+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"entries" : [
+			{
+				"perkName" : "perk_Fire_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_Fire_2",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_Elec_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_Elec_2",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_Poison_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_Poison_2",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_Space_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_Space_2",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_Damage_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_Damage_2",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_MeleeDamage_2",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_MeleeDamage_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			}
+		]
+	}
+	},
+	"PerkTree_PerkTree_BlackMarket" : {
+		"__type" : "Duckov.PerkTrees.PerkTree+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"entries" : [
+			{
+				"perkName" : "perk_RefreshTime_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_RefreshTime_2",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_RefreshTime_3",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_RefreshTime_4",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_RefreshTime_5",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_RefreshChance_1",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_RefreshChance_2",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_RefreshChance_3",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			},{
+				"perkName" : "perk_RefreshChance_4",
+				"unlocking" : false,
+				"unlockingBeginTime" : 0,
+				"unlocked" : false
+			}
+		]
+	}
+	},
+	"MasterKeys" : {
+		"__type" : "System.Collections.Generic.List`1[[Duckov.MasterKeys.MasterKeysManager+Status, TeamSoda.Duckov.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],mscorlib",
+		"value" : [
+		
+	]
+	},
+	"ItemShortcut_Data" : {
+		"__type" : "Duckov.ItemShortcut+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"inventoryIndexes" : [
+			
+		]
+	}
+	},
+	"BuildingData" : {
+		"__type" : "Duckov.Buildings.BuildingManager+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"data" : [
+			{
+				"areaID" : "Base_01",
+				"buildings" : [
+					{
+						"guid" : 1278710985,
+						"id" : "WorkbenchAdvance",
+						"coord" : {
+							"x" : -16,
+							"y" : -61
+						},
+						"rotation" : 3
+					}
+				]
+			}
+		],
+		"tokenAmounts" : [
+			
+		]
+	}
+	},
+	"Crafting\/UnlockedFormulaIDs" : {
+		"__type" : "System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],mscorlib",
+		"value" : [
+		"1001","1002","1003","1006","1012","1013","1014","1032","1107","2005","3001","3002","3008","3009","3018","780001","780002","780003","780004","780005","780006","780007","780008","780009","780010","780011","780012","780013"
+	]
+	},
+	"DeathList" : {
+		"__type" : "System.Collections.Generic.List`1[[Duckov.DeadBodyManager+DeathInfo, TeamSoda.Duckov.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],mscorlib",
+		"value" : [
+		{
+			"valid" : true,
+			"raidID" : 4,
+			"subSceneID" : "Level_GroundZero_1",
+			"worldPosition" : {
+				"x" : 516.692444,
+				"y" : 0.219331786,
+				"z" : 202.829422
+			},
+			"itemTreeData" : {
+				"rootInstanceID" : -390736,
+				"entries" : [
+					{
+						"instanceID" : -390692,
+						"typeID" : 783,
+						"variables" : [
+							{
+								"key" : "BulletCount",
+								"dataType" : 2,
+								"data" : "CAAAAA==",
+								"display" : false
+							},{
+								"key" : "Durability",
+								"dataType" : 1,
+								"data" : "nJnFQg==",
+								"display" : false
+							},{
+								"key" : "IsGun",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							},{
+								"key" : "Inspected",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							}
+						],
+						"slotContents" : [
+							
+						],
+						"inventory" : [
+							{
+								"position" : 0,
+								"instanceID" : -390728
+							}
+						],
+						"inventorySortLocks" : [
+							
+						]
+					},{
+						"instanceID" : -401774,
+						"typeID" : 783,
+						"variables" : [
+							{
+								"key" : "BulletCount",
+								"dataType" : 2,
+								"data" : "AgAAAA==",
+								"display" : false
+							},{
+								"key" : "Durability",
+								"dataType" : 1,
+								"data" : "BADEQg==",
+								"display" : false
+							},{
+								"key" : "IsGun",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							},{
+								"key" : "Inspected",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							}
+						],
+						"slotContents" : [
+							
+						],
+						"inventory" : [
+							{
+								"position" : 0,
+								"instanceID" : -501728
+							}
+						],
+						"inventorySortLocks" : [
+							
+						]
+					},{
+						"instanceID" : -390708,
+						"typeID" : 772,
+						"variables" : [
+							{
+								"key" : "DurabilityLoss",
+								"dataType" : 1,
+								"data" : "AAAAAA==",
+								"display" : false
+							},{
+								"key" : "Inspected",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							}
+						],
+						"slotContents" : [
+							
+						],
+						"inventory" : [
+							
+						],
+						"inventorySortLocks" : [
+							
+						]
+					},{
+						"instanceID" : -390720,
+						"typeID" : 594,
+						"variables" : [
+							{
+								"key" : "Count",
+								"dataType" : 2,
+								"data" : "cwAAAA==",
+								"display" : false
+							},{
+								"key" : "IsBullet",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							},{
+								"key" : "Inspected",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							}
+						],
+						"slotContents" : [
+							
+						],
+						"inventory" : [
+							
+						],
+						"inventorySortLocks" : [
+							
+						]
+					},{
+						"instanceID" : -400226,
+						"typeID" : 335,
+						"variables" : [
+							{
+								"key" : "Count",
+								"dataType" : 2,
+								"data" : "AQAAAA==",
+								"display" : false
+							},{
+								"key" : "Inspected",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							}
+						],
+						"slotContents" : [
+							
+						],
+						"inventory" : [
+							
+						],
+						"inventorySortLocks" : [
+							
+						]
+					},{
+						"instanceID" : -400232,
+						"typeID" : 333,
+						"variables" : [
+							{
+								"key" : "Count",
+								"dataType" : 2,
+								"data" : "AQAAAA==",
+								"display" : false
+							},{
+								"key" : "Inspected",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							}
+						],
+						"slotContents" : [
+							
+						],
+						"inventory" : [
+							
+						],
+						"inventorySortLocks" : [
+							
+						]
+					},{
+						"instanceID" : -394064,
+						"typeID" : 22,
+						"variables" : [
+							{
+								"key" : "Count",
+								"dataType" : 2,
+								"data" : "AQAAAA==",
+								"display" : false
+							},{
+								"key" : "Inspected",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							}
+						],
+						"slotContents" : [
+							
+						],
+						"inventory" : [
+							
+						],
+						"inventorySortLocks" : [
+							
+						]
+					},{
+						"instanceID" : -402554,
+						"typeID" : 362,
+						"variables" : [
+							{
+								"key" : "Count",
+								"dataType" : 2,
+								"data" : "AgAAAA==",
+								"display" : false
+							},{
+								"key" : "Inspected",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							}
+						],
+						"slotContents" : [
+							
+						],
+						"inventory" : [
+							
+						],
+						"inventorySortLocks" : [
+							
+						]
+					},{
+						"instanceID" : -400220,
+						"typeID" : 799,
+						"variables" : [
+							{
+								"key" : "Count",
+								"dataType" : 2,
+								"data" : "AQAAAA==",
+								"display" : false
+							},{
+								"key" : "Inspected",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							}
+						],
+						"slotContents" : [
+							
+						],
+						"inventory" : [
+							
+						],
+						"inventorySortLocks" : [
+							
+						]
+					},{
+						"instanceID" : -397574,
+						"typeID" : 401,
+						"variables" : [
+							{
+								"key" : "Inspected",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							}
+						],
+						"slotContents" : [
+							
+						],
+						"inventory" : [
+							
+						],
+						"inventorySortLocks" : [
+							
+						]
+					},{
+						"instanceID" : -432870,
+						"typeID" : 783,
+						"variables" : [
+							{
+								"key" : "BulletCount",
+								"dataType" : 2,
+								"data" : "AAAAAA==",
+								"display" : false
+							},{
+								"key" : "Durability",
+								"dataType" : 1,
+								"data" : "F0AlQg==",
+								"display" : false
+							},{
+								"key" : "IsGun",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							},{
+								"key" : "DurabilityLoss",
+								"dataType" : 1,
+								"data" : "Yj0WPw==",
+								"display" : false
+							},{
+								"key" : "Inspected",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							}
+						],
+						"slotContents" : [
+							
+						],
+						"inventory" : [
+							
+						],
+						"inventorySortLocks" : [
+							
+						]
+					},{
+						"instanceID" : -398102,
+						"typeID" : 61,
+						"variables" : [
+							{
+								"key" : "Inspected",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							}
+						],
+						"slotContents" : [
+							
+						],
+						"inventory" : [
+							
+						],
+						"inventorySortLocks" : [
+							
+						]
+					},{
+						"instanceID" : -398110,
+						"typeID" : 52,
+						"variables" : [
+							{
+								"key" : "Inspected",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							}
+						],
+						"slotContents" : [
+							
+						],
+						"inventory" : [
+							
+						],
+						"inventorySortLocks" : [
+							
+						]
+					},{
+						"instanceID" : -501728,
+						"typeID" : 594,
+						"variables" : [
+							{
+								"key" : "Count",
+								"dataType" : 2,
+								"data" : "AgAAAA==",
+								"display" : false
+							},{
+								"key" : "IsBullet",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							},{
+								"key" : "Inspected",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							}
+						],
+						"slotContents" : [
+							
+						],
+						"inventory" : [
+							
+						],
+						"inventorySortLocks" : [
+							
+						]
+					},{
+						"instanceID" : -390728,
+						"typeID" : 594,
+						"variables" : [
+							{
+								"key" : "Count",
+								"dataType" : 2,
+								"data" : "CAAAAA==",
+								"display" : false
+							},{
+								"key" : "IsBullet",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							},{
+								"key" : "Inspected",
+								"dataType" : 3,
+								"data" : "AQ==",
+								"display" : false
+							}
+						],
+						"slotContents" : [
+							
+						],
+						"inventory" : [
+							
+						],
+						"inventorySortLocks" : [
+							
+						]
+					},{
+						"instanceID" : -390736,
+						"typeID" : 0,
+						"variables" : [
+							{
+								"key" : "CurrentEnergy",
+								"dataType" : 1,
+								"data" : "XFXBQg==",
+								"display" : false
+							},{
+								"key" : "CurrentWater",
+								"dataType" : 1,
+								"data" : "wjK0Qg==",
+								"display" : false
+							}
+						],
+						"slotContents" : [
+							{
+								"slot" : "PrimaryWeapon",
+								"instanceID" : -390692
+							},{
+								"slot" : "SecondaryWeapon",
+								"instanceID" : -401774
+							},{
+								"slot" : "MeleeWeapon",
+								"instanceID" : -390708
+							}
+						],
+						"inventory" : [
+							{
+								"position" : 0,
+								"instanceID" : -390720
+							},{
+								"position" : 1,
+								"instanceID" : -400226
+							},{
+								"position" : 2,
+								"instanceID" : -400232
+							},{
+								"position" : 3,
+								"instanceID" : -394064
+							},{
+								"position" : 4,
+								"instanceID" : -402554
+							},{
+								"position" : 5,
+								"instanceID" : -400220
+							},{
+								"position" : 6,
+								"instanceID" : -397574
+							},{
+								"position" : 7,
+								"instanceID" : -432870
+							},{
+								"position" : 8,
+								"instanceID" : -398102
+							},{
+								"position" : 9,
+								"instanceID" : -398110
+							}
+						],
+						"inventorySortLocks" : [
+							0
+						]
+					}
+				]
+			},
+			"spawned" : true,
+			"touched" : true
+		}
+	]
+	},
+	"BitcoinMiner_Data" : {
+		"__type" : "Duckov.Bitcoins.BitcoinMiner+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"itemData" : {
+			"rootInstanceID" : -150796,
+			"entries" : [
+				{
+					"instanceID" : -150796,
+					"typeID" : 397,
+					"variables" : [
+						
+					],
+					"slotContents" : [
+						
+					],
+					"inventory" : [
+						
+					],
+					"inventorySortLocks" : [
+						
+					]
+				}
+			]
+		},
+		"work" : 0,
+		"cachedPerformance" : 0,
+		"lastUpdateDateTimeRaw" : 5250654090802283256
+	}
+	},
+	"BlackMarket_Data" : {
+		"__type" : "Duckov.BlackMarkets.BlackMarket+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"valid" : true,
+		"lastRefreshedTimeRaw" : 5250654090802283256,
+		"refreshChance" : 1,
+		"demands" : [
+			{
+				"itemID" : 991,
+				"remaining" : 1,
+				"priceFactor" : 0.75,
+				"batchCount" : 1
+			},{
+				"itemID" : 12,
+				"remaining" : 1,
+				"priceFactor" : 0.75,
+				"batchCount" : 1
+			},{
+				"itemID" : 22,
+				"remaining" : 1,
+				"priceFactor" : 2,
+				"batchCount" : 3
+			},{
+				"itemID" : 360,
+				"remaining" : 1,
+				"priceFactor" : 1,
+				"batchCount" : 1
+			},{
+				"itemID" : 1063,
+				"remaining" : 1,
+				"priceFactor" : 0.75,
+				"batchCount" : 1
+			},{
+				"itemID" : 1169,
+				"remaining" : 1,
+				"priceFactor" : 2,
+				"batchCount" : 3
+			},{
+				"itemID" : 604,
+				"remaining" : 1,
+				"priceFactor" : 2,
+				"batchCount" : 1
+			},{
+				"itemID" : 130,
+				"remaining" : 1,
+				"priceFactor" : 1,
+				"batchCount" : 1
+			}
+		],
+		"supplies" : [
+			{
+				"itemID" : 438,
+				"remaining" : 1,
+				"priceFactor" : 0.8,
+				"batchCount" : 1
+			},{
+				"itemID" : 117,
+				"remaining" : 1,
+				"priceFactor" : 0.8,
+				"batchCount" : 1
+			},{
+				"itemID" : 603,
+				"remaining" : 1,
+				"priceFactor" : 2,
+				"batchCount" : 1
+			},{
+				"itemID" : 680,
+				"remaining" : 1,
+				"priceFactor" : 2,
+				"batchCount" : 1
+			},{
+				"itemID" : 131,
+				"remaining" : 1,
+				"priceFactor" : 1,
+				"batchCount" : 1
+			},{
+				"itemID" : 987,
+				"remaining" : 1,
+				"priceFactor" : 2,
+				"batchCount" : 1
+			},{
+				"itemID" : 29,
+				"remaining" : 1,
+				"priceFactor" : 2,
+				"batchCount" : 1
+			},{
+				"itemID" : 77,
+				"remaining" : 1,
+				"priceFactor" : 0.8,
+				"batchCount" : 1
+			}
+		]
+	}
+	},
+	"GameClock" : {
+		"__type" : "GameClock+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"days" : 8,
+		"secondsOfDay" : 25317.446744412184,
+		"realTimePlayedTicks" : 10718870000
+	}
+	},
+	"ItemWishlist_Manual" : {
+		"__type" : "System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],mscorlib",
+		"value" : [
+		
+	]
+	},
+	"WeatherManagerData" : {
+		"__type" : "Duckov.Weathers.WeatherManager+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"valid" : true,
+		"seed" : 34863
+	}
+	},
+	"BeaconManager" : {
+		"__type" : "Duckvo.Beacons.BeaconManager+Data,TeamSoda.Duckov.Core",
+		"value" : {
+		"entries" : [
+			
+		]
+	}
+	},
+	"PlayerStorage_Buffer" : {
+		"__type" : "System.Collections.Generic.List`1[[ItemStatsSystem.Data.ItemTreeData, ItemStatsSystem, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],mscorlib",
+		"value" : [
+		
+	]
+	},
+	"Inventory\/Inventory_Safe" : {
+		"__type" : "ItemStatsSystem.Data.InventoryData,ItemStatsSystem",
+		"value" : {
+		"capacity" : 1,
+		"entries" : [
+			
+		],
+		"lockedIndexes" : [
+			
+		]
+	}
+	},
+	"MultiSceneCore_Visited_Level_Guide_Main" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"MultiSceneCore_Visited_Level_Guide_1" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"CutScene_Guide_Intro" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"RaidInfo" : {
+		"__type" : "RaidUtilities+RaidInfo,TeamSoda.Duckov.Core",
+		"value" : {
+		"valid" : true,
+		"ID" : 6,
+		"dead" : false,
+		"ended" : true,
+		"raidBeginTime" : 872.561951,
+		"raidEndTime" : 1052.30078,
+		"totalTime" : 179.738831,
+		"expOnBegan" : 635,
+		"expOnEnd" : 715,
+		"expGained" : 80
+	}
+	},
+	"DeadCharacterToken" : {
+		"__type" : "uint",
+		"value" : 4
+	},
+	"Item\/LastDeadCharacter" : {
+		"__type" : "ItemStatsSystem.Data.ItemTreeData,ItemStatsSystem",
+		"value" : {
+		"rootInstanceID" : -390736,
+		"entries" : [
+			{
+				"instanceID" : -390692,
+				"typeID" : 783,
+				"variables" : [
+					{
+						"key" : "BulletCount",
+						"dataType" : 2,
+						"data" : "CAAAAA==",
+						"display" : false
+					},{
+						"key" : "Durability",
+						"dataType" : 1,
+						"data" : "nJnFQg==",
+						"display" : false
+					},{
+						"key" : "IsGun",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					},{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					{
+						"position" : 0,
+						"instanceID" : -390728
+					}
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -401774,
+				"typeID" : 783,
+				"variables" : [
+					{
+						"key" : "BulletCount",
+						"dataType" : 2,
+						"data" : "AgAAAA==",
+						"display" : false
+					},{
+						"key" : "Durability",
+						"dataType" : 1,
+						"data" : "BADEQg==",
+						"display" : false
+					},{
+						"key" : "IsGun",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					},{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					{
+						"position" : 0,
+						"instanceID" : -501728
+					}
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -390708,
+				"typeID" : 772,
+				"variables" : [
+					{
+						"key" : "DurabilityLoss",
+						"dataType" : 1,
+						"data" : "AAAAAA==",
+						"display" : false
+					},{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -390720,
+				"typeID" : 594,
+				"variables" : [
+					{
+						"key" : "Count",
+						"dataType" : 2,
+						"data" : "cwAAAA==",
+						"display" : false
+					},{
+						"key" : "IsBullet",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					},{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -400226,
+				"typeID" : 335,
+				"variables" : [
+					{
+						"key" : "Count",
+						"dataType" : 2,
+						"data" : "AQAAAA==",
+						"display" : false
+					},{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -400232,
+				"typeID" : 333,
+				"variables" : [
+					{
+						"key" : "Count",
+						"dataType" : 2,
+						"data" : "AQAAAA==",
+						"display" : false
+					},{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -394064,
+				"typeID" : 22,
+				"variables" : [
+					{
+						"key" : "Count",
+						"dataType" : 2,
+						"data" : "AQAAAA==",
+						"display" : false
+					},{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -402554,
+				"typeID" : 362,
+				"variables" : [
+					{
+						"key" : "Count",
+						"dataType" : 2,
+						"data" : "AgAAAA==",
+						"display" : false
+					},{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -400220,
+				"typeID" : 799,
+				"variables" : [
+					{
+						"key" : "Count",
+						"dataType" : 2,
+						"data" : "AQAAAA==",
+						"display" : false
+					},{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -397574,
+				"typeID" : 401,
+				"variables" : [
+					{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -432870,
+				"typeID" : 783,
+				"variables" : [
+					{
+						"key" : "BulletCount",
+						"dataType" : 2,
+						"data" : "AAAAAA==",
+						"display" : false
+					},{
+						"key" : "Durability",
+						"dataType" : 1,
+						"data" : "F0AlQg==",
+						"display" : false
+					},{
+						"key" : "IsGun",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					},{
+						"key" : "DurabilityLoss",
+						"dataType" : 1,
+						"data" : "Yj0WPw==",
+						"display" : false
+					},{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -398102,
+				"typeID" : 61,
+				"variables" : [
+					{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -398110,
+				"typeID" : 52,
+				"variables" : [
+					{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -501728,
+				"typeID" : 594,
+				"variables" : [
+					{
+						"key" : "Count",
+						"dataType" : 2,
+						"data" : "AgAAAA==",
+						"display" : false
+					},{
+						"key" : "IsBullet",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					},{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -390728,
+				"typeID" : 594,
+				"variables" : [
+					{
+						"key" : "Count",
+						"dataType" : 2,
+						"data" : "CAAAAA==",
+						"display" : false
+					},{
+						"key" : "IsBullet",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					},{
+						"key" : "Inspected",
+						"dataType" : 3,
+						"data" : "AQ==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					
+				],
+				"inventory" : [
+					
+				],
+				"inventorySortLocks" : [
+					
+				]
+			},{
+				"instanceID" : -390736,
+				"typeID" : 0,
+				"variables" : [
+					{
+						"key" : "CurrentEnergy",
+						"dataType" : 1,
+						"data" : "XFXBQg==",
+						"display" : false
+					},{
+						"key" : "CurrentWater",
+						"dataType" : 1,
+						"data" : "wjK0Qg==",
+						"display" : false
+					}
+				],
+				"slotContents" : [
+					{
+						"slot" : "PrimaryWeapon",
+						"instanceID" : -390692
+					},{
+						"slot" : "SecondaryWeapon",
+						"instanceID" : -401774
+					},{
+						"slot" : "MeleeWeapon",
+						"instanceID" : -390708
+					}
+				],
+				"inventory" : [
+					{
+						"position" : 0,
+						"instanceID" : -390720
+					},{
+						"position" : 1,
+						"instanceID" : -400226
+					},{
+						"position" : 2,
+						"instanceID" : -400232
+					},{
+						"position" : 3,
+						"instanceID" : -394064
+					},{
+						"position" : 4,
+						"instanceID" : -402554
+					},{
+						"position" : 5,
+						"instanceID" : -400220
+					},{
+						"position" : 6,
+						"instanceID" : -397574
+					},{
+						"position" : 7,
+						"instanceID" : -432870
+					},{
+						"position" : 8,
+						"instanceID" : -398102
+					},{
+						"position" : 9,
+						"instanceID" : -398110
+					}
+				],
+				"inventorySortLocks" : [
+					0
+				]
+			}
+		]
+	}
+	},
+	"SaveTime" : {
+		"__type" : "long",
+		"value" : 5250654090820703251
+	},
+	"IsOldGame" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"CutScene_Guide_IntroDodge" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Count\/Kills\/Cname_Prison" : {
+		"__type" : "int",
+		"value" : 3
+	},
+	"CutScene_Guide_Intro2" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"MultiSceneCore_Visited_Level_Guide_2" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"FirstTimeToBaseTimeSetted" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"MultiSceneCore_Visited_Base" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"MultiSceneCore_Visited_Base_SceneV2" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Inventory\/PlayerStorage" : {
+		"__type" : "ItemStatsSystem.Data.InventoryData,ItemStatsSystem",
+		"value" : {
+		"capacity" : 435,
+		"entries" : [
+			{
+				"inventoryPosition" : 0,
+				"itemTreeData" : {
+					"rootInstanceID" : -150428,
+					"entries" : [
+						{
+							"instanceID" : -150428,
+							"typeID" : 740,
+							"variables" : [
+								{
+									"key" : "MaxDurability",
+									"dataType" : 1,
+									"data" : "AABIQg==",
+									"display" : false
+								},{
+									"key" : "Durability",
+									"dataType" : 1,
+									"data" : "zcxFQg==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 1,
+				"itemTreeData" : {
+					"rootInstanceID" : -150438,
+					"entries" : [
+						{
+							"instanceID" : -150438,
+							"typeID" : 740,
+							"variables" : [
+								{
+									"key" : "MaxDurability",
+									"dataType" : 1,
+									"data" : "AABIQg==",
+									"display" : false
+								},{
+									"key" : "Durability",
+									"dataType" : 1,
+									"data" : "AQA9Qg==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 2,
+				"itemTreeData" : {
+					"rootInstanceID" : -150448,
+					"entries" : [
+						{
+							"instanceID" : -150448,
+							"typeID" : 740,
+							"variables" : [
+								{
+									"key" : "MaxDurability",
+									"dataType" : 1,
+									"data" : "AABIQg==",
+									"display" : false
+								},{
+									"key" : "Durability",
+									"dataType" : 1,
+									"data" : "aGY2Qg==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 3,
+				"itemTreeData" : {
+					"rootInstanceID" : -150458,
+					"entries" : [
+						{
+							"instanceID" : -150458,
+							"typeID" : 594,
+							"variables" : [
+								{
+									"key" : "Count",
+									"dataType" : 2,
+									"data" : "awAAAA==",
+									"display" : false
+								},{
+									"key" : "IsBullet",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 4,
+				"itemTreeData" : {
+					"rootInstanceID" : -150466,
+					"entries" : [
+						{
+							"instanceID" : -150466,
+							"typeID" : 61,
+							"variables" : [
+								{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 5,
+				"itemTreeData" : {
+					"rootInstanceID" : -150474,
+					"entries" : [
+						{
+							"instanceID" : -150474,
+							"typeID" : 337,
+							"variables" : [
+								{
+									"key" : "Count",
+									"dataType" : 2,
+									"data" : "AQAAAA==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 6,
+				"itemTreeData" : {
+					"rootInstanceID" : -150480,
+					"entries" : [
+						{
+							"instanceID" : -150480,
+							"typeID" : 340,
+							"variables" : [
+								{
+									"key" : "Count",
+									"dataType" : 2,
+									"data" : "AgAAAA==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 7,
+				"itemTreeData" : {
+					"rootInstanceID" : -150486,
+					"entries" : [
+						{
+							"instanceID" : -150486,
+							"typeID" : 741,
+							"variables" : [
+								{
+									"key" : "Durability",
+									"dataType" : 1,
+									"data" : "AAAAAA==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 8,
+				"itemTreeData" : {
+					"rootInstanceID" : -150504,
+					"entries" : [
+						{
+							"instanceID" : -150504,
+							"typeID" : 741,
+							"variables" : [
+								{
+									"key" : "Durability",
+									"dataType" : 1,
+									"data" : "AAAAAA==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 9,
+				"itemTreeData" : {
+					"rootInstanceID" : -150522,
+					"entries" : [
+						{
+							"instanceID" : -150522,
+							"typeID" : 741,
+							"variables" : [
+								{
+									"key" : "Durability",
+									"dataType" : 1,
+									"data" : "AAAAAA==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 10,
+				"itemTreeData" : {
+					"rootInstanceID" : -150540,
+					"entries" : [
+						{
+							"instanceID" : -150540,
+							"typeID" : 70,
+							"variables" : [
+								{
+									"key" : "Count",
+									"dataType" : 2,
+									"data" : "AQAAAA==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 11,
+				"itemTreeData" : {
+					"rootInstanceID" : -150550,
+					"entries" : [
+						{
+							"instanceID" : -150550,
+							"typeID" : 105,
+							"variables" : [
+								{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 12,
+				"itemTreeData" : {
+					"rootInstanceID" : -150562,
+					"entries" : [
+						{
+							"instanceID" : -150562,
+							"typeID" : 826,
+							"variables" : [
+								{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 13,
+				"itemTreeData" : {
+					"rootInstanceID" : -150568,
+					"entries" : [
+						{
+							"instanceID" : -150568,
+							"typeID" : 10,
+							"variables" : [
+								{
+									"key" : "Count",
+									"dataType" : 2,
+									"data" : "BwAAAA==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 14,
+				"itemTreeData" : {
+					"rootInstanceID" : -150582,
+					"entries" : [
+						{
+							"instanceID" : -150582,
+							"typeID" : 20,
+							"variables" : [
+								{
+									"key" : "Count",
+									"dataType" : 2,
+									"data" : "AwAAAA==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 15,
+				"itemTreeData" : {
+					"rootInstanceID" : -150596,
+					"entries" : [
+						{
+							"instanceID" : -150596,
+							"typeID" : 368,
+							"variables" : [
+								{
+									"key" : "Count",
+									"dataType" : 2,
+									"data" : "AgAAAA==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 16,
+				"itemTreeData" : {
+					"rootInstanceID" : -150602,
+					"entries" : [
+						{
+							"instanceID" : -150602,
+							"typeID" : 332,
+							"variables" : [
+								{
+									"key" : "Count",
+									"dataType" : 2,
+									"data" : "AgAAAA==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 17,
+				"itemTreeData" : {
+					"rootInstanceID" : -150608,
+					"entries" : [
+						{
+							"instanceID" : -150608,
+							"typeID" : 335,
+							"variables" : [
+								{
+									"key" : "Count",
+									"dataType" : 2,
+									"data" : "BAAAAA==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 18,
+				"itemTreeData" : {
+					"rootInstanceID" : -150614,
+					"entries" : [
+						{
+							"instanceID" : -150614,
+							"typeID" : 361,
+							"variables" : [
+								{
+									"key" : "Count",
+									"dataType" : 2,
+									"data" : "AgAAAA==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 19,
+				"itemTreeData" : {
+					"rootInstanceID" : -150620,
+					"entries" : [
+						{
+							"instanceID" : -150620,
+							"typeID" : 362,
+							"variables" : [
+								{
+									"key" : "Count",
+									"dataType" : 2,
+									"data" : "AgAAAA==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 20,
+				"itemTreeData" : {
+					"rootInstanceID" : -150626,
+					"entries" : [
+						{
+							"instanceID" : -150626,
+							"typeID" : 87,
+							"variables" : [
+								{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 21,
+				"itemTreeData" : {
+					"rootInstanceID" : -150632,
+					"entries" : [
+						{
+							"instanceID" : -150632,
+							"typeID" : 799,
+							"variables" : [
+								{
+									"key" : "Count",
+									"dataType" : 2,
+									"data" : "AgAAAA==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 22,
+				"itemTreeData" : {
+					"rootInstanceID" : -150638,
+					"entries" : [
+						{
+							"instanceID" : -150638,
+							"typeID" : 772,
+							"variables" : [
+								{
+									"key" : "DurabilityLoss",
+									"dataType" : 1,
+									"data" : "AAAAAA==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 23,
+				"itemTreeData" : {
+					"rootInstanceID" : -150658,
+					"entries" : [
+						{
+							"instanceID" : -150650,
+							"typeID" : 594,
+							"variables" : [
+								{
+									"key" : "Count",
+									"dataType" : 2,
+									"data" : "BQAAAA==",
+									"display" : false
+								},{
+									"key" : "IsBullet",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						},{
+							"instanceID" : -150658,
+							"typeID" : 784,
+							"variables" : [
+								{
+									"key" : "BulletCount",
+									"dataType" : 2,
+									"data" : "BQAAAA==",
+									"display" : false
+								},{
+									"key" : "Durability",
+									"dataType" : 1,
+									"data" : "aGbGQg==",
+									"display" : false
+								},{
+									"key" : "IsGun",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								{
+									"position" : 0,
+									"instanceID" : -150650
+								}
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 24,
+				"itemTreeData" : {
+					"rootInstanceID" : -150682,
+					"entries" : [
+						{
+							"instanceID" : -150674,
+							"typeID" : 594,
+							"variables" : [
+								{
+									"key" : "Count",
+									"dataType" : 2,
+									"data" : "CwAAAA==",
+									"display" : false
+								},{
+									"key" : "IsBullet",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						},{
+							"instanceID" : -150682,
+							"typeID" : 254,
+							"variables" : [
+								{
+									"key" : "BulletCount",
+									"dataType" : 2,
+									"data" : "CwAAAA==",
+									"display" : false
+								},{
+									"key" : "Durability",
+									"dataType" : 1,
+									"data" : "xmbGQQ==",
+									"display" : false
+								},{
+									"key" : "IsGun",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								},{
+									"key" : "DurabilityLoss",
+									"dataType" : 1,
+									"data" : "PBWIPg==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								{
+									"position" : 0,
+									"instanceID" : -150674
+								}
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			},{
+				"inventoryPosition" : 25,
+				"itemTreeData" : {
+					"rootInstanceID" : -150706,
+					"entries" : [
+						{
+							"instanceID" : -150698,
+							"typeID" : 594,
+							"variables" : [
+								{
+									"key" : "Count",
+									"dataType" : 2,
+									"data" : "CgAAAA==",
+									"display" : false
+								},{
+									"key" : "IsBullet",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								
+							],
+							"inventorySortLocks" : [
+								
+							]
+						},{
+							"instanceID" : -150706,
+							"typeID" : 254,
+							"variables" : [
+								{
+									"key" : "BulletCount",
+									"dataType" : 2,
+									"data" : "CgAAAA==",
+									"display" : false
+								},{
+									"key" : "Durability",
+									"dataType" : 1,
+									"data" : "Hj5aQg==",
+									"display" : false
+								},{
+									"key" : "IsGun",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								},{
+									"key" : "DurabilityLoss",
+									"dataType" : 1,
+									"data" : "ksmgPg==",
+									"display" : false
+								},{
+									"key" : "Inspected",
+									"dataType" : 3,
+									"data" : "AQ==",
+									"display" : false
+								}
+							],
+							"slotContents" : [
+								
+							],
+							"inventory" : [
+								{
+									"position" : 0,
+									"instanceID" : -150698
+								}
+							],
+							"inventorySortLocks" : [
+								
+							]
+						}
+					]
+				}
+			}
+		],
+		"lockedIndexes" : [
+			
+		]
+	}
+	},
+	"StockShop_Merchant_Normal" : {
+		"__type" : "Duckov.Economy.StockShop+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"lastTimeRefreshedStock" : 5250654062060383143,
+		"stockCounts" : [
+			{
+				"itemTypeID" : 389,
+				"stock" : 1
+			},{
+				"itemTypeID" : 784,
+				"stock" : 2
+			},{
+				"itemTypeID" : 252,
+				"stock" : 2
+			},{
+				"itemTypeID" : 240,
+				"stock" : 1
+			},{
+				"itemTypeID" : 594,
+				"stock" : 2
+			},{
+				"itemTypeID" : 603,
+				"stock" : 2
+			},{
+				"itemTypeID" : 365,
+				"stock" : 3
+			},{
+				"itemTypeID" : 740,
+				"stock" : 1
+			},{
+				"itemTypeID" : 679,
+				"stock" : 1
+			},{
+				"itemTypeID" : 32,
+				"stock" : 1
+			},{
+				"itemTypeID" : 41,
+				"stock" : 1
+			},{
+				"itemTypeID" : 33,
+				"stock" : 3
+			},{
+				"itemTypeID" : 42,
+				"stock" : 3
+			},{
+				"itemTypeID" : 36,
+				"stock" : 1
+			},{
+				"itemTypeID" : 10,
+				"stock" : 3
+			},{
+				"itemTypeID" : 1243,
+				"stock" : 0
+			},{
+				"itemTypeID" : 1244,
+				"stock" : 0
+			},{
+				"itemTypeID" : 1245,
+				"stock" : 0
+			},{
+				"itemTypeID" : 1246,
+				"stock" : 0
+			},{
+				"itemTypeID" : 20,
+				"stock" : 2
+			},{
+				"itemTypeID" : 17,
+				"stock" : 3
+			},{
+				"itemTypeID" : 16,
+				"stock" : 2
+			},{
+				"itemTypeID" : 15,
+				"stock" : 1
+			},{
+				"itemTypeID" : 105,
+				"stock" : 2
+			},{
+				"itemTypeID" : 84,
+				"stock" : 2
+			},{
+				"itemTypeID" : 428,
+				"stock" : 3
+			},{
+				"itemTypeID" : 13,
+				"stock" : 2
+			},{
+				"itemTypeID" : 22,
+				"stock" : 2
+			},{
+				"itemTypeID" : 87,
+				"stock" : 2
+			},{
+				"itemTypeID" : 91,
+				"stock" : 1
+			},{
+				"itemTypeID" : 31,
+				"stock" : 1
+			},{
+				"itemTypeID" : 96,
+				"stock" : 1
+			},{
+				"itemTypeID" : 110,
+				"stock" : 1
+			},{
+				"itemTypeID" : 332,
+				"stock" : 3
+			},{
+				"itemTypeID" : 28,
+				"stock" : 3
+			},{
+				"itemTypeID" : 335,
+				"stock" : 3
+			},{
+				"itemTypeID" : 30,
+				"stock" : 1
+			},{
+				"itemTypeID" : 333,
+				"stock" : 3
+			},{
+				"itemTypeID" : 746,
+				"stock" : 5
+			},{
+				"itemTypeID" : 129,
+				"stock" : 1
+			},{
+				"itemTypeID" : 380,
+				"stock" : 1
+			},{
+				"itemTypeID" : 384,
+				"stock" : 1
+			},{
+				"itemTypeID" : 94,
+				"stock" : 1
+			},{
+				"itemTypeID" : 424,
+				"stock" : 1
+			},{
+				"itemTypeID" : 444,
+				"stock" : 3
+			},{
+				"itemTypeID" : 133,
+				"stock" : 3
+			},{
+				"itemTypeID" : 793,
+				"stock" : 1
+			},{
+				"itemTypeID" : 794,
+				"stock" : 1
+			},{
+				"itemTypeID" : 849,
+				"stock" : 1
+			},{
+				"itemTypeID" : 868,
+				"stock" : 1
+			},{
+				"itemTypeID" : 865,
+				"stock" : 1
+			},{
+				"itemTypeID" : 866,
+				"stock" : 1
+			},{
+				"itemTypeID" : 285,
+				"stock" : 1
+			},{
+				"itemTypeID" : 101,
+				"stock" : 1
+			},{
+				"itemTypeID" : 336,
+				"stock" : 2
+			},{
+				"itemTypeID" : 1179,
+				"stock" : 1
+			}
+		]
+	}
+	},
+	"ConstructionSite_GardenConstruction" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"BaseBGMSelector" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"CutScene_Base_Intro" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"MultiSceneCore_Visited_Level_GroundZero_Main" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"MultiSceneCore_Visited_Level_GroundZero_1" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"CutScene_GroundZero_Intro" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Count\/Kills\/Cname_Scav" : {
+		"__type" : "int",
+		"value" : 6
+	},
+	"CutScene_CoachFirstMeet" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ConstructionSite_GroundZero_SmallBridge1" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ConstructionSite_GroundZero_SingleWayDoor0" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ConstructionSite_GroundZero_Bridge" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ConstructionSite_GroundZero_SmallBridge2" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ConstructionSite_GroundZero_ManHole" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"StockShop_Merchant_Myst0" : {
+		"__type" : "Duckov.Economy.StockShop+SaveData,TeamSoda.Duckov.Core",
+		"value" : {
+		"lastTimeRefreshedStock" : 0,
+		"stockCounts" : [
+			{
+				"itemTypeID" : 1243,
+				"stock" : 0
+			},{
+				"itemTypeID" : 1244,
+				"stock" : 0
+			},{
+				"itemTypeID" : 1245,
+				"stock" : 0
+			},{
+				"itemTypeID" : 1246,
+				"stock" : 0
+			},{
+				"itemTypeID" : 653,
+				"stock" : 0
+			},{
+				"itemTypeID" : 735,
+				"stock" : 0
+			},{
+				"itemTypeID" : 655,
+				"stock" : 0
+			},{
+				"itemTypeID" : 258,
+				"stock" : 0
+			},{
+				"itemTypeID" : 654,
+				"stock" : 0
+			},{
+				"itemTypeID" : 781,
+				"stock" : 0
+			},{
+				"itemTypeID" : 465,
+				"stock" : 0
+			},{
+				"itemTypeID" : 474,
+				"stock" : 0
+			},{
+				"itemTypeID" : 482,
+				"stock" : 0
+			},{
+				"itemTypeID" : 509,
+				"stock" : 0
+			},{
+				"itemTypeID" : 514,
+				"stock" : 0
+			},{
+				"itemTypeID" : 574,
+				"stock" : 0
+			},{
+				"itemTypeID" : 568,
+				"stock" : 0
+			},{
+				"itemTypeID" : 533,
+				"stock" : 0
+			},{
+				"itemTypeID" : 537,
+				"stock" : 0
+			},{
+				"itemTypeID" : 546,
+				"stock" : 0
+			},{
+				"itemTypeID" : 839,
+				"stock" : 0
+			},{
+				"itemTypeID" : 553,
+				"stock" : 0
+			},{
+				"itemTypeID" : 61,
+				"stock" : 0
+			},{
+				"itemTypeID" : 361,
+				"stock" : 0
+			},{
+				"itemTypeID" : 110,
+				"stock" : 0
+			},{
+				"itemTypeID" : 128,
+				"stock" : 0
+			},{
+				"itemTypeID" : 130,
+				"stock" : 0
+			},{
+				"itemTypeID" : 765,
+				"stock" : 0
+			},{
+				"itemTypeID" : 833,
+				"stock" : 0
+			},{
+				"itemTypeID" : 834,
+				"stock" : 0
+			},{
+				"itemTypeID" : 72,
+				"stock" : 0
+			},{
+				"itemTypeID" : 109,
+				"stock" : 0
+			},{
+				"itemTypeID" : 131,
+				"stock" : 0
+			},{
+				"itemTypeID" : 59,
+				"stock" : 0
+			},{
+				"itemTypeID" : 21,
+				"stock" : 0
+			},{
+				"itemTypeID" : 52,
+				"stock" : 0
+			},{
+				"itemTypeID" : 89,
+				"stock" : 0
+			},{
+				"itemTypeID" : 117,
+				"stock" : 0
+			},{
+				"itemTypeID" : 127,
+				"stock" : 0
+			},{
+				"itemTypeID" : 99,
+				"stock" : 0
+			},{
+				"itemTypeID" : 86,
+				"stock" : 0
+			},{
+				"itemTypeID" : 85,
+				"stock" : 0
+			},{
+				"itemTypeID" : 15,
+				"stock" : 0
+			},{
+				"itemTypeID" : 16,
+				"stock" : 0
+			},{
+				"itemTypeID" : 17,
+				"stock" : 0
+			},{
+				"itemTypeID" : 428,
+				"stock" : 0
+			},{
+				"itemTypeID" : 888,
+				"stock" : 0
+			},{
+				"itemTypeID" : 12,
+				"stock" : 0
+			},{
+				"itemTypeID" : 70,
+				"stock" : 0
+			},{
+				"itemTypeID" : 137,
+				"stock" : 0
+			},{
+				"itemTypeID" : 409,
+				"stock" : 0
+			},{
+				"itemTypeID" : 1181,
+				"stock" : 0
+			}
+		]
+	}
+	},
+	"MultiSceneCore_Visited_Base_SceneV2_2" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Count\/Kills\/Cname_ScavRage" : {
+		"__type" : "int",
+		"value" : 2
+	}
+}

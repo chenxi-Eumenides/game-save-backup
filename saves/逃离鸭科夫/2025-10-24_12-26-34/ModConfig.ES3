@@ -1,0 +1,58 @@
+{
+	"KillFeed_myName" : {
+		"__type" : "string",
+		"value" : "chenxi"
+	},
+	"KillFeed_fontSize" : {
+		"__type" : "float",
+		"value" : 30
+	},
+	"KillFeed_shouldDisplayNonMainPlayerKill" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"KillFeed_maxKillFeedRecordsNum" : {
+		"__type" : "int",
+		"value" : 6
+	},
+	"KillFeed_fadeInTime" : {
+		"__type" : "float",
+		"value" : 0.4
+	},
+	"KillFeed_fadeOutTime" : {
+		"__type" : "float",
+		"value" : 0.7
+	},
+	"KillFeed_displayTime" : {
+		"__type" : "float",
+		"value" : 5
+	},
+	"KillFeed_slideInTime" : {
+		"__type" : "float",
+		"value" : 0.4
+	},
+	"KillFeed_recordsVerticalSpacing" : {
+		"__type" : "float",
+		"value" : 2
+	},
+	"KillFeed_rightMarginPercent" : {
+		"__type" : "float",
+		"value" : 0.05
+	},
+	"KillFeed_topMarginPercent" : {
+		"__type" : "float",
+		"value" : 0.15
+	},
+	"KillFeed_weaponIconSize" : {
+		"__type" : "float",
+		"value" : 80
+	},
+	"KillFeed_weaponIconSpacing" : {
+		"__type" : "float",
+		"value" : 1
+	},
+	"智能鼠标滚动行为_resMeleeWeapon" : {
+		"__type" : "bool",
+		"value" : true
+	}
+}

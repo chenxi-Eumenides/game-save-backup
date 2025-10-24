@@ -1,0 +1,188 @@
+{
+	"AllowLoadingMod" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_FancyItems" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Achievements" : {
+		"__type" : "System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]],mscorlib",
+		"value" : [
+		"FirstBlood","Arrive_Base","Arrive_Level_GroundZero_Main","Evacuate_Level_GroundZero_Main","Building_Merchant_Equipment","Kill_Cname_UltraMan_1","Money_10K","Building_Gem","Building_Merchant_Weapon","Building_Merchant_Ming","Kill_Cname_ShortEagle_1","Building_Kitchen","Arrive_Level_HiddenWarehouse_Main","Kill_Cname_Boss_Sniper_1","Endowmment_Surviver","Kill_Cname_ShortEagle_10","Kill_Cname_Speedy_1","Perk_Storage_t_VIP","Endowmment_Marksman","Quest_913","Building_MiningMachine","Endowmment_Porter","Endowmment_Berserker","Building_DemoTrophy","Arrive_Level_Farm_Main","Kill_Cname_Boss_Fly_1","Money_100K","Kill_Cname_SchoolBully_1","Perk_RefreshChance_4"
+	]
+	},
+	"ModActive_DisplayItemValue" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_HarmonyLoadMod" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_EFD.Controller" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ModActive_DisplayCashWithMoney" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_NoDurabilityLoss" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ModActive_SuperPet" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ModActive_ItemLevelAndSearchSoundMod" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_大仓库Mod" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ModActive_BlackMarketDemanding" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_DisplayTotalReward" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_LootAll" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ModActive_OneKeyLootByQuality" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ModActive_MaxStack" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Endowment_Unlock_R_Surviver" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_MoreTotem" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ModActive_FS_FreeFishing" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_MoreLootBox" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ModActive_BetterFishing" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Endowment_Unlock_R_Marksman" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"InputBinding" : {
+		"__type" : "string",
+		"value" : "{\"bindings\":[{\"action\":\"Character\/ItemShortcut8\",\"id\":\"c545241d-431c-4990-816c-7aa3b41cf13e\",\"path\":\"<Mouse>\/forwardButton\",\"interactions\":\"null\",\"processors\":\"null\"}]}"
+	},
+	"Endowment_Unlock_R_Porter" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Endowment_Unlock_R_Berserker" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_AutoFishing" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_KeycardRecordedIndicator" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_BossLiveMapMod" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_LiteNetLibLoader" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_ModConfig" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_IntelligentScrolling" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_控制台Mod" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_AdditionalCollectibles" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_ShowQuestsAreaOnMap" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_VanillaStorageExtend" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_ShootCarefully" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_ManualShopRefresh" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_MapTeleport" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_UsefulBitcoin" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_BaseTimePause" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_QuestItemRequirementsDisplay" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_DuckovNameplate" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_Duckov_RecipeRecordedIndicator" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_KillFeed" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_ShowInventoryCount" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ModActive_BigStorage2" : {
+		"__type" : "bool",
+		"value" : true
+	}
+}
