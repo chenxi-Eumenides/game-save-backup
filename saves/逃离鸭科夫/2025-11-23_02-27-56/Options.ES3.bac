@@ -1,0 +1,557 @@
+{
+	"FsrSetting" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"MakeBitcoinGreatAgain_ShowPriceOnHud" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"MakeBitcoinGreatAgain_ToastNotifications" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"MakeBitcoinGreatAgain_MaxBitcoinPrice" : {
+		"__type" : "float",
+		"value" : 500000
+	},
+	"MakeBitcoinGreatAgain_MinBitcoinPrice" : {
+		"__type" : "float",
+		"value" : 50000
+	},
+	"MakeBitcoinGreatAgain_PriceProtection" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"MakeBitcoinGreatAgain_MiningSpeed" : {
+		"__type" : "float",
+		"value" : 10
+	},
+	"MakeBitcoinGreatAgain_PriceVolatility" : {
+		"__type" : "float",
+		"value" : 0.2959532
+	},
+	"MakeBitcoinGreatAgain_PriceUpdateFrequency" : {
+		"__type" : "float",
+		"value" : 2
+	},
+	"HurtVisualSettings" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"GrassSettings" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EdgeLightSetting" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"MoveDirModeSettings" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"DisableCameraOffset" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"ShadowSettings" : {
+		"__type" : "int",
+		"value" : 3
+	},
+	"HBAOSettings" : {
+		"__type" : "int",
+		"value" : 3
+	},
+	"RunInputModeSettings" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"SunFogSetting" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"GSyncSetting" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"FrameRateSetting" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"Audio\/Master\/Music" : {
+		"__type" : "float",
+		"value" : 0.09831868
+	},
+	"Audio\/Master\/SFX" : {
+		"__type" : "float",
+		"value" : 1
+	},
+	"Audio\/Master" : {
+		"__type" : "float",
+		"value" : 1
+	},
+	"NumericalStats_ArmourStatsDisplayPosY" : {
+		"__type" : "float",
+		"value" : 0
+	},
+	"NumericalStats_ArmourStatsDisplayPosX" : {
+		"__type" : "float",
+		"value" : 0
+	},
+	"NumericalStats_EnergyDisplayPosY" : {
+		"__type" : "float",
+		"value" : -554
+	},
+	"NumericalStats_EnergyDisplayPosX" : {
+		"__type" : "float",
+		"value" : -421
+	},
+	"NumericalStats_WaterDisplayPosY" : {
+		"__type" : "float",
+		"value" : -554
+	},
+	"NumericalStats_WaterDisplayPosX" : {
+		"__type" : "float",
+		"value" : -536
+	},
+	"ScreenMode" : {
+		"__type" : "ResolutionSetter+screenModes,TeamSoda.Duckov.Core",
+		"value" : 0
+	},
+	"Resolution" : {
+		"__type" : "DuckovResolution,TeamSoda.Duckov.Core",
+		"value" : {
+			"width" : 2560,
+			"height" : 1440
+		}
+	},
+	"DuckMarket_NotificationDuration" : {
+		"__type" : "float",
+		"value" : 5
+	},
+	"NumericalStats_EditUI" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ShowHealthBarForObjects" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"MustShowHealthBar" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ShowArmourStats" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ShowEnemyName" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ShowNumericalHealth" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ShowNumericalWaterAndEnergy" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"InfoDisplayEnhancementQX.DisplayKillCountTaskTarget" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"InfoDisplayEnhancementQX.DisplayBuildingName" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"InfoDisplayEnhancementQX.DisplayHealthValue" : {
+		"__type" : "int",
+		"value" : 2
+	},
+	"InfoDisplayEnhancementQX.DecimalPlacesOfHealthValue" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"InfoDisplayEnhancementQX.DisplayCharacterName" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_ItemWheelSensitivity_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_ItemWheelSensitivity" : {
+		"__type" : "float",
+		"value" : 1
+	},
+	"EfDEnhanced_ItemWheelSensitivity_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_TrackerHotkeyUsed_Modified" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_TrackerHotkeyUsed_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_TrackerHotkeyUsed" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"MakeBitcoinGreatAgain_Language" : {
+		"__type" : "string",
+		"value" : ""
+	},
+	"EfDEnhanced_EnableDuckQuack_Modified" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_EnableDuckQuack_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_EnableDuckQuack" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_EnableDuckShit_Modified" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_EnableDuckShit_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_EnableDuckShit" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_AutoTrackNewQuests_Modified" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_AutoTrackNewQuests_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_AutoTrackNewQuests" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_TrackerToggleHotkey_Modified" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_TrackerToggleHotkey_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_TrackerToggleHotkey" : {
+		"__type" : "UnityEngine.KeyCode,UnityEngine.CoreModule",
+		"value" : 96
+	},
+	"EfDEnhanced_MovementEnhancement_Modified" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_MovementEnhancement_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_MovementEnhancement" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_CheckFood_Modified" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_CheckFood_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_CheckFood" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_ItemWheelMenuHotkey_Modified" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_ItemWheelMenuHotkey_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_ItemWheelMenuHotkey" : {
+		"__type" : "UnityEngine.KeyCode,UnityEngine.CoreModule",
+		"value" : 113
+	},
+	"EfDEnhanced_DuckQuackHotkey_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_DuckQuackHotkey" : {
+		"__type" : "UnityEngine.KeyCode,UnityEngine.CoreModule",
+		"value" : 325
+	},
+	"EfDEnhanced_DuckQuackHotkey_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_ThrowableWheelHotkey_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_ThrowableWheelHotkey" : {
+		"__type" : "UnityEngine.KeyCode,UnityEngine.CoreModule",
+		"value" : 103
+	},
+	"EfDEnhanced_ThrowableWheelHotkey_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_FastSellEnabled_Version" : {
+		"__type" : "int",
+		"value" : 2
+	},
+	"EfDEnhanced_FastSellEnabled" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_FastSellEnabled_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_FastBuyEnabled_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_FastBuyEnabled" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_FastBuyEnabled_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_ThrowableWheelEnabled_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_ThrowableWheelEnabled" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_ThrowableWheelEnabled_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_ItemWheelTimeScale_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_ItemWheelTimeScale" : {
+		"__type" : "float",
+		"value" : 0.2
+	},
+	"EfDEnhanced_ItemWheelTimeScale_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_ItemWheelScale_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_ItemWheelScale" : {
+		"__type" : "float",
+		"value" : 1
+	},
+	"EfDEnhanced_ItemWheelScale_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_EnableWeaponComparison_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_EnableWeaponComparison" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_EnableWeaponComparison_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_TrackerFilterByMap_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_TrackerFilterByMap" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_TrackerFilterByMap_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_TrackerShowDescription_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_TrackerShowDescription" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_TrackerShowDescription_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_TrackerScale_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_TrackerScale" : {
+		"__type" : "float",
+		"value" : 1.2
+	},
+	"EfDEnhanced_TrackerScale_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_TrackerPosY_Version" : {
+		"__type" : "int",
+		"value" : 2
+	},
+	"EfDEnhanced_TrackerPosY" : {
+		"__type" : "float",
+		"value" : 0
+	},
+	"EfDEnhanced_TrackerPosY_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_TrackerPosX_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_TrackerPosX" : {
+		"__type" : "float",
+		"value" : 0
+	},
+	"EfDEnhanced_TrackerPosX_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_EnableQuestTracker_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_EnableQuestTracker" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_EnableQuestTracker_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_CheckQuestWeapons_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_CheckQuestWeapons" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_CheckQuestWeapons_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_CheckQuestItems_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_CheckQuestItems" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_CheckQuestItems_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_CheckWeather_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_CheckWeather" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_CheckWeather_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_CheckMeds_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_CheckMeds" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_CheckMeds_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_CheckAmmo_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_CheckAmmo" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_CheckAmmo_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_CheckWeapon_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_CheckWeapon" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_CheckWeapon_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"EfDEnhanced_EnableRaidCheck_Version" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"EfDEnhanced_EnableRaidCheck" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"EfDEnhanced_EnableRaidCheck_Modified" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ScrollWheelBehaviour" : {
+		"__type" : "ScrollWheelBehaviour+Behaviour,TeamSoda.Duckov.Core",
+		"value" : 0
+	},
+	"UIShadow" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"MouseSensitivity" : {
+		"__type" : "float",
+		"value" : 10
+	}
+}

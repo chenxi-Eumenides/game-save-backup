@@ -1,0 +1,318 @@
+{
+	"DisplayItemDurability_HideEquipmentIconDurability" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"DisplayItemDurability_ShowIconDurability" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"智能鼠标滚动行为_isFixedWeapon" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ConfigurableBackpackExpansion_toolbarResetAction" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"ConfigurableBackpackExpansion_playerPagesResetAction" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"ConfigurableBackpackExpansion_searchBarOffsetY" : {
+		"__type" : "float",
+		"value" : 0
+	},
+	"ConfigurableBackpackExpansion_searchBarOffsetX" : {
+		"__type" : "float",
+		"value" : 0
+	},
+	"ConfigurableBackpackExpansion_toolbarOffsetY" : {
+		"__type" : "float",
+		"value" : 0
+	},
+	"ConfigurableBackpackExpansion_toolbarOffsetX" : {
+		"__type" : "float",
+		"value" : 0
+	},
+	"ConfigurableStorageExpansion_storageToolbarResetAction" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"ConfigurableStorageExpansion_storageSearchBarResetAction" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"ConfigurableStorageExpansion_autoClassifyOnOpen" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ConfigurableStorageExpansion_pageDiagnostics" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ConfigurableStorageExpansion_storageSearchBarVisible" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ConfigurableStorageExpansion_storageSearchBarOffsetY" : {
+		"__type" : "float",
+		"value" : 0
+	},
+	"ConfigurableStorageExpansion_storageSearchBarOffsetX" : {
+		"__type" : "float",
+		"value" : 0
+	},
+	"ConfigurableStorageExpansion_storageToolbarOffsetY" : {
+		"__type" : "float",
+		"value" : 0
+	},
+	"ConfigurableStorageExpansion_storageToolbarOffsetX" : {
+		"__type" : "float",
+		"value" : 0
+	},
+	"ConfigurableStorageExpansion_favoriteToggleHotkey" : {
+		"__type" : "string",
+		"value" : "LeftAlt"
+	},
+	"ConfigurableStorageExpansion_searchHistoryHotkey" : {
+		"__type" : "string",
+		"value" : "Space"
+	},
+	"ConfigurableStorageExpansion_storageSearchFocusHotkey" : {
+		"__type" : "string",
+		"value" : "Ctrl+D"
+	},
+	"ConfigurableStorageExpansion_storageClassifyKey" : {
+		"__type" : "string",
+		"value" : "KeyCode.V"
+	},
+	"ConfigurableStorageExpansion_itemsPerPage" : {
+		"__type" : "int",
+		"value" : 30
+	},
+	"DragToDrop_anchoredPosY" : {
+		"__type" : "int",
+		"value" : -100
+	},
+	"DragToDrop_sizeDeltaY" : {
+		"__type" : "int",
+		"value" : 500
+	},
+	"DragToDrop_sizeDeltaX" : {
+		"__type" : "int",
+		"value" : 900
+	},
+	"ConfigurableStorageExpansion_extraCapacity" : {
+		"__type" : "int",
+		"value" : 500
+	},
+	"ConfigurableBackpackExpansion_extraCapacity" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"ConfigurableBackpackExpansion_extraCarryWeight" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"ConfigurableBackpackExpansion_itemsPerPage" : {
+		"__type" : "int",
+		"value" : 180
+	},
+	"HideEquipmentIconDurability" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ShowIconDurability" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Max Spawn Chance_spawnAllExtractionPoints" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"Max Spawn Chance_spawnAllLootBoxes" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"Max Spawn Chance_spawnAllBosses" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"FPSReducer_ReducedFPS" : {
+		"__type" : "int",
+		"value" : 5
+	},
+	"FPSReducer_IdleTime" : {
+		"__type" : "int",
+		"value" : 30
+	},
+	"ConfigurableBackpackExpansion_overlayItemsPerPage" : {
+		"__type" : "int",
+		"value" : 30
+	},
+	"ConfigurableBackpackExpansion_playerPagesRowCount" : {
+		"__type" : "int",
+		"value" : 5
+	},
+	"ConfigurableBackpackExpansion_searchBarVisible" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ConfigurableBackpackExpansion_searchBarResetAction" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"ConfigurableBackpackExpansion_exceptionDefenseEnabled" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ConfigurableBackpackExpansion_rememberPlayerPages" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ConfigurableBackpackExpansion_playerPagesRightToLeft" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"ConfigurableBackpackExpansion_searchFocusHotkey" : {
+		"__type" : "string",
+		"value" : "Ctrl+F"
+	},
+	"ConfigurableBackpackExpansion_playerPageClassifyKey" : {
+		"__type" : "string",
+		"value" : "C"
+	},
+	"ConfigurableBackpackExpansion_playerPageNextKey" : {
+		"__type" : "string",
+		"value" : "KeyCode.D"
+	},
+	"ConfigurableBackpackExpansion_playerPagePrevKey" : {
+		"__type" : "string",
+		"value" : "KeyCode.A"
+	},
+	"ShowDisassemblyInfo_showSources" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"ShowDisassemblyInfo_showOutputs" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"DragToDrop_anchoredPosX" : {
+		"__type" : "int",
+		"value" : 0
+	},
+	"Duckov_RecipeRecordedIndicator_ShowIndicatorOnLeft" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"DragToDrop_dropAtBaseAction" : {
+		"__type" : "int",
+		"value" : 1
+	},
+	"DragToDrop_alphaOnActive" : {
+		"__type" : "float",
+		"value" : 0.5
+	},
+	"DragToDrop_enableShiftLeftClick" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"DragToDrop_fontSize" : {
+		"__type" : "int",
+		"value" : 24
+	},
+	"DuckSort_DefaultSortAscending" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"QuickDecomposition_DecomposeHotKey" : {
+		"__type" : "string",
+		"value" : "Delete"
+	},
+	"DuckSort_ShowRatioText" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"DuckSort_ShowUnitPriceButton" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"DuckSort_ShowQualityButton" : {
+		"__type" : "bool",
+		"value" : false
+	},
+	"DuckSort_ShowPriceText" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"DuckSort_ShowRatioButton" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"DuckSort_ShowWeightButton" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"DuckSort_ShowPriceButton" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"KillFeed_myName" : {
+		"__type" : "string",
+		"value" : "chenxi"
+	},
+	"KillFeed_fontSize" : {
+		"__type" : "float",
+		"value" : 30
+	},
+	"KillFeed_shouldDisplayNonMainPlayerKill" : {
+		"__type" : "bool",
+		"value" : true
+	},
+	"KillFeed_maxKillFeedRecordsNum" : {
+		"__type" : "int",
+		"value" : 6
+	},
+	"KillFeed_fadeInTime" : {
+		"__type" : "float",
+		"value" : 0.4
+	},
+	"KillFeed_fadeOutTime" : {
+		"__type" : "float",
+		"value" : 0.7
+	},
+	"KillFeed_displayTime" : {
+		"__type" : "float",
+		"value" : 5
+	},
+	"KillFeed_slideInTime" : {
+		"__type" : "float",
+		"value" : 0.4
+	},
+	"KillFeed_recordsVerticalSpacing" : {
+		"__type" : "float",
+		"value" : 2
+	},
+	"KillFeed_rightMarginPercent" : {
+		"__type" : "float",
+		"value" : 0.05
+	},
+	"KillFeed_topMarginPercent" : {
+		"__type" : "float",
+		"value" : 0.15
+	},
+	"KillFeed_weaponIconSize" : {
+		"__type" : "float",
+		"value" : 80
+	},
+	"KillFeed_weaponIconSpacing" : {
+		"__type" : "float",
+		"value" : 1
+	},
+	"智能鼠标滚动行为_resMeleeWeapon" : {
+		"__type" : "bool",
+		"value" : true
+	}
+}

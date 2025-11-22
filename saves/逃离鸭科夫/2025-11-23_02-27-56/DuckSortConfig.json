@@ -1,0 +1,10 @@
+{
+    "ShowPriceButton": true,
+    "ShowWeightButton": true,
+    "ShowRatioButton": true,
+    "ShowQualityButton": false,
+    "ShowUnitPriceButton": false,
+    "ShowPriceText": true,
+    "ShowRatioText": true,
+    "DefaultSortAscending": true
+}
