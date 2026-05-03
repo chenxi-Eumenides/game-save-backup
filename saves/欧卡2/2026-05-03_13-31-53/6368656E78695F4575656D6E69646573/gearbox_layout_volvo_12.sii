@@ -1,0 +1,172 @@
+SiiNunit
+{
+direct_gearbox_config : _nameless.16e.5a37.c3e0 {
+ name: "Volvo 12 @@speeds@@"
+ clutch_mode: analog
+ selector_mode: range_split
+ gears: 18
+ gears[0]: _nameless.16e.606e.0600
+ gears[1]: _nameless.16e.606d.fe40
+ gears[2]: _nameless.16e.606e.0100
+ gears[3]: _nameless.16e.606d.fc80
+ gears[4]: _nameless.16e.606e.0740
+ gears[5]: _nameless.16e.606d.fa40
+ gears[6]: _nameless.16e.606d.ff80
+ gears[7]: _nameless.16e.606e.0280
+ gears[8]: _nameless.16e.606e.0640
+ gears[9]: _nameless.16e.606d.fdc0
+ gears[10]: _nameless.16e.606d.fac0
+ gears[11]: _nameless.16e.606e.0800
+ gears[12]: _nameless.16e.606d.fe80
+ gears[13]: _nameless.16e.606e.0780
+ gears[14]: _nameless.16e.606e.0340
+ gears[15]: _nameless.16e.606e.02c0
+ gears[16]: _nameless.16e.606e.0040
+ gears[17]: _nameless.16e.606d.fb40
+}
+
+direct_gearbox_gear : _nameless.16e.606e.0600 {
+ gear_impulse_index: 0
+ selector_1: -1
+ selector_2: -1
+ gear: 0
+ name: N
+}
+
+direct_gearbox_gear : _nameless.16e.606d.fe40 {
+ gear_impulse_index: 3
+ selector_1: -1
+ selector_2: 0
+ gear: -1
+ name: RL
+}
+
+direct_gearbox_gear : _nameless.16e.606e.0100 {
+ gear_impulse_index: 3
+ selector_1: -1
+ selector_2: 1
+ gear: -2
+ name: RH
+}
+
+direct_gearbox_gear : _nameless.16e.606d.fc80 {
+ gear_impulse_index: 4
+ selector_1: 0
+ selector_2: 0
+ gear: 1
+ name: 1L
+}
+
+direct_gearbox_gear : _nameless.16e.606e.0740 {
+ gear_impulse_index: 4
+ selector_1: 0
+ selector_2: 1
+ gear: 2
+ name: 1H
+}
+
+direct_gearbox_gear : _nameless.16e.606d.fa40 {
+ gear_impulse_index: 5
+ selector_1: 0
+ selector_2: 0
+ gear: 3
+ name: 2L
+}
+
+direct_gearbox_gear : _nameless.16e.606d.ff80 {
+ gear_impulse_index: 5
+ selector_1: 0
+ selector_2: 1
+ gear: 4
+ name: 2H
+}
+
+direct_gearbox_gear : _nameless.16e.606e.0280 {
+ gear_impulse_index: 6
+ selector_1: 0
+ selector_2: 0
+ gear: 5
+ name: 3L
+}
+
+direct_gearbox_gear : _nameless.16e.606e.0640 {
+ gear_impulse_index: 6
+ selector_1: 0
+ selector_2: 1
+ gear: 6
+ name: 3H
+}
+
+direct_gearbox_gear : _nameless.16e.606d.fdc0 {
+ gear_impulse_index: 4
+ selector_1: 1
+ selector_2: 0
+ gear: 7
+ name: 4L
+}
+
+direct_gearbox_gear : _nameless.16e.606d.fac0 {
+ gear_impulse_index: 4
+ selector_1: 1
+ selector_2: 1
+ gear: 8
+ name: 4H
+}
+
+direct_gearbox_gear : _nameless.16e.606e.0800 {
+ gear_impulse_index: 5
+ selector_1: 1
+ selector_2: 0
+ gear: 9
+ name: 5L
+}
+
+direct_gearbox_gear : _nameless.16e.606d.fe80 {
+ gear_impulse_index: 5
+ selector_1: 1
+ selector_2: 1
+ gear: 10
+ name: 5H
+}
+
+direct_gearbox_gear : _nameless.16e.606e.0780 {
+ gear_impulse_index: 6
+ selector_1: 1
+ selector_2: 0
+ gear: 11
+ name: 6L
+}
+
+direct_gearbox_gear : _nameless.16e.606e.0340 {
+ gear_impulse_index: 6
+ selector_1: 1
+ selector_2: 1
+ gear: 12
+ name: 6H
+}
+
+direct_gearbox_gear : _nameless.16e.606e.02c0 {
+ gear_impulse_index: 1
+ selector_1: -1
+ selector_2: -1
+ gear: 0
+ name: ""
+}
+
+direct_gearbox_gear : _nameless.16e.606e.0040 {
+ gear_impulse_index: 2
+ selector_1: -1
+ selector_2: -1
+ gear: 0
+ name: ""
+}
+
+direct_gearbox_gear : _nameless.16e.606d.fb40 {
+ gear_impulse_index: 7
+ selector_1: -1
+ selector_2: -1
+ gear: 0
+ name: ""
+}
+
+}
