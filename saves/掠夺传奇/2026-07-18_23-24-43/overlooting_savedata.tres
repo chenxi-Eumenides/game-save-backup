@@ -1,0 +1,1556 @@
+[gd_resource type="Resource" script_class="SavedGame" load_steps=203 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/save_data.gd" id="1"]
+[ext_resource type="Resource" path="res://resources/rooms/corrupted_forest/beastly_and_humanoid_mandrake_and_strange_corvid.tres" id="2"]
+[ext_resource type="Script" path="res://scripts/resources/save_run.gd" id="3"]
+[ext_resource type="Script" path="res://scripts/resources/saved_character.gd" id="4"]
+[ext_resource type="Script" path="res://scripts/resources/saved_unlocks.gd" id="5"]
+[ext_resource type="Script" path="res://scripts/resources/stats.gd" id="6"]
+[ext_resource type="Script" path="res://scripts/resources/equipment_set.gd" id="7"]
+[ext_resource type="Resource" path="res://resources/sets/sylvan_set.tres" id="8"]
+[ext_resource type="Resource" path="res://resources/sets/royal_set.tres" id="9"]
+[ext_resource type="Resource" path="res://resources/characters/cat.tres" id="10"]
+[ext_resource type="Resource" path="res://resources/masteries/cat/level_1/defensive_maneuver.tres" id="11"]
+[ext_resource type="Resource" path="res://resources/masteries/cat/level_2/junk_artisan.tres" id="12"]
+[ext_resource type="Script" path="res://scripts/resources/equipment_data.gd" id="13"]
+[ext_resource type="Script" path="res://scripts/resources/saved_player.gd" id="14"]
+[ext_resource type="Script" path="res://scripts/resources/saved_slot.gd" id="15"]
+[ext_resource type="Script" path="res://scripts/resources/potion_data.gd" id="16"]
+[ext_resource type="Resource" path="res://resources/masteries/cat/level_1/weapon_infusion.tres" id="17"]
+[ext_resource type="Script" path="res://scripts/resources/saved_mastery.gd" id="18"]
+[ext_resource type="Resource" path="res://resources/masteries/cat/level_1/first_aid.tres" id="19"]
+[ext_resource type="Resource" path="res://resources/masteries/cat/level_2/subterfuge.tres" id="20"]
+[ext_resource type="Resource" path="res://resources/masteries/cat/level_2/spreading_toxicity.tres" id="21"]
+[ext_resource type="Resource" path="res://resources/masteries/cat/level_3/untouchable.tres" id="22"]
+[ext_resource type="Resource" path="res://resources/masteries/cat/level_3/target_the_weak.tres" id="23"]
+[ext_resource type="Resource" path="res://resources/masteries/cat/level_3/duelist.tres" id="24"]
+[ext_resource type="Script" path="res://scripts/resources/save_options.gd" id="25"]
+[ext_resource type="Script" path="res://scripts/resources/saved_game.gd" id="26"]
+
+[sub_resource type="Resource" id="Resource_3dtrg"]
+script = ExtResource("3")
+current_room = ExtResource("2")
+current_room_number = 19
+corruption_level = 1
+current_region = 1
+map_position = Vector2(97, 6)
+is_finished = true
+is_endless = false
+loop = 1
+can_revive = false
+can_upgrade_hands = false
+is_difficult = true
+is_easy = false
+is_calm = false
+seed = 3
+
+[sub_resource type="Resource" id="Resource_eixhp"]
+script = ExtResource("4")
+id = "dog"
+level = 3
+experience = 23
+max_corruption_level = 0
+
+[sub_resource type="Resource" id="Resource_guqna"]
+script = ExtResource("4")
+id = "cat"
+level = 1
+experience = 54
+max_corruption_level = 0
+
+[sub_resource type="Resource" id="Resource_v81j0"]
+script = ExtResource("4")
+id = "shadow"
+level = 1
+experience = 0
+max_corruption_level = 0
+
+[sub_resource type="Resource" id="Resource_i3o1h"]
+script = ExtResource("5")
+max_corruption = 1
+obtained_unlocks = Array[int]([0])
+path_of_the_core_count = 1
+
+[sub_resource type="Resource" id="Resource_1mku1"]
+script = ExtResource("6")
+max_health = 40
+min_physical_damage = 0
+max_physical_damage = 0
+armor = 8
+dodge = 0
+regeneration = 0
+luck = 0
+critical_chance = 5
+critical_damage = 150
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 0
+poisonous = 0
+bludgeoning = 0
+counterattack = 0
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_n62qk"]
+load_path = "res://.godot/imported/beast.png-4d7f560732825c108794c2867d00b257.ctex"
+
+[sub_resource type="Resource" id="Resource_m6jeb"]
+script = ExtResource("7")
+id = "beast_set"
+name = "BEAST_SET_NAME"
+icon = SubResource("CompressedTexture2D_n62qk")
+general_description = "BEAST_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([3, 5])
+breakpoint_descriptions = Array[String](["BEAST_SET_BREAKPOINT_0_DESCRIPTION", "BEAST_SET_BREAKPOINT_1_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6mdq6"]
+load_path = "res://.godot/imported/wolf_ring.png-fbd458be6c8d72c9b3c0fe292bd45358.ctex"
+
+[sub_resource type="Resource" id="Resource_3u85r"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 0
+max_physical_damage = 0
+armor = 0
+dodge = 0
+regeneration = 0
+luck = 0
+critical_chance = 0
+critical_damage = 0
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 18
+poisonous = 0
+bludgeoning = 0
+counterattack = 0
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_g0ewj"]
+script = ExtResource("13")
+stats = SubResource("Resource_3u85r")
+category = 5
+rarity = 2
+equipment_set = SubResource("Resource_m6jeb")
+level = 2
+id = "wolf_ring"
+name = "WOLF_RING_NAME"
+icon = SubResource("CompressedTexture2D_6mdq6")
+is_throwable = false
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4ktlh"]
+load_path = "res://.godot/imported/souldrain_sword_sprite.png-ae43643c1c3d655cf9bcf8c6fed363f5.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vb1o5"]
+load_path = "res://.godot/imported/taboo.png-559220a9f12088890fd6c9b688d9b164.ctex"
+
+[sub_resource type="Resource" id="Resource_wpxyf"]
+script = ExtResource("7")
+id = "taboo_set"
+name = "TABOO_SET_NAME"
+icon = SubResource("CompressedTexture2D_vb1o5")
+general_description = "TABOO_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([3, 5])
+breakpoint_descriptions = Array[String](["TABOO_SET_BREAKPOINT_0_DESCRIPTION", "TABOO_SET_BREAKPOINT_1_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_m6jeb"]
+load_path = "res://.godot/imported/souldrain_sword.png-477a814b8f2122bdd4692591fb4e50c5.ctex"
+
+[sub_resource type="Resource" id="Resource_6mdq6"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 5
+max_physical_damage = 7
+armor = 0
+dodge = 0
+regeneration = 0
+luck = 0
+critical_chance = 0
+critical_damage = 0
+lifesteal = 1
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 0
+poisonous = 0
+bludgeoning = 0
+counterattack = 0
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_2w7wx"]
+script = ExtResource("13")
+dog_sprite = SubResource("CompressedTexture2D_4ktlh")
+stats = SubResource("Resource_6mdq6")
+category = 3
+rarity = 2
+equipment_set = SubResource("Resource_wpxyf")
+level = 1
+id = "souldrain_sword"
+name = "SOULDRAIN_SWORD_NAME"
+icon = SubResource("CompressedTexture2D_m6jeb")
+is_throwable = false
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_exhct"]
+load_path = "res://.godot/imported/cat_scout_cowl_sprite.png-2fc9b5f91e267809e657969f92de1d8f.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mtg3s"]
+load_path = "res://.godot/imported/scout_cowl_sprite_dog.png-d9c6c0588ca3342bd77937cb36baef9c.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ifora"]
+load_path = "res://.godot/imported/sylvan.png-ceb50e466eacb53504d0c1abaf939d35.ctex"
+
+[sub_resource type="Resource" id="Resource_ab7iw"]
+script = ExtResource("7")
+id = "sylvan_set"
+name = "SYLVAN_SET_NAME"
+icon = SubResource("CompressedTexture2D_ifora")
+general_description = "SYLVAN_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([2, 4, 6])
+breakpoint_descriptions = Array[String](["SYLVAN_SET_BREAKPOINT_0_DESCRIPTION", "SYLVAN_SET_BREAKPOINT_1_DESCRIPTION", "SYLVAN_SET_BREAKPOINT_2_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_wgqjg"]
+load_path = "res://.godot/imported/scout_cowl.png-6f3175038702ae2c52c8017ac7e87493.ctex"
+
+[sub_resource type="Resource" id="Resource_ix4kl"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 0
+max_physical_damage = 0
+armor = 0
+dodge = 15
+regeneration = 0
+luck = 0
+critical_chance = 0
+critical_damage = 0
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 15
+poisonous = 0
+bludgeoning = 0
+counterattack = 0
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_njihn"]
+script = ExtResource("13")
+dog_sprite = SubResource("CompressedTexture2D_mtg3s")
+cat_sprite = SubResource("CompressedTexture2D_exhct")
+stats = SubResource("Resource_ix4kl")
+category = 0
+rarity = 1
+equipment_set = SubResource("Resource_ab7iw")
+level = 2
+id = "scout_cowl"
+name = "SCOUT_COWL_NAME"
+icon = SubResource("CompressedTexture2D_wgqjg")
+is_throwable = false
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_i6678"]
+load_path = "res://.godot/imported/cat_explorer_cloak_sprite.png-7d5aa0da1047b3710e9bd89f8f4b9999.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3u2l4"]
+load_path = "res://.godot/imported/explorer_cloak_sprite_dog.png-04d13190cec36a60a7612a85e48b4c86.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6fu32"]
+load_path = "res://.godot/imported/sylvan.png-ceb50e466eacb53504d0c1abaf939d35.ctex"
+
+[sub_resource type="Resource" id="Resource_gnjxh"]
+script = ExtResource("7")
+id = "sylvan_set"
+name = "SYLVAN_SET_NAME"
+icon = SubResource("CompressedTexture2D_6fu32")
+general_description = "SYLVAN_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([2, 4, 6])
+breakpoint_descriptions = Array[String](["SYLVAN_SET_BREAKPOINT_0_DESCRIPTION", "SYLVAN_SET_BREAKPOINT_1_DESCRIPTION", "SYLVAN_SET_BREAKPOINT_2_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_l4bhc"]
+load_path = "res://.godot/imported/explorer_cloak.png-626c4eb36b886bb5212f362834d701a0.ctex"
+
+[sub_resource type="Resource" id="Resource_nvb2d"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 0
+max_physical_damage = 0
+armor = 2
+dodge = 12
+regeneration = 0
+luck = 0
+critical_chance = 0
+critical_damage = 0
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 0
+poisonous = 0
+bludgeoning = 0
+counterattack = 30
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_54umy"]
+script = ExtResource("13")
+dog_sprite = SubResource("CompressedTexture2D_3u2l4")
+cat_sprite = SubResource("CompressedTexture2D_i6678")
+stats = SubResource("Resource_nvb2d")
+category = 1
+rarity = 2
+equipment_set = SubResource("Resource_gnjxh")
+level = 1
+id = "explorer_cloak"
+name = "EXPLORER_CLOAK_NAME"
+icon = SubResource("CompressedTexture2D_l4bhc")
+is_throwable = false
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mmhe0"]
+load_path = "res://.godot/imported/claw_boots_sprite_cat.png-9b520d7ee9e86c92705068d14aa2762f.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7ug4f"]
+load_path = "res://.godot/imported/claw_boots_sprite.png-17be988b9de80885ed0a3f7644e413ee.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_6lqof"]
+load_path = "res://.godot/imported/rogue.png-ca5b1383fd1820a8329fba973580d352.ctex"
+
+[sub_resource type="Resource" id="Resource_l3n1k"]
+script = ExtResource("7")
+id = "rogue_set"
+name = "ROGUE_SET_NAME"
+icon = SubResource("CompressedTexture2D_6lqof")
+general_description = "ROGUE_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([2, 4, 6])
+breakpoint_descriptions = Array[String](["ROGUE_SET_BREAKPOINT_0_DESCRIPTION", "ROGUE_SET_BREAKPOINT_1_DESCRIPTION", "ROGUE_SET_BREAKPOINT_2_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cuiwc"]
+load_path = "res://.godot/imported/claw_boots.png-4e0a07c347e406bbd8bddf3284b18c94.ctex"
+
+[sub_resource type="Resource" id="Resource_ryfw6"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 0
+max_physical_damage = 0
+armor = 3
+dodge = 12
+regeneration = 0
+luck = 0
+critical_chance = 0
+critical_damage = 20
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 20
+poisonous = 0
+bludgeoning = 0
+counterattack = 0
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_atiqg"]
+script = ExtResource("13")
+dog_sprite = SubResource("CompressedTexture2D_7ug4f")
+cat_sprite = SubResource("CompressedTexture2D_mmhe0")
+stats = SubResource("Resource_ryfw6")
+category = 2
+rarity = 4
+equipment_set = SubResource("Resource_l3n1k")
+level = 1
+id = "claw_boots"
+name = "CLAW_BOOTS_NAME"
+icon = SubResource("CompressedTexture2D_cuiwc")
+is_throwable = false
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nmvll"]
+load_path = "res://.godot/imported/villager.png-b9bf11720367501d02168054bd94c577.ctex"
+
+[sub_resource type="Resource" id="Resource_ets6p"]
+script = ExtResource("7")
+id = "villager_set"
+name = "VILLAGER_SET_NAME"
+icon = SubResource("CompressedTexture2D_nmvll")
+general_description = "VILLAGER_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([3, 5])
+breakpoint_descriptions = Array[String](["VILLAGER_SET_BREAKPOINT_0_DESCRIPTION", "VILLAGER_SET_BREAKPOINT_1_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qipns"]
+load_path = "res://.godot/imported/lucky_charm.png-89e10fdddd2013af011c5f182764e10a.ctex"
+
+[sub_resource type="Resource" id="Resource_o1hpo"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 0
+max_physical_damage = 0
+armor = 0
+dodge = 0
+regeneration = 0
+luck = 23
+critical_chance = 0
+critical_damage = 0
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 0
+poisonous = 0
+bludgeoning = 0
+counterattack = 0
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_6plxw"]
+script = ExtResource("13")
+stats = SubResource("Resource_o1hpo")
+category = 6
+rarity = 1
+equipment_set = SubResource("Resource_ets6p")
+level = 3
+id = "lucky_charm"
+name = "LUCKY_CHARM_NAME"
+icon = SubResource("CompressedTexture2D_qipns")
+is_throwable = false
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_v81j0"]
+load_path = "res://.godot/imported/falchion_sprite.png-396d4ada8afddc69536179962366f141.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_i3o1h"]
+load_path = "res://.godot/imported/sylvan.png-ceb50e466eacb53504d0c1abaf939d35.ctex"
+
+[sub_resource type="Resource" id="Resource_4ktlh"]
+script = ExtResource("7")
+id = "sylvan_set"
+name = "SYLVAN_SET_NAME"
+icon = SubResource("CompressedTexture2D_i3o1h")
+general_description = "SYLVAN_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([2, 4, 6])
+breakpoint_descriptions = Array[String](["SYLVAN_SET_BREAKPOINT_0_DESCRIPTION", "SYLVAN_SET_BREAKPOINT_1_DESCRIPTION", "SYLVAN_SET_BREAKPOINT_2_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pv62w"]
+load_path = "res://.godot/imported/falchion.png-93f491ab60a945f6355713d314a9dcf0.ctex"
+
+[sub_resource type="Resource" id="Resource_vb1o5"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 11
+max_physical_damage = 15
+armor = 0
+dodge = 0
+regeneration = 0
+luck = 0
+critical_chance = 0
+critical_damage = 0
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 18
+poisonous = 0
+bludgeoning = 0
+counterattack = 0
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_n62qk"]
+script = ExtResource("13")
+dog_sprite = SubResource("CompressedTexture2D_v81j0")
+stats = SubResource("Resource_vb1o5")
+category = 3
+rarity = 3
+equipment_set = SubResource("Resource_4ktlh")
+level = 2
+id = "falchion"
+name = "FALCHION_NAME"
+icon = SubResource("CompressedTexture2D_pv62w")
+is_throwable = false
+
+[sub_resource type="Resource" id="Resource_pv62w"]
+script = ExtResource("6")
+max_health = 40
+min_physical_damage = 16
+max_physical_damage = 22
+armor = 13
+dodge = 39
+regeneration = 0
+luck = 23
+critical_chance = 5
+critical_damage = 170
+lifesteal = 1
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 111
+poisonous = 0
+bludgeoning = 0
+counterattack = 30
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 50
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_u5smq"]
+script = ExtResource("14")
+character = ExtResource("10")
+base_stats = SubResource("Resource_1mku1")
+stats = SubResource("Resource_pv62w")
+equipment = Array[ExtResource("13")]([SubResource("Resource_g0ewj"), SubResource("Resource_2w7wx"), SubResource("Resource_njihn"), SubResource("Resource_54umy"), SubResource("Resource_atiqg"), SubResource("Resource_6plxw"), SubResource("Resource_n62qk")])
+inventory = Array[ExtResource("13")]([])
+bonus_equipment_sets = Array[ExtResource("7")]([ExtResource("8"), ExtResource("9")])
+equipment_sets = {
+"beast_set": {
+"data": SubResource("Resource_m6jeb"),
+"quantity": 1
+},
+"rogue_set": {
+"data": SubResource("Resource_l3n1k"),
+"quantity": 1
+},
+"royal_set": {
+"data": ExtResource("9"),
+"quantity": 1
+},
+"sylvan_set": {
+"data": SubResource("Resource_ab7iw"),
+"quantity": 4
+},
+"taboo_set": {
+"data": SubResource("Resource_wpxyf"),
+"quantity": 1
+},
+"villager_set": {
+"data": SubResource("Resource_ets6p"),
+"quantity": 1
+}
+}
+current_masteries = {
+"defensive_maneuver": ExtResource("11"),
+"junk_artisan": ExtResource("12")
+}
+health = 0
+
+[sub_resource type="Resource" id="Resource_1jwhc"]
+script = ExtResource("15")
+id = ""
+
+[sub_resource type="Resource" id="Resource_xu4mu"]
+script = ExtResource("15")
+id = ""
+
+[sub_resource type="Resource" id="Resource_clgeo"]
+script = ExtResource("15")
+id = ""
+
+[sub_resource type="Resource" id="Resource_wvck5"]
+script = ExtResource("15")
+id = "ring_slot"
+child = SubResource("Resource_g0ewj")
+
+[sub_resource type="Resource" id="Resource_pwckm"]
+script = ExtResource("15")
+id = "right_hand_slot"
+child = SubResource("Resource_2w7wx")
+
+[sub_resource type="Resource" id="Resource_8wnqd"]
+script = ExtResource("15")
+id = "head_slot"
+child = SubResource("Resource_njihn")
+
+[sub_resource type="Resource" id="Resource_u38l5"]
+script = ExtResource("15")
+id = "torso_slot"
+child = SubResource("Resource_54umy")
+
+[sub_resource type="Resource" id="Resource_as2tx"]
+script = ExtResource("15")
+id = "footwear_slot"
+child = SubResource("Resource_atiqg")
+
+[sub_resource type="Resource" id="Resource_b8ule"]
+script = ExtResource("15")
+id = "amultet_slot"
+child = SubResource("Resource_6plxw")
+
+[sub_resource type="Resource" id="Resource_7tfd2"]
+script = ExtResource("15")
+id = "left_hand_slot"
+child = SubResource("Resource_n62qk")
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_l6cg7"]
+load_path = "res://.godot/imported/cat_comfy_jacket_sprite.png-8fd9a81fb6de5ba2b2122bd3c1bbe1e3.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mhw1v"]
+load_path = "res://.godot/imported/comfy_jacket_sprite.png-68eac5bc7608a0414375bc6142126edb.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_yephr"]
+load_path = "res://.godot/imported/villager.png-b9bf11720367501d02168054bd94c577.ctex"
+
+[sub_resource type="Resource" id="Resource_454xy"]
+script = ExtResource("7")
+id = "villager_set"
+name = "VILLAGER_SET_NAME"
+icon = SubResource("CompressedTexture2D_yephr")
+general_description = "VILLAGER_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([3, 5])
+breakpoint_descriptions = Array[String](["VILLAGER_SET_BREAKPOINT_0_DESCRIPTION", "VILLAGER_SET_BREAKPOINT_1_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_13nma"]
+load_path = "res://.godot/imported/comfy_jacket.png-412ff05dcee0f63ab8d22ce545b12498.ctex"
+
+[sub_resource type="Resource" id="Resource_7ug4f"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 0
+max_physical_damage = 0
+armor = 4
+dodge = 0
+regeneration = 0
+luck = 8
+critical_chance = 0
+critical_damage = 0
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 0
+poisonous = 0
+bludgeoning = 0
+counterattack = 0
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_cuiwc"]
+script = ExtResource("13")
+dog_sprite = SubResource("CompressedTexture2D_mhw1v")
+cat_sprite = SubResource("CompressedTexture2D_l6cg7")
+stats = SubResource("Resource_7ug4f")
+category = 1
+rarity = 0
+equipment_set = SubResource("Resource_454xy")
+level = 2
+id = "comfy_jacket"
+name = "COMFY_JACKET_NAME"
+icon = SubResource("CompressedTexture2D_13nma")
+is_throwable = false
+
+[sub_resource type="Resource" id="Resource_exhct"]
+script = ExtResource("15")
+id = "inventory_slot_1"
+child = SubResource("Resource_cuiwc")
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_rffk7"]
+load_path = "res://.godot/imported/comfy_hat_sprite_cat.png-5ea7fde0254866833ef49a0ffc92c71b.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_q1fuv"]
+load_path = "res://.godot/imported/comfy_hat_sprite_dog.png-9be4790928291e5935418798b77eeeb0.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_rnoc7"]
+load_path = "res://.godot/imported/villager.png-b9bf11720367501d02168054bd94c577.ctex"
+
+[sub_resource type="Resource" id="Resource_fda8u"]
+script = ExtResource("7")
+id = "villager_set"
+name = "VILLAGER_SET_NAME"
+icon = SubResource("CompressedTexture2D_rnoc7")
+general_description = "VILLAGER_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([3, 5])
+breakpoint_descriptions = Array[String](["VILLAGER_SET_BREAKPOINT_0_DESCRIPTION", "VILLAGER_SET_BREAKPOINT_1_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_wqtut"]
+load_path = "res://.godot/imported/comfy_hat.png-bd4adaf4941f34fbe65434f513f0529e.ctex"
+
+[sub_resource type="Resource" id="Resource_i6678"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 0
+max_physical_damage = 0
+armor = 4
+dodge = 0
+regeneration = 0
+luck = 8
+critical_chance = 0
+critical_damage = 0
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 0
+poisonous = 0
+bludgeoning = 0
+counterattack = 0
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_3u2l4"]
+script = ExtResource("13")
+dog_sprite = SubResource("CompressedTexture2D_q1fuv")
+cat_sprite = SubResource("CompressedTexture2D_rffk7")
+stats = SubResource("Resource_i6678")
+category = 0
+rarity = 0
+equipment_set = SubResource("Resource_fda8u")
+level = 2
+id = "comfy_hat"
+name = "COMFY_HAT_NAME"
+icon = SubResource("CompressedTexture2D_wqtut")
+is_throwable = false
+
+[sub_resource type="Resource" id="Resource_mtg3s"]
+script = ExtResource("15")
+id = "inventory_slot_2"
+child = SubResource("Resource_3u2l4")
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_gnjxh"]
+load_path = "res://.godot/imported/cat_comfy_boots_sprite.png-69d5da080d9cb704e47358d0811135b0.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_c86hy"]
+load_path = "res://.godot/imported/comfy_boots_sprite.png-ba058a74a0b42c04de8333e6246d8d0b.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1mtfv"]
+load_path = "res://.godot/imported/villager.png-b9bf11720367501d02168054bd94c577.ctex"
+
+[sub_resource type="Resource" id="Resource_l4bhc"]
+script = ExtResource("7")
+id = "villager_set"
+name = "VILLAGER_SET_NAME"
+icon = SubResource("CompressedTexture2D_1mtfv")
+general_description = "VILLAGER_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([3, 5])
+breakpoint_descriptions = Array[String](["VILLAGER_SET_BREAKPOINT_0_DESCRIPTION", "VILLAGER_SET_BREAKPOINT_1_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_nvb2d"]
+load_path = "res://.godot/imported/comfy_boots.png-a19a8dbf4a6bfb8f58cc23f7d9010963.ctex"
+
+[sub_resource type="Resource" id="Resource_pm8xf"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 0
+max_physical_damage = 0
+armor = 0
+dodge = 0
+regeneration = 0
+luck = 5
+critical_chance = 0
+critical_damage = 0
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 5
+poisonous = 0
+bludgeoning = 0
+counterattack = 0
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_kw747"]
+script = ExtResource("13")
+dog_sprite = SubResource("CompressedTexture2D_c86hy")
+cat_sprite = SubResource("CompressedTexture2D_gnjxh")
+stats = SubResource("Resource_pm8xf")
+category = 2
+rarity = 0
+equipment_set = SubResource("Resource_l4bhc")
+level = 1
+id = "comfy_boots"
+name = "COMFY_BOOTS_NAME"
+icon = SubResource("CompressedTexture2D_nvb2d")
+is_throwable = false
+
+[sub_resource type="Resource" id="Resource_5p2sm"]
+script = ExtResource("15")
+id = "inventory_slot_3"
+child = SubResource("Resource_kw747")
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_difdu"]
+load_path = "res://.godot/imported/cat_undead_breastplate_sprite.png-8ef679acc451e7e17594f120f98a764b.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2r6fb"]
+load_path = "res://.godot/imported/undead_breastplate_sprite.png-60bdfef5b23f825823b70faf06da5f26.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_454xy"]
+load_path = "res://.godot/imported/taboo.png-559220a9f12088890fd6c9b688d9b164.ctex"
+
+[sub_resource type="Resource" id="Resource_wwbjm"]
+script = ExtResource("7")
+id = "taboo_set"
+name = "TABOO_SET_NAME"
+icon = SubResource("CompressedTexture2D_454xy")
+general_description = "TABOO_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([3, 5])
+breakpoint_descriptions = Array[String](["TABOO_SET_BREAKPOINT_0_DESCRIPTION", "TABOO_SET_BREAKPOINT_1_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2iu8c"]
+load_path = "res://.godot/imported/undead_breastplate.png-f475ffc56daf98adb52cf1b80935cf9c.ctex"
+
+[sub_resource type="Resource" id="Resource_xyj8p"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 0
+max_physical_damage = 0
+armor = 6
+dodge = 0
+regeneration = 0
+luck = 0
+critical_chance = 0
+critical_damage = 0
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 0
+poisonous = 0
+bludgeoning = 0
+counterattack = 0
+enrage = 1
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_abqq1"]
+script = ExtResource("13")
+dog_sprite = SubResource("CompressedTexture2D_2r6fb")
+cat_sprite = SubResource("CompressedTexture2D_difdu")
+stats = SubResource("Resource_xyj8p")
+category = 1
+rarity = 2
+equipment_set = SubResource("Resource_wwbjm")
+level = 1
+id = "undead_breastplate"
+name = "UNDEAD_BREASTPLATE_NAME"
+icon = SubResource("CompressedTexture2D_2iu8c")
+is_throwable = false
+
+[sub_resource type="Resource" id="Resource_eswne"]
+script = ExtResource("15")
+id = "inventory_slot_4"
+child = SubResource("Resource_abqq1")
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_07gwf"]
+load_path = "res://.godot/imported/bastard_sword_sprite.png-badc512cd4c1aafb5641d3e8757a6bf3.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vnuwx"]
+load_path = "res://.godot/imported/ironclad.png-85694080e2cf1e01f4778fad1a25f3bd.ctex"
+
+[sub_resource type="Resource" id="Resource_spqdy"]
+script = ExtResource("7")
+id = "ironclad_set"
+name = "IRONCLAD_SET_NAME"
+icon = SubResource("CompressedTexture2D_vnuwx")
+general_description = "IRONCLAD_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([2, 4, 6])
+breakpoint_descriptions = Array[String](["IRONCLAD_SET_BREAKPOINT_0_DESCRIPTION", "IRONCLAD_SET_BREAKPOINT_1_DESCRIPTION", "IRONCLAD_SET_BREAKPOINT_2_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_y3dvc"]
+load_path = "res://.godot/imported/bastard_sword.png-fc98f17ae731009a49e3980159f54d78.ctex"
+
+[sub_resource type="Resource" id="Resource_5yn2v"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 11
+max_physical_damage = 14
+armor = 0
+dodge = 0
+regeneration = 0
+luck = 0
+critical_chance = 0
+critical_damage = 0
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 0
+poisonous = 0
+bludgeoning = 0
+counterattack = 0
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_s6jya"]
+script = ExtResource("13")
+dog_sprite = SubResource("CompressedTexture2D_07gwf")
+stats = SubResource("Resource_5yn2v")
+category = 3
+rarity = 2
+equipment_set = SubResource("Resource_spqdy")
+level = 2
+id = "bastard_sword"
+name = "BASTARD_SWORD_NAME"
+icon = SubResource("CompressedTexture2D_y3dvc")
+is_throwable = false
+
+[sub_resource type="Resource" id="Resource_glhwi"]
+script = ExtResource("15")
+id = "inventory_slot_5"
+child = SubResource("Resource_s6jya")
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ab7iw"]
+load_path = "res://.godot/imported/cat_undead_boots_sprites.png-99b7680ad9390e8a5349779dd57c57cc.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ix4kl"]
+load_path = "res://.godot/imported/undead_boots_sprites.png-e3219968e18daa38201b9c31f2648598.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_njihn"]
+load_path = "res://.godot/imported/taboo.png-559220a9f12088890fd6c9b688d9b164.ctex"
+
+[sub_resource type="Resource" id="Resource_difdu"]
+script = ExtResource("7")
+id = "taboo_set"
+name = "TABOO_SET_NAME"
+icon = SubResource("CompressedTexture2D_njihn")
+general_description = "TABOO_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([3, 5])
+breakpoint_descriptions = Array[String](["TABOO_SET_BREAKPOINT_0_DESCRIPTION", "TABOO_SET_BREAKPOINT_1_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3ne14"]
+load_path = "res://.godot/imported/undead_boots.png-c9ddd1cad0a17fc590e735a8d8f6a3e5.ctex"
+
+[sub_resource type="Resource" id="Resource_2r6fb"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 0
+max_physical_damage = 0
+armor = 5
+dodge = 0
+regeneration = 0
+luck = 0
+critical_chance = 0
+critical_damage = 0
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 23
+poisonous = 0
+bludgeoning = 0
+counterattack = 0
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_mhw1v"]
+script = ExtResource("13")
+dog_sprite = SubResource("CompressedTexture2D_ix4kl")
+cat_sprite = SubResource("CompressedTexture2D_ab7iw")
+stats = SubResource("Resource_2r6fb")
+category = 2
+rarity = 2
+equipment_set = SubResource("Resource_difdu")
+level = 2
+id = "undead_boots"
+name = "UNDEAD_BOOTS_NAME"
+icon = SubResource("CompressedTexture2D_3ne14")
+is_throwable = false
+
+[sub_resource type="Resource" id="Resource_jevdh"]
+script = ExtResource("15")
+id = "inventory_slot_6"
+child = SubResource("Resource_mhw1v")
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_abqq1"]
+load_path = "res://.godot/imported/cat_ranger_boots_sprite.png-4edf1592b1ece12809e4e67f7abce2ab.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_760sn"]
+load_path = "res://.godot/imported/ranger_boots_sprite.png-d1cf35aad06042430b09d55229c08fe0.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ets6p"]
+load_path = "res://.godot/imported/sylvan.png-ceb50e466eacb53504d0c1abaf939d35.ctex"
+
+[sub_resource type="Resource" id="Resource_twij7"]
+script = ExtResource("7")
+id = "sylvan_set"
+name = "SYLVAN_SET_NAME"
+icon = SubResource("CompressedTexture2D_ets6p")
+general_description = "SYLVAN_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([2, 4, 6])
+breakpoint_descriptions = Array[String](["SYLVAN_SET_BREAKPOINT_0_DESCRIPTION", "SYLVAN_SET_BREAKPOINT_1_DESCRIPTION", "SYLVAN_SET_BREAKPOINT_2_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ria5i"]
+load_path = "res://.godot/imported/ranger_boots.png-b6b7f0cb3e6e20baf7caf5206d77d69a.ctex"
+
+[sub_resource type="Resource" id="Resource_3rfvj"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 0
+max_physical_damage = 0
+armor = 4
+dodge = 10
+regeneration = 0
+luck = 0
+critical_chance = 0
+critical_damage = 0
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 10
+poisonous = 0
+bludgeoning = 0
+counterattack = 20
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_vrlve"]
+script = ExtResource("13")
+dog_sprite = SubResource("CompressedTexture2D_760sn")
+cat_sprite = SubResource("CompressedTexture2D_abqq1")
+stats = SubResource("Resource_3rfvj")
+category = 2
+rarity = 3
+equipment_set = SubResource("Resource_twij7")
+level = 1
+id = "ranger_boots"
+name = "RANGER_BOOTS_NAME"
+icon = SubResource("CompressedTexture2D_ria5i")
+is_throwable = false
+
+[sub_resource type="Resource" id="Resource_nmvll"]
+script = ExtResource("15")
+id = "inventory_slot_7"
+child = SubResource("Resource_vrlve")
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_pwckm"]
+load_path = "res://.godot/imported/cat_assassin_cloak_sprite.png-5c47347a029b4cb730dfe16f216f8a77.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8wnqd"]
+load_path = "res://.godot/imported/dog_assassin_cloak_sprite.png-79f3e3dc5aefef2532f99ed10529a468.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_u38l5"]
+load_path = "res://.godot/imported/rogue.png-ca5b1383fd1820a8329fba973580d352.ctex"
+
+[sub_resource type="Resource" id="Resource_8cbps"]
+script = ExtResource("7")
+id = "rogue_set"
+name = "ROGUE_SET_NAME"
+icon = SubResource("CompressedTexture2D_u38l5")
+general_description = "ROGUE_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([2, 4, 6])
+breakpoint_descriptions = Array[String](["ROGUE_SET_BREAKPOINT_0_DESCRIPTION", "ROGUE_SET_BREAKPOINT_1_DESCRIPTION", "ROGUE_SET_BREAKPOINT_2_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_as2tx"]
+load_path = "res://.godot/imported/assassin_cloak.png-89e5c869507b8cd719d3600b48fb2bfe.ctex"
+
+[sub_resource type="Resource" id="Resource_03q3w"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 0
+max_physical_damage = 0
+armor = 8
+dodge = 27
+regeneration = 0
+luck = 0
+critical_chance = 0
+critical_damage = 0
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 0
+poisonous = 0
+bludgeoning = 0
+counterattack = 45
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_ggcnl"]
+script = ExtResource("13")
+dog_sprite = SubResource("CompressedTexture2D_8wnqd")
+cat_sprite = SubResource("CompressedTexture2D_pwckm")
+stats = SubResource("Resource_03q3w")
+category = 1
+rarity = 2
+equipment_set = SubResource("Resource_8cbps")
+level = 3
+id = "assassin_cloak"
+name = "ASSASSIN_CLOAK_NAME"
+icon = SubResource("CompressedTexture2D_as2tx")
+is_throwable = false
+
+[sub_resource type="Resource" id="Resource_5y420"]
+script = ExtResource("15")
+id = "inventory_slot_8"
+child = SubResource("Resource_ggcnl")
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_binec"]
+load_path = "res://.godot/imported/shadow_mask_sprite_dog.png-24b814e0e28447f1bc917981c99959d5.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jav3a"]
+load_path = "res://.godot/imported/rogue.png-ca5b1383fd1820a8329fba973580d352.ctex"
+
+[sub_resource type="Resource" id="Resource_waj4d"]
+script = ExtResource("7")
+id = "rogue_set"
+name = "ROGUE_SET_NAME"
+icon = SubResource("CompressedTexture2D_jav3a")
+general_description = "ROGUE_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([2, 4, 6])
+breakpoint_descriptions = Array[String](["ROGUE_SET_BREAKPOINT_0_DESCRIPTION", "ROGUE_SET_BREAKPOINT_1_DESCRIPTION", "ROGUE_SET_BREAKPOINT_2_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5y420"]
+load_path = "res://.godot/imported/shadow_mask.png-10c211a3b688a82e9092858b86a3fde2.ctex"
+
+[sub_resource type="Resource" id="Resource_dd6vr"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 0
+max_physical_damage = 0
+armor = 3
+dodge = 10
+regeneration = 0
+luck = 0
+critical_chance = 20
+critical_damage = 10
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 0
+poisonous = 0
+bludgeoning = 0
+counterattack = 0
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_ria5i"]
+script = ExtResource("13")
+dog_sprite = SubResource("CompressedTexture2D_binec")
+stats = SubResource("Resource_dd6vr")
+category = 0
+rarity = 3
+equipment_set = SubResource("Resource_waj4d")
+level = 1
+id = "shadow_mask"
+name = "SHADOW_MASK_NAME"
+icon = SubResource("CompressedTexture2D_5y420")
+is_throwable = false
+
+[sub_resource type="Resource" id="Resource_nyqq2"]
+script = ExtResource("15")
+id = "inventory_slot_9"
+child = SubResource("Resource_ria5i")
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_atiqg"]
+load_path = "res://.godot/imported/lion_shield_sprite.png-024ae2cf06710a49954f70aa4c49c57e.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_28858"]
+load_path = "res://.godot/imported/beast.png-4d7f560732825c108794c2867d00b257.ctex"
+
+[sub_resource type="Resource" id="Resource_2iu8c"]
+script = ExtResource("7")
+id = "beast_set"
+name = "BEAST_SET_NAME"
+icon = SubResource("CompressedTexture2D_28858")
+general_description = "BEAST_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([3, 5])
+breakpoint_descriptions = Array[String](["BEAST_SET_BREAKPOINT_0_DESCRIPTION", "BEAST_SET_BREAKPOINT_1_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_xyj8p"]
+load_path = "res://.godot/imported/lion_shield.png-d4576693c42500b3a65faf9e52daefac.ctex"
+
+[sub_resource type="Resource" id="Resource_kiq1x"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 0
+max_physical_damage = 0
+armor = 6
+dodge = 0
+regeneration = 0
+luck = 0
+critical_chance = 0
+critical_damage = 0
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 0
+poisonous = 0
+bludgeoning = 0
+counterattack = 0
+enrage = 3
+thorns = 0
+guard = 1
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_vc283"]
+script = ExtResource("13")
+dog_sprite = SubResource("CompressedTexture2D_atiqg")
+stats = SubResource("Resource_kiq1x")
+category = 4
+rarity = 3
+equipment_set = SubResource("Resource_2iu8c")
+level = 2
+id = "lion_shield"
+name = "LION_SHIELD_NAME"
+icon = SubResource("CompressedTexture2D_xyj8p")
+is_throwable = false
+
+[sub_resource type="Resource" id="Resource_ait8w"]
+script = ExtResource("15")
+id = "inventory_slot_10"
+child = SubResource("Resource_vc283")
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_eswne"]
+load_path = "res://.godot/imported/uchigatana_sprite.png-6a6fbf1689ae1fbab896a358d3f530a2.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_jevdh"]
+load_path = "res://.godot/imported/ronin.png-9a896b5fc84dc52249545c2cf35dfaa8.ctex"
+
+[sub_resource type="Resource" id="Resource_760sn"]
+script = ExtResource("7")
+id = "ronin_set"
+name = "RONIN_SET_NAME"
+icon = SubResource("CompressedTexture2D_jevdh")
+general_description = "RONIN_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([2, 4, 6])
+breakpoint_descriptions = Array[String](["RONIN_SET_BREAKPOINT_0_DESCRIPTION", "RONIN_SET_BREAKPOINT_1_DESCRIPTION", "RONIN_SET_BREAKPOINT_2_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_o1hpo"]
+load_path = "res://.godot/imported/uchigatana.png-8b740f11aac29225fe4817655dbc3a10.ctex"
+
+[sub_resource type="Resource" id="Resource_binec"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 5
+max_physical_damage = 7
+armor = 0
+dodge = 0
+regeneration = 0
+luck = 0
+critical_chance = 10
+critical_damage = 0
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 10
+poisonous = 0
+bludgeoning = 0
+counterattack = 0
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_jav3a"]
+script = ExtResource("13")
+dog_sprite = SubResource("CompressedTexture2D_eswne")
+stats = SubResource("Resource_binec")
+category = 3
+rarity = 3
+equipment_set = SubResource("Resource_760sn")
+level = 1
+id = "uchigatana"
+name = "UCHIGATANA_NAME"
+icon = SubResource("CompressedTexture2D_o1hpo")
+is_throwable = false
+
+[sub_resource type="Resource" id="Resource_6020k"]
+script = ExtResource("15")
+id = "inventory_slot_11"
+child = SubResource("Resource_jav3a")
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_l3n1k"]
+load_path = "res://.godot/imported/cat_knight_greaves_sprite.png-ff05f01e09b76ad6c5368c379afd5d45.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ryfw6"]
+load_path = "res://.godot/imported/knight_greaves_sprite.png-45b86b7010c8c9731f06480ba0725e09.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mpa1m"]
+load_path = "res://.godot/imported/ironclad.png-85694080e2cf1e01f4778fad1a25f3bd.ctex"
+
+[sub_resource type="Resource" id="Resource_28858"]
+script = ExtResource("7")
+id = "ironclad_set"
+name = "IRONCLAD_SET_NAME"
+icon = SubResource("CompressedTexture2D_mpa1m")
+general_description = "IRONCLAD_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([2, 4, 6])
+breakpoint_descriptions = Array[String](["IRONCLAD_SET_BREAKPOINT_0_DESCRIPTION", "IRONCLAD_SET_BREAKPOINT_1_DESCRIPTION", "IRONCLAD_SET_BREAKPOINT_2_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_glhwi"]
+load_path = "res://.godot/imported/knight_greaves.png-d576aa44e094589b7e6bba13c1823bdd.ctex"
+
+[sub_resource type="Resource" id="Resource_sumnq"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 0
+max_physical_damage = 0
+armor = 12
+dodge = 0
+regeneration = 0
+luck = 0
+critical_chance = 0
+critical_damage = 0
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 0
+poisonous = 0
+bludgeoning = 0
+counterattack = 0
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_qipns"]
+script = ExtResource("13")
+dog_sprite = SubResource("CompressedTexture2D_ryfw6")
+cat_sprite = SubResource("CompressedTexture2D_l3n1k")
+stats = SubResource("Resource_sumnq")
+category = 2
+rarity = 2
+equipment_set = SubResource("Resource_28858")
+level = 2
+id = "knight_greaves"
+name = "KNIGHT_GREAVES_NAME"
+icon = SubResource("CompressedTexture2D_glhwi")
+is_throwable = false
+
+[sub_resource type="Resource" id="Resource_iex8u"]
+script = ExtResource("15")
+id = "inventory_slot_12"
+child = SubResource("Resource_qipns")
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2w7wx"]
+load_path = "res://.godot/imported/beast.png-4d7f560732825c108794c2867d00b257.ctex"
+
+[sub_resource type="Resource" id="Resource_1ntah"]
+script = ExtResource("7")
+id = "beast_set"
+name = "BEAST_SET_NAME"
+icon = SubResource("CompressedTexture2D_2w7wx")
+general_description = "BEAST_SET_GENERAL_DESCRIPTION"
+breakpoints = Array[int]([3, 5])
+breakpoint_descriptions = Array[String](["BEAST_SET_BREAKPOINT_0_DESCRIPTION", "BEAST_SET_BREAKPOINT_1_DESCRIPTION"])
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_g0ewj"]
+load_path = "res://.godot/imported/wolf_ring.png-fbd458be6c8d72c9b3c0fe292bd45358.ctex"
+
+[sub_resource type="Resource" id="Resource_ywix5"]
+script = ExtResource("6")
+max_health = 0
+min_physical_damage = 0
+max_physical_damage = 0
+armor = 0
+dodge = 0
+regeneration = 0
+luck = 0
+critical_chance = 0
+critical_damage = 0
+lifesteal = 0
+min_magic_damage = 0
+max_magic_damage = 0
+mana_burst = 0
+swiftness = 12
+poisonous = 0
+bludgeoning = 0
+counterattack = 0
+enrage = 0
+thorns = 0
+guard = 0
+damage_amplification = 0
+damage_reduction = 0
+
+[sub_resource type="Resource" id="Resource_ufe3i"]
+script = ExtResource("13")
+stats = SubResource("Resource_ywix5")
+category = 5
+rarity = 2
+equipment_set = SubResource("Resource_1ntah")
+level = 1
+id = "wolf_ring"
+name = "WOLF_RING_NAME"
+icon = SubResource("CompressedTexture2D_g0ewj")
+is_throwable = false
+
+[sub_resource type="Resource" id="Resource_rffk7"]
+script = ExtResource("15")
+id = "inventory_slot_13"
+child = SubResource("Resource_ufe3i")
+
+[sub_resource type="Resource" id="Resource_q1fuv"]
+script = ExtResource("15")
+id = "inventory_slot_14"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_sumnq"]
+load_path = "res://.godot/imported/sickening_potion.png-d8583c2aacc679f7644bfc8ba007faeb.ctex"
+
+[sub_resource type="Resource" id="Resource_t84fb"]
+script = ExtResource("16")
+description = "SICKENING_POTION_DESCRIPTION"
+id = "sickening_potion"
+name = "SICKENING_POTION_NAME"
+icon = SubResource("CompressedTexture2D_sumnq")
+is_throwable = true
+
+[sub_resource type="Resource" id="Resource_rnoc7"]
+script = ExtResource("15")
+id = "inventory_slot_15"
+child = SubResource("Resource_t84fb")
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_waj4d"]
+load_path = "res://.godot/imported/healing_potion.png-914cc86b9f449210b252526720329d0c.ctex"
+
+[sub_resource type="Resource" id="Resource_n3dgv"]
+script = ExtResource("16")
+description = "HEALING_POTION_DESCRIPTION"
+id = "healing_potion"
+name = "HEALING_POTION_NAME"
+icon = SubResource("CompressedTexture2D_waj4d")
+is_throwable = false
+
+[sub_resource type="Resource" id="Resource_wqtut"]
+script = ExtResource("15")
+id = "inventory_slot_16"
+child = SubResource("Resource_n3dgv")
+
+[sub_resource type="Resource" id="Resource_6fu32"]
+script = ExtResource("18")
+id = "mastery_1"
+data = ExtResource("17")
+displayed = true
+disabled = true
+enabled = false
+bought = false
+
+[sub_resource type="Resource" id="Resource_c86hy"]
+script = ExtResource("18")
+id = "mastery_2"
+data = ExtResource("11")
+displayed = true
+disabled = true
+enabled = true
+bought = true
+
+[sub_resource type="Resource" id="Resource_1mtfv"]
+script = ExtResource("18")
+id = "mastery_3"
+data = ExtResource("19")
+displayed = true
+disabled = true
+enabled = false
+bought = false
+
+[sub_resource type="Resource" id="Resource_d5u15"]
+script = ExtResource("18")
+id = "mastery_4"
+data = ExtResource("20")
+displayed = true
+disabled = true
+enabled = false
+bought = false
+
+[sub_resource type="Resource" id="Resource_y3far"]
+script = ExtResource("18")
+id = "mastery_5"
+data = ExtResource("21")
+displayed = true
+disabled = true
+enabled = false
+bought = false
+
+[sub_resource type="Resource" id="Resource_cdbnx"]
+script = ExtResource("18")
+id = "mastery_6"
+data = ExtResource("12")
+displayed = true
+disabled = true
+enabled = true
+bought = true
+
+[sub_resource type="Resource" id="Resource_nlgod"]
+script = ExtResource("18")
+id = "mastery_7"
+data = ExtResource("22")
+displayed = true
+disabled = true
+enabled = false
+bought = false
+
+[sub_resource type="Resource" id="Resource_o6xxu"]
+script = ExtResource("18")
+id = "mastery_8"
+data = ExtResource("23")
+displayed = true
+disabled = true
+enabled = false
+bought = false
+
+[sub_resource type="Resource" id="Resource_eb2u3"]
+script = ExtResource("18")
+id = "mastery_9"
+data = ExtResource("24")
+displayed = true
+disabled = true
+enabled = false
+bought = false
+
+[sub_resource type="Resource" id="Resource_qc7dv"]
+script = ExtResource("25")
+volume = 3
+music = 1
+sfx = 3
+fullscreen = true
+is_consenting = false
+language = 4
+
+[resource]
+script = ExtResource("26")
+data = Array[ExtResource("1")]([SubResource("Resource_3dtrg"), SubResource("Resource_eixhp"), SubResource("Resource_guqna"), SubResource("Resource_v81j0"), SubResource("Resource_i3o1h"), SubResource("Resource_u5smq"), SubResource("Resource_1jwhc"), SubResource("Resource_xu4mu"), SubResource("Resource_clgeo"), SubResource("Resource_wvck5"), SubResource("Resource_pwckm"), SubResource("Resource_8wnqd"), SubResource("Resource_u38l5"), SubResource("Resource_as2tx"), SubResource("Resource_b8ule"), SubResource("Resource_7tfd2"), SubResource("Resource_exhct"), SubResource("Resource_mtg3s"), SubResource("Resource_5p2sm"), SubResource("Resource_eswne"), SubResource("Resource_glhwi"), SubResource("Resource_jevdh"), SubResource("Resource_nmvll"), SubResource("Resource_5y420"), SubResource("Resource_nyqq2"), SubResource("Resource_ait8w"), SubResource("Resource_6020k"), SubResource("Resource_iex8u"), SubResource("Resource_rffk7"), SubResource("Resource_q1fuv"), SubResource("Resource_rnoc7"), SubResource("Resource_wqtut"), SubResource("Resource_6fu32"), SubResource("Resource_c86hy"), SubResource("Resource_1mtfv"), SubResource("Resource_d5u15"), SubResource("Resource_y3far"), SubResource("Resource_cdbnx"), SubResource("Resource_nlgod"), SubResource("Resource_o6xxu"), SubResource("Resource_eb2u3"), SubResource("Resource_qc7dv")])
